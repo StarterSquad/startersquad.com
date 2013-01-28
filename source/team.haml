@@ -1,0 +1,12 @@
+.team
+  - data.team.sort{|a, b| a[:name] <=> b[:name]}.each do |item|
+    .team-item
+      - if item[:route]
+        %a{:href => item[:route]}
+          - if item[:img_route]
+            %img{:src => item[:img_route], :width => 96, :height => 96}
+          %u.team-item-name= item[:name]
+      - else
+        .team-item-name= item[:name]
+      - if item[:title]
+        .team-item-title= item[:title]

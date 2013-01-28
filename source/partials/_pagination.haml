@@ -1,0 +1,14 @@
+- team = data.team.sort{|a, b| a[:name] <=> b[:name]}
+- current_index = team.index{|x| x[:route] == current_page.url}
+
+.pagination
+  - if current_index > 0
+    %a{:href => team[current_index - 1][:route], :id => 'nav-left'}= team[current_index - 1][:name]
+  %span.pagination-keys
+    - if current_index > 0
+      ←
+    %span.pagination-modifier Ctrl
+    - if current_index < team.size - 1
+      →
+  - if current_index < team.size - 1
+    %a{:href => team[current_index + 1][:route], :id => 'nav-right'}= team[current_index + 1][:name]

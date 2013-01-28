@@ -1,0 +1,27 @@
+.link {
+  @include underline($link-color);
+  // &:visited {
+  //   @include underline-color($link-visited-color);
+  // }
+  &:hover,
+  &.is-hover {
+    @include underline-color($link-hover-color);
+  }
+}
+
+.link-inverse {
+  @include underline-color(#FFF);
+  &:hover {
+    @include underline-color(rgba(#FFF, 0.8));
+  }
+}
+
+.link-complex {
+  border-width: 0;
+  > u {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0 0 1px;
+    text-decoration: none;
+  }
+}

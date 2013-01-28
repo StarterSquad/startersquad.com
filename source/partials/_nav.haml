@@ -1,0 +1,8 @@
+%ul.nav
+  - data.nav.each do |item|
+    %li{class: current_page.url.include?(item[:route].sub('.html', '')) ? 'is-current' : nil}
+      %span
+        - if current_page.url == item[:route]
+          = item[:title]
+        - else
+          %a{:href => item[:route]}= item[:title]

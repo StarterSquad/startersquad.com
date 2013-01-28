@@ -1,0 +1,22 @@
+.nav {
+  font-size: $text-font-size;
+  line-height: $text-line-height;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  li {
+    margin-bottom: 10px;
+    &.is-current {
+      span {
+        @include border-radius(4px);
+        @include box-shadow(inset 0 2px 4px rgba(#000, 0.2));
+        background: #f0f0f0;
+        margin-left: -9px;
+        padding: 6px 9px;
+      }
+    }
+  }
+  a {
+    @extend .link;
+  }
+}

@@ -1,0 +1,4 @@
+@function ie($versions...) {
+  $ie-stylesheet-version: false !default;
+  @return in($versions, $ie-stylesheet-version);
+}

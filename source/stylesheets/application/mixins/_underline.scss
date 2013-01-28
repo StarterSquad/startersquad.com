@@ -1,0 +1,13 @@
+@mixin underline($color: false, $opacity: 0.33) {
+  @if $color {
+    @include underline-color($color, $opacity);
+  }
+  border-style: solid;
+  border-width: 0 0 1px;
+  text-decoration: none;
+}
+
+@mixin underline-color($color, $opacity: 0.33) {
+  border-color: rgba($color, $opacity);
+  color: $color;
+}

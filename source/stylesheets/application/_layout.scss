@@ -1,0 +1,20 @@
+.l-page {
+  @extend .clearfix;
+  padding: 40px 0;
+}
+
+.l-content,
+.l-sidebar {
+  float: left;
+}
+
+.l-content {
+  margin-left: 2%;
+  max-width: 48em;
+  width: 76%;
+}
+
+.l-sidebar {
+  margin-left: 4%;
+  width: 16%;
+}

@@ -1,0 +1,4 @@
+- title: 'Team'
+  route: '/team.html'
+- title: 'We’re on GitHub'
+  route: '//github.com/StarterSquad'

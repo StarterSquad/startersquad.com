@@ -1,0 +1,16 @@
+.pagination {
+  font-size: 13px;
+  margin-top: 40px;
+  a {
+    @extend .link;
+  }
+}
+
+.pagination-keys {
+  margin: 0 4px;
+}
+
+.pagination-modifier {
+  font-size: 11px;
+  margin: 0 4px;
+}

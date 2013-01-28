@@ -1,0 +1,19 @@
+- name:  'Emmett Lathrop Brown'
+  title: 'Ph. D.'
+  route: '/team/ebrown.html'
+  img_route: '//lorempixel.com/96/96?1'
+
+- name:  'Alexander Vasilenko'
+  title: 'Backend Developer'
+  route: '/team/avasilenko.html'
+  img_route: '//lorempixel.com/96/96?2'
+
+- name:  'Iwein Fuld'
+  title: 'Software Engineer'
+  route: '/team/ifuld.html'
+  img_route: '//lorempixel.com/96/96?3'
+
+- name:  'Dmitry Evseev'
+  title: 'Web Developer'
+  route: '/team/devseev.html'
+  img_route: '//lorempixel.com/96/96?4'
