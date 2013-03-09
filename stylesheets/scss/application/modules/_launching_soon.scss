@@ -1,0 +1,104 @@
+.launching-soon {
+  height: 100%;
+
+  body {
+    background: #f7f7f7;
+    height: 100%;
+  }
+
+  h1 {
+    background: url(/images/logo-giant.png);
+    width: 411px;
+    height: 107px;
+    display: inline-block;
+    line-height: normal;
+  }
+  h1:before {
+    content: '';
+    position: absolute;
+    background: url(/images/clouds-1.png) transparent no-repeat;
+    width: 230px;
+    height: 77px;
+    top: 15%;
+    left: 10%;
+  }
+  h1:after {
+    content: '';
+    position: absolute;
+    background: url(/images/clouds-2.png) transparent no-repeat;
+    width: 211px;
+    height: 90px;
+    top: 20%;
+    right: 5%;
+  }
+
+  h2 {
+    color: #c0202f;
+    font-size: 32px;
+    font-family: dekar_lightregular;
+    line-height: normal;
+  }
+
+  h3 {
+    color: #363636;
+    font-size: 24px;
+    font-family: dekar_lightregular;
+    line-height: normal;
+    position: relative;
+    top: 100px;
+  }
+
+  .center {
+    font-size: 0;
+    height: 100%;
+    line-height: 0;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .center:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .center-inner {
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+  }
+
+  .socials {
+    position: relative;
+    top: 100px;
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 15px;
+      padding: 0;
+
+      a {
+        background: url(/images/social.png) transparent no-repeat;
+        display: block;
+        width: 57px;
+        height: 57px;
+
+        &.coderwall {
+          background-position: 0 0;
+        }
+
+        &.twitter {
+          background-position: -84px 0;
+        }
+
+        &.github {
+          background-position: -168px 0;
+        }
+      }
+    }
+  }
+}

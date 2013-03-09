@@ -1,0 +1,21 @@
+// buttons
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #008ab8;
+  background-image: -moz-linear-gradient(top, #0099cc, #007399);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0099cc), to(#007399));
+  background-image: -webkit-linear-gradient(top, #0099cc, #007399);
+  background-image: -o-linear-gradient(top, #0099cc, #007399);
+  background-image: linear-gradient(to bottom, #0099cc, #007399);
+  background-repeat: repeat-x;
+  border-color: #007399 #007399 #00394d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #007399;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #007399;
+  *background-color: #006080;
+}
