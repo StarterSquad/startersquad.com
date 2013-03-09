@@ -14,6 +14,10 @@
   font-style: normal;
 }
 
+.not_found body {
+  margin: 0 15px;
+}
+
 body {
   background-color: #f7f7f7;
   padding-bottom: 10px;
@@ -22,6 +26,8 @@ body {
   box-sizing: border-box;
   font-family: "Lucida Sans", MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, "Myriad Pro", Helvetica, Arial, sans-serif;
   color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -30,7 +36,7 @@ a {
 
 legend, label {
   border-bottom: 0 solid #222222;
-  color: #999999;
+  color: #999;
 }
 
 .btn-primary {
@@ -62,7 +68,7 @@ legend, label {
   height: 100%;
 }
 .launching-soon h1 {
-  background: url(/images/logo-giant.png);
+  background: url(/assets/images/logo-giant.png);
   width: 411px;
   height: 107px;
   display: inline-block;
@@ -71,7 +77,7 @@ legend, label {
 .launching-soon h1:before {
   content: '';
   position: absolute;
-  background: url(/images/clouds-1.png) transparent no-repeat;
+  background: url(/assets/images/clouds-1.png) transparent no-repeat;
   width: 230px;
   height: 77px;
   top: 15%;
@@ -80,7 +86,7 @@ legend, label {
 .launching-soon h1:after {
   content: '';
   position: absolute;
-  background: url(/images/clouds-2.png) transparent no-repeat;
+  background: url(/assets/images/clouds-2.png) transparent no-repeat;
   width: 211px;
   height: 90px;
   top: 20%;
@@ -132,7 +138,7 @@ legend, label {
   padding: 0;
 }
 .launching-soon .socials li a {
-  background: url(/images/social.png) transparent no-repeat;
+  background: url(/assets/images/social.png) transparent no-repeat;
   display: block;
   width: 57px;
   height: 57px;
