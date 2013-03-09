@@ -5,11 +5,13 @@ body {
   @include box-sizing(border-box);
   font-family: 'Lucida Sans', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
   color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 a { cursor: pointer }
 
 legend, label {
-  border-bottom: 0 solid #222222;
-  color: #999999;
+  border-bottom: 0 solid #222;
+  color: #999;
 }

@@ -1,14 +1,14 @@
 @import 'bourbon';
 @import 'compass/utilities/sprites';
 
-@import 'application/application/_variables';
-@import 'application/application/_functions';
-@import 'application/application/_mixins';
+@import 'application/_variables';
+@import 'application/_functions';
+@import 'application/_mixins';
 
-@import 'application/application/_fonts';
-@import 'application/application/_base';
-@import 'application/application/_helpers';
-@import 'application/application/_layout';
-@import 'application/application/modules';
+@import 'application/_fonts';
+@import 'application/_base';
+@import 'application/_helpers';
+@import 'application/_layout';
+@import 'application/modules';
 
-@import 'application/application/_trunk';
+@import 'application/_trunk';

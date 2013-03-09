@@ -7,7 +7,7 @@
   }
 
   h1 {
-    background: url(/images/logo-giant.png);
+    background: url(/assets/images/logo-giant.png);
     width: 411px;
     height: 107px;
     display: inline-block;
@@ -16,7 +16,7 @@
   h1:before {
     content: '';
     position: absolute;
-    background: url(/images/clouds-1.png) transparent no-repeat;
+    background: url(/assets/images/clouds-1.png) transparent no-repeat;
     width: 230px;
     height: 77px;
     top: 15%;
@@ -25,7 +25,7 @@
   h1:after {
     content: '';
     position: absolute;
-    background: url(/images/clouds-2.png) transparent no-repeat;
+    background: url(/assets/images/clouds-2.png) transparent no-repeat;
     width: 211px;
     height: 90px;
     top: 20%;
@@ -82,7 +82,7 @@
       padding: 0;
 
       a {
-        background: url(/images/social.png) transparent no-repeat;
+        background: url(/assets/images/social.png) transparent no-repeat;
         display: block;
         width: 57px;
         height: 57px;
