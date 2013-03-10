@@ -1,9 +1,11 @@
 .launching-soon {
   height: 100%;
+  overflow: hidden;
 
   body {
     background: #f7f7f7;
     height: 100%;
+    min-width: 460px;
   }
 
   h1 {
@@ -21,6 +23,7 @@
     height: 77px;
     top: 15%;
     left: 10%;
+    @include transition( all 1s );
   }
   h1:after {
     content: '';
@@ -30,6 +33,7 @@
     height: 90px;
     top: 20%;
     right: 5%;
+    @include transition( all 1s );
   }
 
   h2 {
@@ -99,6 +103,76 @@
           background-position: -168px 0;
         }
       }
+    }
+  }
+
+  // wide = all cool
+  @media (min-width: 946px) {
+    h1:before {
+      top: 15%;
+      left: 10%;
+    }
+    h1:after {
+      top: 20%;
+      right: 5%;
+    }
+  }
+
+  // clouds will overlay logo
+  @media (min-width: 800px) and (max-width: 945px) {
+    h1:before {
+      top: 15%;
+      left: 0;
+    }
+    h1:after {
+      top: 20%;
+      right: -5%;
+    }
+  }
+
+  @media (min-width: 650px) and (max-width: 799px) {
+    h1:before {
+      top: 15%;
+      left: -10%;
+    }
+    h1:after {
+      top: 20%;
+      right: -15%;
+    }
+  }
+
+  @media (min-width: 560px) and (max-width: 649px) {
+    h1:before {
+      top: 15%;
+      left: -20%;
+    }
+    h1:after {
+      top: 20%;
+      right: -25%;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 559px) {
+    h1:before {
+      top: 15%;
+      left: -30%;
+    }
+    h1:after {
+      top: 20%;
+      right: -35%;
+    }
+  }
+
+  @media (max-width: 499px) {
+    h1:before {
+      opacity: 0;
+      top: 15%;
+      left: -35%;
+    }
+    h1:after {
+      opacity: 0;
+      top: 20%;
+      right: -40%;
     }
   }
 }
