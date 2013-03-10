@@ -62,10 +62,12 @@ legend, label {
 
 .launching-soon {
   height: 100%;
+  overflow: hidden;
 }
 .launching-soon body {
   background: #f7f7f7;
   height: 100%;
+  min-width: 460px;
 }
 .launching-soon h1 {
   background: url(/assets/images/logo-giant.png);
@@ -82,6 +84,12 @@ legend, label {
   height: 77px;
   top: 15%;
   left: 10%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  z-index: 0;
 }
 .launching-soon h1:after {
   content: '';
@@ -91,6 +99,12 @@ legend, label {
   height: 90px;
   top: 20%;
   right: 5%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  z-index: 0;
 }
 .launching-soon h2 {
   color: #c0202f;
@@ -151,6 +165,90 @@ legend, label {
 }
 .launching-soon .socials li a.github {
   background-position: -168px 0;
+}
+@media (min-width: 946px) {
+  .launching-soon h1:before {
+    left: 10%;
+  }
+  .launching-soon h1:after {
+    right: 5%;
+  }
+}
+@media (min-width: 800px) and (max-width: 945px) {
+  .launching-soon h1:before {
+    left: 0;
+  }
+  .launching-soon h1:after {
+    right: -5%;
+  }
+}
+@media (min-width: 650px) and (max-width: 799px) {
+  .launching-soon h1:before {
+    left: -10%;
+  }
+  .launching-soon h1:after {
+    right: -15%;
+  }
+}
+@media (min-width: 560px) and (max-width: 649px) {
+  .launching-soon h1:before {
+    left: -20%;
+  }
+  .launching-soon h1:after {
+    right: -25%;
+  }
+}
+@media (min-width: 500px) and (max-width: 559px) {
+  .launching-soon h1:before {
+    left: -30%;
+  }
+  .launching-soon h1:after {
+    right: -35%;
+  }
+}
+@media (max-width: 499px) {
+  .launching-soon h1:before {
+    opacity: 0;
+    left: -35%;
+  }
+  .launching-soon h1:after {
+    opacity: 0;
+    right: -40%;
+  }
+}
+@media (min-height: 500px) {
+  .launching-soon h1:before {
+    top: 15%;
+  }
+  .launching-soon h1:after {
+    top: 20%;
+  }
+}
+@media (min-height: 420px) and (max-height: 499px) {
+  .launching-soon h1:before {
+    top: 10%;
+  }
+  .launching-soon h1:after {
+    top: 15%;
+  }
+}
+@media (min-height: 400px) and (max-height: 419px) {
+  .launching-soon h1:before {
+    top: 5%;
+  }
+  .launching-soon h1:after {
+    top: 10%;
+  }
+}
+@media (max-height: 399px) {
+  .launching-soon h1:before {
+    top: 5%;
+    opacity: 0;
+  }
+  .launching-soon h1:after {
+    top: 10%;
+    opacity: 0;
+  }
 }
 
 .tar {
