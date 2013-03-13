@@ -1,5 +1,5 @@
+auto: true
 safe: true
-source: /Users/kradmiy/Projects/startersquad/github.com/
-destination: _site
+permalink: /:categories/:title.html
 lsi: false
 pygments: true
