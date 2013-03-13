@@ -1,5 +1,5 @@
 safe: true
-source: git@github.com:StarterSquad/startersquad.github.com.git
-destination: /Users/kradmiy/Projects/startersquad/github.com/
+source: /Users/kradmiy/Projects/startersquad/github.com/
+destination: _site
 lsi: false
 pygments: true
