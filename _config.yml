@@ -4,3 +4,5 @@ permalink: /:categories/:title.html
 lsi: false
 pygments: true
 exclude: home.html, team.html, team
+
+server: true
