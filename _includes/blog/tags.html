@@ -1,0 +1,8 @@
+<div class="tags">
+  <h2>Tags</h2>
+  <ul>
+    {% for tag in site.tags %}
+        <li><a href="/blog/tags/{{ tag[0] | downcase }}">{{ tag[0] }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

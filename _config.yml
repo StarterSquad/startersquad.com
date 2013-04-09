@@ -1,6 +1,8 @@
 auto: true
 safe: true
-permalink: /:categories/:title.html
+permalink: /blog/:title
 lsi: false
 pygments: true
-exclude: home.html, team.html, team
+
+exclude:
+  - Rakefile

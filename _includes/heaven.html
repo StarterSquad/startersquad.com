@@ -1,0 +1,29 @@
+<div class="heaven">
+  <div class="arkush clearfix">
+    {% unless page.menu_index == 0 %}
+      <a class="brand pull-left" href="/">StarterSquad</a>
+    {% else %}
+      <span class="brand pull-left">StarterSquad</span>
+    {% endunless %}
+    <div class="pull-right">
+      <ul class="menu pull-left">
+        {% for item in page.menu %}
+          {% if forloop.index0 == page.menu_index %}
+            {% if page.force_menu_link %}
+              <li class="is-active"><a href="{{ item.href }}">{{ item.title }}</a></li>
+            {% else %}
+              <li class="is-active">{{ item.title }}</li>
+            {% endif %}
+          {% else %}
+            <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      {% if page.menu_index == 4 %}
+        <span class="button button-azure disabled pull-left">Hire us</span>
+      {% else %}
+        <a class="button button-azure pull-left" href="/contacts">Hire us</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
