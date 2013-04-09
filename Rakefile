@@ -12,8 +12,9 @@ task :compile do
     javascripts_dir: '_/js',
     sass_dir:        '_/sass',
 
-    line_comments:      false,
-    relative_assets:    true,
+    line_comments:   false,
+    output_style:    :compressed,
+    relative_assets: true,
   }, 'whatever')
 
   Compass.configuration.asset_cache_buster :none
