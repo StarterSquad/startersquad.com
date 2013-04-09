@@ -1,0 +1,24 @@
+.menu {
+  @extend .clearfix;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    float: left;
+    font-weight: bold;
+    margin-left: 35px;
+    text-transform: lowercase;
+
+    > a {
+      @extend .extended-pointer-area;
+      color: #888;
+    }
+
+    > a:hover,
+    &.is-active,
+    &.is-active > a {
+      color: #222;
+    }
+  }
+}

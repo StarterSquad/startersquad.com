@@ -118,7 +118,7 @@ pre {
 }
 
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: '\201C' '\201D' '\2018' '\2019';
 }
 
 small {
@@ -154,7 +154,7 @@ figure {
 }
 
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -237,7 +237,7 @@ body {
 
 body {
   color: #666;
-  font: 14px/20px "Proxima Nova", sans-serif;
+  font: 14px/20px 'Proxima Nova', sans-serif;
   overflow-y: scroll;
 }
 
@@ -704,7 +704,7 @@ a.brand:hover, a.brand.hover {
 }
 
 .heaven {
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #DDD;
 }
 .heaven .brand {
   margin: 11px 0 10px;

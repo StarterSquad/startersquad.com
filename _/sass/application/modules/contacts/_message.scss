@@ -1,0 +1,29 @@
+.contacts-message {
+  @extend .clearfix;
+  margin: 65px 0;
+
+  h1 {
+    @include font-height(34px, 40px);
+    color: #48484a;
+    margin: -7px 0 12px;
+  }
+
+  p {
+    color: #a8aaad;
+    margin: 0 0 12px;
+  }
+}
+
+.contacts-message-column {
+  float: left;
+  width: 49%;
+
+  &:first-child {
+    margin-right: 9%;
+    width: 42%;
+  }
+}
+
+.contacts-message-lead {
+  @include font-height(15px, 21px);
+}

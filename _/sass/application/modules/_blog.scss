@@ -1,0 +1,27 @@
+.blog {}
+
+.blog-post {
+  margin-top: 27px;
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.blog-date {
+  @include font-height(12px, 14px);
+  color: #AAA;
+  margin: 0 0 7px;
+}
+
+.blog-title {
+  text-transform: uppercase;
+
+  > a {
+    @extend .extended-pointer-area;
+    color: #666;
+
+    &:hover {
+      color: #C65;
+    }
+  }
+}

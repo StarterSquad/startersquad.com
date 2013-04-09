@@ -1,0 +1,21 @@
+@mixin asset-image($name) {
+  $selector: asset-#{ $name };
+
+  .#{ $selector } {
+    @include sprite-dimensions($sprite-main, $selector);
+    background-position: sprite-position($sprite-main, $selector);
+  }
+}
+
+.asset {
+  @extend .hide-text;
+  background-image: sprite-url($sprite-main);
+  display: inline-block;
+}
+
+@include asset-image(coderwall);
+@include asset-image(github);
+@include asset-image(mouse);
+@include asset-image(pencil);
+@include asset-image(tools);
+@include asset-image(twitter);

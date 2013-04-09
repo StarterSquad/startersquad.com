@@ -9,3 +9,5 @@ include:
 
 exclude:
   - Rakefile
+  - sass
+  - sprite-main

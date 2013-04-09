@@ -1,0 +1,32 @@
+.article {
+  margin: 0 0 70px;
+
+  > h2 {
+    @include font-height(18px, 22px);
+    color: $color-scarlett;
+    font-weight: $semibold;
+    margin: 0 0 32px;
+  }
+
+  > p {
+   margin: 0 0 20px;
+  }
+}
+
+.article-date {
+  @include font-height(12px, 14px);
+  color: #AAA;
+  margin: 0 0 16px;
+}
+
+.article-tags {
+  color: #AAA;
+
+  > b {
+    font-weight: $semibold;
+  }
+
+  > a {
+    color: #AAA;
+  }
+}

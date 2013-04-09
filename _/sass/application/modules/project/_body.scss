@@ -1,0 +1,12 @@
+.project-body {
+  h2 {
+    @include font-height(22px, 26px);
+    color: #48484a;
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0 0 20px;
+  }
+}

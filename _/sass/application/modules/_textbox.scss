@@ -1,0 +1,14 @@
+.textbox {
+  @include box-sizing(border-box);
+  @include font-height(14px, 20px);
+  background: #ededed;
+  border-radius: 2px;
+  border: 0;
+  color: #666;
+  padding: 10px 12px;
+  margin-bottom: 24px;
+}
+
+.textbox-block {
+  width: 100%;
+}

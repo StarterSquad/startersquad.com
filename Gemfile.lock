@@ -31,6 +31,8 @@ GEM
       yajl-ruby (~> 1.1.0)
     rake (10.0.4)
     sass (3.2.7)
+    sass-globbing (1.0.0)
+      sass (>= 3.1)
     syntax (1.0.0)
     thor (0.18.1)
     yajl-ruby (1.1.0)
@@ -43,3 +45,4 @@ DEPENDENCIES
   compass
   jekyll
   rake
+  sass-globbing
