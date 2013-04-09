@@ -4,5 +4,8 @@ permalink: /blog/:title
 lsi: false
 pygments: true
 
+include:
+  - _
+
 exclude:
   - Rakefile
