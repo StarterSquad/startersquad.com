@@ -3,29 +3,21 @@
   <div class="home-blog-inner">
     <div class="home-blog-section">
       <div class="article">
-        <div class="article-date">May&nbsp;14, 2013</div>
-        <h3><a href="#">Our blog about technology and creativity</a></h3>
+        {% assign post = site.posts[0] %}
+        <div class="article-date">{{ post.date | date: '%B&nbsp;%d, %Y' }}</div>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.</p>
         <p>
           For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.
-          <a class="home-blog-more" href="/blog-post.html">Read more</a>
+          <a class="home-blog-more" href="{{ post.url }}">Read more</a>
         </p>
       </div>
     </div>
     <div class="home-blog-section">
       <div class="blog text-bound">
-        <div class="blog-post">
-          <div class="blog-date">May 28, 2013</div>
-          <div class="blog-title"><a href="/blog-post.html">We came in peace for all mankind</a></div>
-        </div>
-        <div class="blog-post">
-          <div class="blog-date">May 14, 2013</div>
-          <div class="blog-title"><a href="/blog-post.html">The regret on our side is, they used to say years ago</a></div>
-        </div>
-        <div class="blog-post">
-          <div class="blog-date">April 2, 2013</div>
-          <div class="blog-title"><a href="/blog-post.html">Never in all their history have men been able truly to conceive of the world as one</a></div>
-        </div>
+        {% for post in site.posts limit: 3 %}
+          {% include blog/post.html %}
+        {% endfor %}
       </div>
     </div>
   </div>
