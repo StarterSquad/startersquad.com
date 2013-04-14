@@ -4,3 +4,4 @@
 _site/
 *.iml
 *.idea
+.DS_Store
