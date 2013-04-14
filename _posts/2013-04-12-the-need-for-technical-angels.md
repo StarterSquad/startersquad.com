@@ -2,12 +2,9 @@
 layout: post
 title: The need for Technical Angels
 tags:
-- angular
-- scala
-- frontend
-- jQuery
+- startups
+- angels
 - development
-- javascript
 ---
 
 ## Technical Angels ##
