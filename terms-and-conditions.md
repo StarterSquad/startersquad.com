@@ -5,6 +5,7 @@ These terms and conditions are short and we believe they are fair to StarterSqua
 Definitions
 -----------
 StarterSquad ≡ trade name of legal entity Iwein Fuld
+
 Client, the client ≡ persons or legal entities benefiting from software development work done by StarterSquad
 
 Applicability
