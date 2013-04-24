@@ -13,12 +13,12 @@ force_menu_link: true
     <tr>
       <td class="layout-table-cell">
         <div class="article text-bound">
-          <div class="article-date">May 14, 2013</div>
+          <div class="article-date">{{ page.date | date: '%B %d, %Y' }}</div>
           {{ content }}
           <div class="article-tags">
             <b>Tags:</b>
             {% for tag in page.tags %}
-              <a href="/blog/tags/{{ tag | downcase }}">{{ tag }}{% unless forloop.last %},{% endunless %}</a>
+              <a>{{ tag }}{% unless forloop.last %},{% endunless %}</a>
             {% endfor %}
           </div>
         </div>
