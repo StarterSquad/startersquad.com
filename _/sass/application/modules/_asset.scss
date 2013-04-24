@@ -19,3 +19,8 @@
 @include asset-image(pencil);
 @include asset-image(tools);
 @include asset-image(twitter);
+
+.asset-rotator {
+  @include size(16px);
+  background: image-url('animated-rotator.gif');
+}
