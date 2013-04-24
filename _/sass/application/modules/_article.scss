@@ -4,7 +4,7 @@
   > h2 {
     @include font-height(18px, 22px);
     color: $color-scarlett;
-    font-weight: $semibold;
+    font-weight: bold;
     margin: 0 0 32px;
   }
 
@@ -21,10 +21,6 @@
 
 .article-tags {
   color: #AAA;
-
-  > b {
-    font-weight: $semibold;
-  }
 
   > a {
     color: #AAA;

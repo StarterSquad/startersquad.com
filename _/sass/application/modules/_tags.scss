@@ -1,7 +1,7 @@
 .tags {
   > h2 {
     @include font-height(18px, 22px);
-    font-weight: $semibold;
+    font-weight: bold;
     margin: 0 0 6px;
   }
   > ul {
