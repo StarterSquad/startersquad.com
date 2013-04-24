@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bourbon (3.1.1)
+    bourbon (3.1.4)
       sass (>= 3.2.0)
       thor
     chunky_png (1.2.8)
@@ -11,7 +11,7 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    directory_watcher (1.5.1)
+    directory_watcher (1.4.1)
     fast-stemmer (1.0.2)
     fssm (0.2.10)
     jekyll (0.12.1)
@@ -30,7 +30,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rake (10.0.4)
-    sass (3.2.7)
+    sass (3.2.8)
     sass-globbing (1.0.0)
       sass (>= 3.1)
     syntax (1.0.0)
@@ -43,6 +43,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   compass
+  directory_watcher (= 1.4.1)
   jekyll
   rake
   sass-globbing
