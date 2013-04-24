@@ -14,7 +14,7 @@
     </div>
     <div class="home-blog-section">
       <div class="blog text-bound">
-        {% for post in site.posts limit: 3 offset: 1 %}
+        {% for post in site.posts limit: 3 %}
           {% include blog/post.html %}
         {% endfor %}
       </div>
