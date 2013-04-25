@@ -34,7 +34,7 @@
     @include size(143px);
     background: sprite($sprite-main, bubble-mask);
     content: '';
-    z-index: 2;
+    // z-index: 2;
   }
 }
 
