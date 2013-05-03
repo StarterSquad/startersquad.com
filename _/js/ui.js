@@ -70,6 +70,7 @@
                     success: function () {
                         form.remove();
                         submitMessage.removeClass('hidden');
+                        _gaq.push(['_trackEvent', 'Contacts', 'Submitted', serializedForm.email]);
                     }
                 });
 
