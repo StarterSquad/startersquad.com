@@ -14,13 +14,13 @@ The Great Rewrite (or maybe not)
 -----------------------
 
 Every developer of some experience has seen it at least once. The evil beast of an application that should be killed 
-with fire to rise from the ashes as a beautifully crafted phenix. Business people dread the moment when they need to 
+with fire to rise from the ashes as a beautifully crafted phoenix. Business people dread the moment when they need to
 scale their team and the best new developer explains that the application is beyond maintenance and new features 
 can only be added after a complete rewrite. If they payed attention they know that listening to this type of advice 
 can kill their company, but they also know that not listening might do the same. When should they give in? How 
 can anyone know the potential damage of such a decision?
 
-Technology evolves. Today's highly productive framework is tomorrows legagy system that you're locked into. If you 
+Technology evolves. Today's highly productive framework is tomorrows legacy system that you're locked into. If you
 choose to rewrite, it could very well be that the next new developer you hire after you're done will sing the same
 song. If you have something that already works, why would you throw away all the investments you've already done?
 
@@ -33,7 +33,7 @@ be possible in small increments. A rewrite can only improve things if the proble
 
 Let's look for some ways to quantify the decision.
 
-###Estimations
+### Estimations
 If developers complain about quality or stack (and they often do) it is important to come up with an estimation to
 quantify the costs involved of doing or not doing the rewrite. There are two things that you need to know: 
 
@@ -59,14 +59,14 @@ complex applications the gain is small. Especially if the team has changed, whic
 
 In addition you will need to assess how much a higher velocity is going to matter business wise. If your product is
 feature complete and needs no new features, you might not care at all. But if the product needs regular
-maintenance, increased velocity will linearly cut maintenance costs, while giving you more business flexibilty.
+maintenance, increased velocity will linearly cut maintenance costs, while giving you more business flexibility.
 Unfortunately, experiments to measure this require the full rewrite anyway, so you'll have to use your gut for this one.
 
 After doing these estimations, doing the rewrite becomes a (somewhat) quantified business decision.
 
-###Taking the decision to rewrite or not
+### Taking the decision to rewrite or not
 
-####Are you making money?
+#### Are you making money?
 
 If so, you have time. The only risk of not doing the rewrite is making less money, which might be unfortunate,
 but not catastrophic. The time gives you the option to make reservations to keep the option of a rewrite.
@@ -92,7 +92,7 @@ unreasonably, that a rewrite is cheaper than a new feature.
 How can such a thing happen you ask? I've used an established stack, we've built it with experienced developers who 
 seemed to know what they're doing. Can they have screwed up this bad? The answer is, unfortunately: yes, it happens a lot.
 
-####Code Supernova
+#### Code Supernova
 
 > Code bases grow with each new feature.
 
@@ -110,17 +110,17 @@ This is the natural life of a code base, but the speed of this process is contro
 can slow down, and sometimes temporarily reverse this process. But as your feature set increases, this eventually 
 destroys the maintainability of the code.
 
-Under the pressure of the first delivery, this process of degeneration accellerates earlier. A conscious rewrite 
+Under the pressure of the first delivery, this process of degeneration accelerates earlier. A conscious rewrite
 can create a code base that shows this problem much later. During the rewrite, new frameworks are available, which 
 reduce the amount of code that might cause this problem. It could very well be that a rewrite is the only viable option. 
 But measure first, before you act. It is by no means a safe or easy way out, it can sometimes be safer and easier than 
 continuing on the existing code.
 
 You might find that you're not in a position that demands a rewrite, for example because you're just getting started, 
-your problemsdon't relate to stack and code quality, or the quality can be improved incrementally. If so, you should be 
+your problems don't relate to stack and code quality, or the quality can be improved incrementally. If so, you should be
 interested in how you can avoid painting yourself in a corner like that. Let me share some ideas on that.
 
-###Avoiding the rewrite
+### Avoiding the rewrite
 
 Perfect code doesn't need to be rewritten often. But perfection comes at the price of speed. Balance between perfection and 
 speed is something that great developers and great business guys have to find together. Even perfect code sometimes 
@@ -132,7 +132,7 @@ find that running it in Scala in the JVM is the sensible thing to do. Preventing
 because if you find yourself in such a position, you're very likely already making money, or at least very interesting to
 investors. The rewrite you really want to avoid is the one before you have an MVP that actually turns out to be viable.
 
-####Just barely good enough
+#### Just barely good enough
 X introduced the concept of *just barely good enough*. It's not about making crap and putting it live, it is about finding
 exactly what the minimum in MVP means technologically. And then doing the bare minimum, but no less. This is **hard**. If
 you do less than the bare minimum in any area, you'll have to make up for it with extra code in another. This extra code 
@@ -143,7 +143,7 @@ and reviewing and refactoring help a lot to keep sailing close to the wind. The 
 TDD is that it keeps the option of fixing the code by refactoring open a lot longer. 
 
 The other thing that really helps is modularity. It pays off to cut the code into modules and keep as many stateless as you 
-can and keep only one or a few stateful modules. If the API's between modules are clean, you can do modular replacements, 
+can and keep only one or a few stateful modules. If the APIs between modules are clean, you can do modular replacements,
 and if the stateful modules are few and simple, it cuts down the migration problems when you have to change them. Be mindful 
 that the effect of modularity is not to make a rewrite easier, but to allow less drastic continuous changes to prevent it.
 
