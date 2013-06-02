@@ -18,11 +18,12 @@ with fire to rise from the ashes as a beautifully crafted phoenix. Business peop
 scale their team and the best new developer explains that the application is beyond maintenance and new features 
 can only be added after a complete rewrite. If they payed attention they know that listening to this type of advice 
 can kill their company, but they also know that not listening might do the same. When should they give in? How 
-can anyone know the potential damage of such a decision?
+can you predict the outcome of such a decision?
 
-Technology evolves. Today's highly productive framework is tomorrows legacy system that you're locked into. If you
-choose to rewrite, it could very well be that the next new developer you hire after you're done will sing the same
-song. If you have something that already works, why would you throw away all the investments you've already done?
+Technology evolves, faster than ever. Today's highly productive framework is tomorrows legacy system that you're locked
+ into. If you choose to rewrite, it could very well be that the next new developer you hire after you're done will
+ sing the same song. [If you have something that already works, why would you throw away all the investments you've
+ already done?](http://www.joelonsoftware.com/articles/fog0000000069.html)
 
 Any development team working on a product establishes some velocity of development that stabilises after some time. 
 What this velocity is, is determined by many factors. For example process, skills, availability and focus have a 
@@ -66,22 +67,32 @@ After doing these estimations, doing the rewrite becomes a (somewhat) quantified
 
 ### Taking the decision to rewrite or not
 
+First of all, listen to the warnings against a rewrite. Often, especially if you're committed to the development team
+yourself, a rewrite seems appealing. The annoying part of your work will suddenly be gone. You won't have to dig around
+that crazy code that you wrote when you should have been sleeping. This annoying part however is probably what is
+bringing in the cash and the fact that you wrote that code is the reason you have those (ever complaining) users now.
+[Rewriting is probably not as appealing as it seems now](http://onstartups.com/tabid/3339/bid/2596/Why-You-Should-Almost-Never-Rewrite-Your-Software.aspx).
+But if you are already aware of the risk, still it is important to make a well founded decision, instead of shying away
+from the problem.
+
 #### Are you making money?
 
 If so, you have time. The only risk of not doing the rewrite is making less money, which might be unfortunate,
 but not catastrophic. The time gives you the option to make reservations to keep the option of a rewrite.
-The more you save up, the higher the chances are you can push the rewrite through if you find you need it later.
+The more you save up, the higher the chances are you can push the rewrite through if you find you need it later. It also
+gives you time to slowly refactor the code, if that is still an option.
 
-If not, these questions are important:
+If you're not making money, these questions are important:
 
 1. **do you have enough money for the rewrite?**
 2. **will having different features make your business profitable?**
 3. **can you afford building the needed features on the existing stack?**
 
 Estimate the features you need on the current stack carefully. If you can turn the business profitable without a rewrite,
-it's very sensible to do that first, and only then consider the rewrite. Doing a risky operation like a rewrite on a 
-finite deadline is stressful and risky. Estimating the risk could be smart here, but erring on the side of safety is 
-usually good advice. There is enough uncertainty as it is.
+it's very sensible to do that first, and only then consider the rewrite. Doing an operation like a rewrite on a
+finite deadline is stressful and risky. What will happen in the not so unlikely even that the rewrite takes longer than
+planned? Estimating the risk is a good idea, but erring on the side of safety is usually good advice. There is enough
+uncertainty as it is.
 
 Sometimes, after the estimations in your spikes, you will find that doing the rewrite including the new features, is 
 less expensive than doing the new features on the existing stack. In that case it seems sensible to go for the rewrite 
@@ -106,7 +117,8 @@ seemed to know what they're doing. Can they have screwed up this bad? The answer
 
 > And the code base goes supernova and implodes into a black hole.
 
-This is the natural life of a code base, but the speed of this process is controlled by many variables. Great developers 
+This is the natural life of a code base, but the speed of this process is controlled by many variables.
+[Great developers](/blog/how-to-recognize-a-great-developer/)
 can slow down, and sometimes temporarily reverse this process. But as your feature set increases, this eventually 
 destroys the maintainability of the code.
 
@@ -133,19 +145,21 @@ because if you find yourself in such a position, you're very likely already maki
 investors. The rewrite you really want to avoid is the one before you have an MVP that actually turns out to be viable.
 
 #### Just barely good enough
-X introduced the concept of *just barely good enough*. It's not about making crap and putting it live, it is about finding
+Scott Ambler introduced the concept of *[just barely good enough]((http://www.agilemodeling.com/essays/barelyGoodEnough.html))*. It's not about making crap and putting it live, it is about finding
 exactly what the minimum in MVP means technologically. And then doing the bare minimum, but no less. This is **hard**. If
 you do less than the bare minimum in any area, you'll have to make up for it with extra code in another. This extra code 
 speeds up the code supernova process. It's better to do a little more than the bare minimum where it counts. 
 
-eXtreme Programming techniques are awesome at helping developers to hug that wall. Especially test driven development 
+The [rules of eXtreme Programming](http://www.extremeprogramming.org/rules.html) are awesome at helping developers to
+[hug that wall](http://speeddemosarchive.com/quake/qdq/articles/WallHug/). Especially test driven development
 and reviewing and refactoring help a lot to keep sailing close to the wind. The good thing about
 TDD is that it keeps the option of fixing the code by refactoring open a lot longer. 
 
 The other thing that really helps is modularity. It pays off to cut the code into modules and keep as many stateless as you 
-can and keep only one or a few stateful modules. If the APIs between modules are clean, you can do modular replacements,
+can and keep only one or a few stateful modules. If the API's between modules are clean, you can do modular replacements,
 and if the stateful modules are few and simple, it cuts down the migration problems when you have to change them. Be mindful 
-that the effect of modularity is not to make a rewrite easier, but to allow less drastic continuous changes to prevent it.
+that the effect of modularity is not to make a rewrite easier, but to allow less drastic continuous changes to prevent
+needing a rewrite at all.
 
 If you're a business person, hopefully it has become clear that decisions to do a rewrite, but also decisions to prevent it,
 are as critical to business as the decision to add that new killer feature. If you're a developer, I hope that you'll have 
