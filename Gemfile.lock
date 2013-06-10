@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bourbon (3.1.4)
+    bourbon (3.1.7)
       sass (>= 3.2.0)
       thor
     chunky_png (1.2.8)
@@ -41,7 +41,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bourbon
+  bourbon (~> 3.1.7)
   compass
   directory_watcher (= 1.4.1)
   jekyll

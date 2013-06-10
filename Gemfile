@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'bourbon'
+gem "bourbon", "~> 3.1.7"
 gem 'compass'
 gem 'jekyll'
 gem 'rake'
