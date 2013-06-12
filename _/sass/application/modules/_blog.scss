@@ -1,4 +1,8 @@
-.blog {}
+.blog {
+  h2:first-child {
+    margin-top: 0;
+  }
+}
 
 .blog-post {
   margin-top: 27px;
