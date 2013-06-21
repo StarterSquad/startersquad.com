@@ -104,8 +104,9 @@ to scale down again. The short lines and quick feedback advantages are quickly l
 
 If calculated by the hour, offshore teams are the cheapest option. The problem is that they can only work effectively
  with local management and very clearly specified requirements. Steering an offshore team in an Agile manner is
- hardly possible. Another problem is that [too large teams are typically not very effective](http://www.qsm
- .com/Blog/Productivity_and_Team_Size.pdf). Not many projects are large enough to allow effective offshoring. A
+ hardly possible. Another problem is that
+ [too large teams are typically not very effective](http://www.qsm.com/Blog/Productivity_and_Team_Size.pdf).
+ Not many projects are large enough to allow effective offshoring. A
  distributed team might fit the scale better.
 
 #### Distributed teams
