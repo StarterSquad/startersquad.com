@@ -7,7 +7,6 @@ tags:
 - outsourcing
 - distributed teams
 - online collaboration
-todo: links
 ---
 
 Effective Distributed Software Development
