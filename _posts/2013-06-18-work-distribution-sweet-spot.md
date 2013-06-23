@@ -28,7 +28,7 @@ each other. But enough phylosophy, let me explain some tricks.
 
 #### Pull together
 
-Decide who is in the team, who is out. Then whenever you have a question, doubt, ask a team member to look at it with
+Decide who is in the team, who is out. Then whenever you have a question or doubt, ask a team member to look at it with
  you. There are plenty of cool tools to share your screen with, and audio connection shouldn't be a problem either.
  Do buy a good headset though, having a feedback loop while you're pairing isn't conducive to productivity at all.
 
@@ -57,7 +57,7 @@ Get into a rythm by:
 -- wednesday = client demo day,
 -- friday = test in Opera day
 -- monday = share cool article day,
-- demanding breaks at least every hour
+- demanding breaks at least every hour.
 
 I don't like standups, they don't seem to add much value over pulling together throughout the day, but standups do tend
 to provide a rythm. Try them some time if you never have.
@@ -114,10 +114,10 @@ If calculated by the hour, offshore teams are the cheapest option. The problem i
  A distributed team is a team that is represented at the clients location, but also has a remote component. Splitting
   the team in this way, and sticking the basic rules laid out above, you will get several positive effects:
 
-- The team closely relates to the client
-- The process adapts to remote working (nice if you can't always make it to an office)
-- It becomes easier to scale the team to the right size
-- The costs are more attractive
+- the team closely relates to the client
+- the process adapts to remote working (nice if you can't always make it to an office)
+- it becomes easier to scale the team to the right size
+- the costs are more attractive
 
-We believe that with this recipe we've getting close to the sweet spot of distributed collaboration. Let us know if
+We believe that with this recipe we are getting close to the sweet spot of distributed collaboration. Let us know if
 you have interesting experience to share.
