@@ -145,7 +145,7 @@ because if you find yourself in such a position, you're very likely already maki
 investors. The rewrite you really want to avoid is the one before you have an MVP that actually turns out to be viable.
 
 #### Just barely good enough
-Scott Ambler introduced the concept of *[just barely good enough]((http://www.agilemodeling.com/essays/barelyGoodEnough.html))*. It's not about making crap and putting it live, it is about finding
+Scott Ambler introduced the concept of *[just barely good enough](http://www.agilemodeling.com/essays/barelyGoodEnough.html)*. It's not about making crap and putting it live, it is about finding
 exactly what the minimum in MVP means technologically. And then doing the bare minimum, but no less. This is **hard**. If
 you do less than the bare minimum in any area, you'll have to make up for it with extra code in another. This extra code 
 speeds up the code supernova process. It's better to do a little more than the bare minimum where it counts. 

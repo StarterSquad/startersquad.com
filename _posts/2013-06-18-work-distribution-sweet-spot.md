@@ -65,7 +65,9 @@ to provide a rythm. Try them some time if you never have.
 
 In a distributed team it's much harder to give clues about where time is spent. Every design, every bit of code,
 every decision should be documented in a bookmarkable place. Commit a .md file to github, send a
-[screencast.com](http://screencast.com/) around, or just use [piratepad](piratepad.net) or [sket.sh](sket.sh) to 
+[screencast.com](http://screencast.com/) around, or just use [piratepad](http://piratepad.net) or [sket.sh]
+(http://sket.sh)
+to
 capture brainstorming.
 
 If you stick to this rule, you'll find that the client, and also your team members have a much higher appreciation of
