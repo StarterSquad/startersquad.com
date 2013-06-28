@@ -1,4 +1,3 @@
-auto: true
 safe: true
 permalink: /blog/:title
 lsi: false
