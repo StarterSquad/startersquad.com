@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Product pruning
-author: iwein
+author: Iwein Fuld
 tags:
 - development
 - business development
