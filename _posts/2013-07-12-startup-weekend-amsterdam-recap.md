@@ -8,7 +8,7 @@ tags:
 
 Startup Weekend Amsterdam – lessons learned
 =====================
-### Guest post by [Sara Stocklin]()
+### Guest post by [Sara Stocklin](http://www.linkedin.com/in/sarastocklin)
 
 What do you do in Amsterdam on a sunny weekend in summer? A BBQ in the park with some friends? Drive around on a
 private boat all day? Some people go to the [Startup Weekend](http://pitch.rs/startupweekend-is-dead-long-live-startupweekend/).
