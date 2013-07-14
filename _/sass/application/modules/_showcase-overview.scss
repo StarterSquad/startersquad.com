@@ -1,0 +1,25 @@
+.showcase-overview {
+  margin-bottom: 50px;
+
+  .showcase-overview-row {
+    padding: 15px 35px 0;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    .showcase-picture-small {
+      float: left;
+      width: 300px;
+      height: 200px;
+      margin-left: 15px;
+      display: block;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+  }
+
+}
