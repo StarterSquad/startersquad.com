@@ -1,5 +1,6 @@
 .projects-overview {
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
+  width: 1000px;
 }
 
 .projects-overview-row {
@@ -9,16 +10,4 @@
     padding-top: 0;
   }
 
-}
-
-.projects-picture-small {
-  float: left;
-  width: 300px;
-  height: 200px;
-  margin-left: 15px;
-  display: block;
-
-  &:first-child {
-    margin-left: 0;
-  }
 }
