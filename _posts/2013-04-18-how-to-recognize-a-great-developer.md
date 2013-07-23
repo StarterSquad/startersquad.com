@@ -9,8 +9,6 @@ tags:
 - hr
 ---
 
-## How to recognize a great developer ##
-
 Many organizations struggle with getting high quality developers on board. Especially when building a team, the cost
 effects of hiring the wrong guy at first are dazzling. I've interviewed and worked with quite a few developers and I've
 taken a lot of lessons from some of the greats like [Joel *smart-and-get-things-done* Spolsky][1]. But most of these

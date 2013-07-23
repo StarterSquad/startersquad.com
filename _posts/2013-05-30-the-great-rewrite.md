@@ -10,9 +10,6 @@ tags:
 todo: links
 ---
 
-The Great Rewrite (or maybe not)
------------------------
-
 Every developer of some experience has seen it at least once. The evil beast of an application that should be killed 
 with fire to rise from the ashes as a beautifully crafted phoenix. Business people dread the moment when they need to
 scale their team and the best new developer explains that the application is beyond maintenance and new features 

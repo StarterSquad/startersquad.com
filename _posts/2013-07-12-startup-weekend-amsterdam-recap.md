@@ -6,8 +6,6 @@ tags:
 - startups
 ---
 
-Startup Weekend Amsterdam – lessons learned
-=====================
 ### Guest post by [Sara Stocklin](http://www.linkedin.com/in/sarastocklin)
 
 What do you do in Amsterdam on a sunny weekend in summer? A BBQ in the park with some friends? Drive around on a

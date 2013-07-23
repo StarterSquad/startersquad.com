@@ -8,8 +8,6 @@ tags:
 -
 ---
 
-The bare minimum you should know about images on the web
-=========================
 
 Putting your images *online* in the *right format* can have a huge impact on your conversion. It is worth much more money
 than you'd realize at a first glance. Page load times are almost primarily controlled by image load times and conversion
@@ -92,25 +90,33 @@ photographs however, the compression can be awesome. Usually jpeg is the better 
 Decision table
 --------------
 
-<table>
+<table style="width:350px">
+<colgroup>
+       <col style="width: 50%;"/>
+       <col style="width: 50%;"/>
+    </colgroup>
+<thead>
 <tr>
 <th>type of visual</th><th>recommended format</th>
 </tr>
+</thead>
+<tbody>
 <tr>
-<th>logo</th><th>png</th>
+<td>logo</td><td>png</td>
 </tr>
 <tr>
-<th>diagram</th><th>png</th>
+<td>diagram</td><td>png</td>
 </tr>
 <tr>
-<th>icon</th><th>png</th>
+<td>icon</td><td>png</td>
 </tr>
 <tr>
-<th>animation</th><th>gif</th>
+<td>animation</td><td>gif</td>
 </tr>
 <tr>
-<th>photograph</th><th>jpeg</th>
+<td>photograph</td><td>jpeg</td>
 </tr>
+</tbody>
 </table>
 
-[1] http://www.whydomath.org/node/wavlets/jpeg2000wt.html
+[1]: http://www.whydomath.org/node/wavlets/jpeg2000wt.html

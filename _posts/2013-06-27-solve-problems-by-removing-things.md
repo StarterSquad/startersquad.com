@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Product pruning
+title: Solve problems by removing things
 author: Iwein Fuld
 tags:
 - development
@@ -8,9 +8,6 @@ tags:
 - product development
 - code quality
 ---
-
-Solve problems by removing things
-=============================
 
 A very popular quote by Antoine de Saint-Exupery:
 
