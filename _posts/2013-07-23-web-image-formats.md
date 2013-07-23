@@ -43,7 +43,8 @@ Png looks as good as gif, or better. Gif could sometimes reduce the quality when
 
 ###compression
 The compression for png is similar to gif. It is based on a palette, which means that images with low color complexity
-compress better than images with many different colors.
+compress better than images with many different colors. Use [ImageOptim][2] to make sure you have
+optimal compression of your png files.
 
 ###features
 Like gif, png supports transparency. Unlike gif it also supports opacity. Png does not have animation like gif does.
@@ -120,3 +121,4 @@ Decision table
 </table>
 
 [1]: http://www.whydomath.org/node/wavlets/jpeg2000wt.html
+[2]: http://imageoptim.com/
