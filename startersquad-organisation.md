@@ -34,15 +34,15 @@ All workers relationships are between a single worker and exactly one team.
 ###Worker Members
 
 A worker member is a person, fully dedicated to the StarterSquad organisation. This means that StarterSquad work takes
-priority over other work at all times. Before joining the team as a worker member the worker has to go through a screening
-process and be accepted by unanimous and anonymous vote by the existing worker members of the team. Worker members
+priority over other work at all times. Worker members
 share in the successes and failures of StarterSquad through dividend.
 
 ###Hired guns
 
 A hired gun is an independent contractor that performs work to ensure capacity for a StarterSquad team, but is not
 necessarily linked to the StarterSquad organisation in another way. Hired guns do not share in the successes and failures
-of StarterSquad, unless they become investors too.
+of StarterSquad, unless they become investors. The budget for hired guns is determined by working members on individual
+agreement.
 
 ###Employees
 
@@ -56,6 +56,22 @@ The following rules of thumb apply in relationships between workers and StarterS
 - StarterSquad prefers worker member relationships over hired guns over employee relationships.
 - Capacity is a tradable resource, workers are not.
 - Teams establish relationships with workers, StarterSquad establishes contracts
+
+### Starting and ending relationships
+
+#### Joining
+Before joining the team the worker has to go through a screening process and be accepted by unanimous and
+anonymous vote by the existing members of the team. The new member starts as a hired gun. To become a worker member
+you the worker has to be accepted by existing worker members unanimously.
+
+#### Parting ways
+If the relationship doesn't work out with a hired gun the working members can set the budget to zero.
+
+Any worker member can split the team. Split goes like this: splitting member starts a new team. All worker members that
+decide to do so can join the new team according to the existing join procedure. Still under the StarterSquad brand.
+
+Worker members can be kicked out of StarterSquad entirely, but only with open unanimous decision in their team.
+
 
 Other stakeholders
 ---------
