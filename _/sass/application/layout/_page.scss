@@ -1,0 +1,13 @@
+.layout-page {
+  @include size(100%);
+  display: table;
+}
+
+.layout-page-top,
+.layout-page-bottom {
+  display: table-row;
+}
+
+.layout-page-bottom {
+  height: 1px;
+}

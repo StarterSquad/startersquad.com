@@ -1,0 +1,15 @@
+.contacts-link {
+  @extend %link-grey-azure;
+
+  &:before {
+    @include size(19px 13px);
+    background: sprite($sprite-main, contacts-link);
+    content: '';
+    display: inline-block;
+    margin: 0 10px -1px 0;
+  }
+
+  &:hover:before {
+    background-position: sprite-position($sprite-main, contacts-link-hover);
+  }
+}

@@ -1,0 +1,23 @@
+<div class="home-blog">
+  <h2>Latest blog entries</h2>
+  <div class="home-blog-inner">
+    <div class="home-blog-section">
+      <div class="article">
+        {% assign post = site.posts[0] %}
+        <div class="article-date">{{ post.date | date: '%B&nbsp;%d, %Y' }}</div>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>
+          {{ post.content | truncatewords:121,''}}
+          <a class="home-blog-more" href="{{ post.url }}">Read more</a>
+        </p>
+      </div>
+    </div>
+    <div class="home-blog-section">
+      <div class="blog text-bound">
+        {% for post in site.posts limit: 3 %}
+          {% include blog/post.html %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

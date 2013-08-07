@@ -1,0 +1,13 @@
+.inset {
+  @include font-height(22px, 26px);
+  background: #f7f7f7;
+  color: #48484a;
+  font-weight: bold;
+  margin: 50px 0;
+  padding: 32px;
+  text-align: center;
+
+  .button {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,40 @@
+---
+layout: default
+menu_index: 3
+force_menu_link: true
+---
+
+<div class="arkush">
+  {% include blog/headline.html %}
+  <table class="layout-table">
+    <col width="72%">
+    <col width="9%">
+    <col width="19%">
+    <tr>
+      <td class="layout-table-cell">
+        <div class="article text-bound">
+          <div class="article-date">{{ page.date | date: '%B %d, %Y' }}</div>
+          <h1>{{page.title}}</h1>
+          {{ content }}
+          <div class="article-tags">
+            <b>Tags:</b>
+            {% for tag in page.tags %}
+              <a>{{ tag }}{% unless forloop.last %},{% endunless %}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </td>
+      <td class="layout-table-cell"></td>
+      <td class="layout-table-cell">
+        {% include blog/tags.html %}
+      </td>
+    </tr>
+    <tr>
+      <td class="layout-table-cell">
+        {% include disqus_comments.html %}
+      </td>
+      <td class="layout-table-cell"></td>
+      <td class="layout-table-cell"></td>
+    </tr>
+  </table>
+</div>

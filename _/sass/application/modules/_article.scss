@@ -1,0 +1,52 @@
+.article {
+  margin: 0 0 70px;
+
+  > h2 {
+    @include font-height(18px, 22px);
+    color: $color-scarlett;
+    font-weight: bold;
+    margin: 0 0 32px;
+  }
+
+  > p {
+   margin: 0 0 20px;
+  }
+
+  table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+    th, td {
+      padding: 8px;
+      line-height: 20px;
+      text-align: left;
+      vertical-align: top;
+      border-top: 1px solid #dddddd;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    thead:first-child tr:first-child {
+      th, td {
+        border-top: 0;
+      }
+    }
+  }
+}
+
+.article-date {
+  @include font-height(12px, 14px);
+  color: #AAA;
+  margin: 0 0 16px;
+}
+
+.article-tags {
+  color: #AAA;
+
+  > a {
+    color: #AAA;
+  }
+}

@@ -1,0 +1,28 @@
+@mixin social-link-image($name) {
+  .social-link-#{ $name } {
+    @include sprite-dimensions($sprite-main, social-#{ $name });
+    background-position: sprite-position($sprite-main, social-#{ $name });
+
+    &:hover {
+      background-position: sprite-position($sprite-main, social-#{ $name }-hover);
+    }
+
+    .social-inverse > & {
+      background-position: sprite-position($sprite-main, social-#{ $name }-inverse);
+    }
+
+    .social-inverse > &:hover {
+      background-position: sprite-position($sprite-main, social-#{ $name }-inverse-hover);
+    }
+  }
+}
+
+.social-link {
+  @extend .hide-text;
+  background-image: sprite-url($sprite-main);
+  display: inline-block;
+}
+
+@include social-link-image(github);
+@include social-link-image(linkedin);
+@include social-link-image(twitter);

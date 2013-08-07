@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #666;
+  font: 14px/20px 'Lato', sans-serif;
+  overflow-y: scroll;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.5;
+}
+
+.hover {
+  @extend :hover;
+}
+
+:focus {
+  outline: 0 !important;
+}
+
+// .active {
+//   @extend :active;
+// }
+
+textarea {
+  resize: none;
+}

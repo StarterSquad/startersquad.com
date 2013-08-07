@@ -1,0 +1,13 @@
+.projects-overview {
+  margin: 0 auto 50px;
+  width: 1000px;
+}
+
+.projects-overview-row {
+  padding: 15px 35px 0;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+}

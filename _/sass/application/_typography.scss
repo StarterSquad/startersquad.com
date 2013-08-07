@@ -1,0 +1,19 @@
+// Fake half-space
+// Usage: 10<span class="hsr"></span>000
+.hs {
+  margin-left: 0.2em;
+}
+
+// Real half-space
+// Usage: 42<span class="hsr">&nbsp;</span>km
+.hsr {
+  font-size: 50%;
+  line-height: 1;
+}
+
+// Small capitals
+.scap {
+  font-size: 0.875em;
+  letter-spacing: 0.15em;
+  margin-right: -0.15em;
+}

@@ -1,0 +1,35 @@
+.home-blog {
+  margin: 0 0 50px;
+
+  h2 {
+    @include font-height(22px, 26px);
+    color: #48484a;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.home-blog-inner {
+  @extend .clearfix;
+}
+
+.home-blog-section {
+  float: left;
+  width: 46%;
+
+  &:first-child {
+    margin-right: 5%;
+    width: 49%;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+.home-blog-more {
+  @extend %link-azure-grey;
+}

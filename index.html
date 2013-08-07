@@ -1,25 +1,17 @@
 ---
-layout: site
+layout: default
+menu_index: 0
 ---
-<div class="center">
-  <div class="center-inner">
 
-    <h1>StarterSquad</h1>
-
-    <h2>Launching Soon</h2>
-
-    <h3>You can always find us here</h3>
-
-    <ul class="socials">
-      <li>
-        <a class="coderwall" href="//coderwall.com/team/startersquad">StarterSquad at Coderwall</a>
-      </li>
-      <li>
-        <a class="twitter" href="//twitter.com/StarterSquad">StarterSquad at Twitter</a>
-      </li>
-      <li>
-        <a class="github" href="//github.com/StarterSquad">StarterSquad at Github</a>
-      </li>
-    </ul>
-  </div>
+<div class="showcase">
+  {% include home/headline.html %}
+  <div class="showcase-picture" style="background-image: url('/_/images/static/showcase/home.jpg'); height: 414px"></div>
+</div>
+<div class="arkush">
+  {% include home/team.html %}
+</div>
+{% include home/challenge.html %}
+<div class="arkush">
+  {% include home/benefits.html %}
+  {% include home/blog.html %}
 </div>

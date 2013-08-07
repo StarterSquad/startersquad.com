@@ -1,0 +1,33 @@
+.tags {
+  > h2 {
+    @include font-height(18px, 22px);
+    font-weight: bold;
+    margin: 0 0 6px;
+  }
+  > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      margin-top: 6px;
+
+      &:first-child {
+        margin: 0;
+      }
+
+      > a {
+        background: #f7f7f7;
+        border-radius: 2px;
+        color: #666;
+        display: block;
+        padding: 1px 12px;
+
+        &:hover {
+          background: #c4e3f2;
+          text-shadow: 0 1px 1px rgba(#FFF, 0.65);
+        }
+      }
+    }
+  }
+}

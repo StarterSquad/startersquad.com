@@ -1,3 +1,7 @@
+*.sublime-*
 .idea
 .sass-cache
 _site/
+*.iml
+*.idea
+.DS_Store
