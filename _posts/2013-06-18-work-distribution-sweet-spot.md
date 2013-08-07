@@ -9,8 +9,6 @@ tags:
 - online collaboration
 ---
 
-Effective Distributed Software Development
------------------------
 Getting software development done effectively is hard. Distributing work over a team effectively is even harder.
 Distributing work over a remote team, even one that isn't colocated seems impossible. However, this is exacly how
 StarterSquad works. Read on if you want to know how we pull it off.

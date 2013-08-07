@@ -8,8 +8,6 @@ tags:
 - minimalism
 ---
 
-How to get away with cheap software
-=========================
 
 Cheap software has a lot of advantages. On a first glance it seems that cheap means low risk (unless you're buying cheap explosives, but
 software is usually not that dangerous). If you don't invest a lot in software you don't have to write off a lot of

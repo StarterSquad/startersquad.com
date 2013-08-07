@@ -3,7 +3,7 @@ menu:
 - title: "Home"
   href:  "/"
 - title: "Projects"
-  href:  "/projects/hubskip"
+  href:  "/projects"
 - title: "Team"
   href:  "/team"
 - title: "Blog"
@@ -41,11 +41,6 @@ menu:
     <script>window.jQuery || document.write('<script src="/_/js/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="/_/js/jquery.bureaucrat.js"></script>
     <script src="/_/js/ui.js"></script>
-    <script>
-      var _gaq=[['_setAccount','UA-39018138-1'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src='//www.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
+    {% include analytics.html %}
   </body>
 </html>

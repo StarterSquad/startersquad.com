@@ -12,6 +12,7 @@
   color: #a8aaad;
   margin: 35px auto 40px;
   text-align: center;
+  position: relative;
 
   > h1 {
     @include font-height(34px, 40px);
@@ -21,5 +22,16 @@
 
   > p {
     margin: 0;
+  }
+
+  > a {
+    position: absolute;
+    top: -15px;
+    left: 0px;
+
+    &:before {
+      content: "< ";
+      display: inline;
+    }
   }
 }

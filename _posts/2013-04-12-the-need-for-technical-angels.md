@@ -7,8 +7,6 @@ tags:
 - development
 ---
 
-## Technical Angels ##
-
 When talking about angels in the context of startups, people naturally make the association with investors. This is
 correct in some sense, but an angel does much more than financial backing alone. When a startup finds the right angel
 they get mentoring and a deep knowledge of the market to support their enterprise.

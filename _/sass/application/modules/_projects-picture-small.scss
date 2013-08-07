@@ -1,0 +1,51 @@
+@import "compass/css3/opacity";
+
+.projects-picture-small {
+  display: block;
+  float: left;
+  height: 200px;
+  margin-left: 15px;
+  position: relative;
+  width: 300px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  > div {
+    @include opacity(0);
+    @include transition(opacity 0.5s ease);
+
+    color: #FFF;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    // rgba(70, 72, 70, 0.7)
+
+    &:hover {
+      @include opacity(1);
+    }
+
+    > p {
+      @include box-sizing(border-box);
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEElEQVR42gEFAPr/ADM1OO0CzQGO4k/fCQAAAABJRU5ErkJggg==);
+      bottom: 0;
+      font-size: 18px;
+      left: 0;
+      margin: 0;
+      padding: 25px 10px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+
+      > small {
+        font-size: 12px;
+        text-transform: uppercase;
+        vertical-align: middle;
+      }
+    }
+
+  }
+}
