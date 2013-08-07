@@ -15,26 +15,30 @@
   > div {
     @include opacity(0);
     @include transition(opacity 0.5s ease);
-    display: table;
+
+    color: #FFF;
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
     // rgba(70, 72, 70, 0.7)
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEElEQVR42gEFAPr/AFlbXbMD5wHFy5+HygAAAABJRU5ErkJggg==);
-    color: #FFF;
 
     &:hover {
       @include opacity(1);
     }
 
     > p {
-      display: table-cell;
+      @include box-sizing(border-box);
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEElEQVR42gEFAPr/ADM1OO0CzQGO4k/fCQAAAABJRU5ErkJggg==);
+      bottom: 0;
       font-size: 18px;
+      left: 0;
       margin: 0;
+      padding: 25px 10px;
+      position: absolute;
       text-align: center;
-      vertical-align: middle;
+      width: 100%;
 
       > small {
         font-size: 12px;
