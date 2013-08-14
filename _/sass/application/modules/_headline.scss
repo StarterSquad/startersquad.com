@@ -23,15 +23,4 @@
   > p {
     margin: 0;
   }
-
-  > a {
-    position: absolute;
-    top: -15px;
-    left: 0px;
-
-    &:before {
-      content: "< ";
-      display: inline;
-    }
-  }
 }
