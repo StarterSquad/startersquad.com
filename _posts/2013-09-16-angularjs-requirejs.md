@@ -12,35 +12,40 @@ tags:
 ---
 
 ## Why?
-Working with Angular you could worry about a good way to organize code. There are already great how-tos on that, check out this mainly theoretical [post][1] by very practial Brian Ford and this practical [guide][2] by Cliff Meyers if you haven't already.
-I'm not going to talk about it more. I'll share the way I'm managing code in Angular applications with RequireJS.
+Working with Angular you could worry about a good way to organize code. There are already great how-tos on that, check
+out [this mainly theoretical post][1] by Brian Ford and [this practical guide][2] by Cliff Meyers
+if you haven't already. I'll share the way I'm managing code in Angular applications with RequireJS.
 
 Continue reading if you want:
 
-  - not to worry about including script tags in the right order when building Angular apps;
-  - to load your application asyncronously;
-  - to be able to compile code into single minified js file;
+- stop worrying about including script tags in the right order when building Angular apps;
+- to load your javascript asyncronously;
+- to compile code into single minified js file;
 
 ## Who?
-I assume that you already know what AngularJS is and at least heard about AMD and RequireJS. To illustrate approach I'll enable RequireJS for [Angular Seed][3] and explain process as much as possible. As Angular Seed structures code splitting files by type so I will do. It's also possible to apply this approach if you write modules by entities (you'll see it from `app.controllers` module implementation).
+I assume that you already know what AngularJS is and that you've at least heard of AMD and RequireJS. To illustrate the
+approach I'll first enable RequireJS for [Angular Seed][3] and explain process. Angular Seed structures code by
+splitting files by type and so will I. It's also possible to apply this approach if you write modules by entities
+(you'll see it from `app.controllers` module implementation).
 
 ## How?
 
 ### Angular Seed Project
-Let's check how Angular Seed structures code. Check out
-example [in browser][4] and [on github][5] (copied from Seed):
+Let's check how Angular Seed structures code. Check out the
+example [in your browser][4] or [on github][5] (copied from Seed):
 
-  - `app.js` file to bootstrap and set app config;
-  - actual implementation files - controllers, services, directives and filters;
-  - `index.html` with all script tags included in right order;
-  - or `index-async.html` that makes use of `angular-loader.js` and 3-rd party `$script` loader library to load dependencies asyncronously.
+- `app.js` file to bootstrap and set app config;
+- actual implementation files - controllers, services, directives and filters;
+- `index.html` with all script tags included in right order;
+- or `index-async.html` that makes use of `angular-loader.js` and 3-rd party `$script` loader library to load
+dependencies asyncronously.
 
 Let's start the party.
 
 ### Add RequireJS
-Checkout example [in browser][6] and [on github][7].
+Checkout the example [in your browser][6] or [on github][7].
 
-#### Dependencies installation
+####  Installating dependencies
 I used [bower][8] to do this for me.
 See `bower.json` file:
 
@@ -61,10 +66,12 @@ See `bower.json` file:
 }
 {% endhighlight %}
 
-Put `.bowerrc` file next to `bower.json`, run `bower install` and - puff, we have all we need under `libs` folder.
+Put the `.bowerrc` file next to `bower.json`, run `bower install` and - poof, we have all we need under `libs` folder.
 
 #### index.html
-Destruction is a good start. Open Angular Seed's `index.html` and remove all the `<script>` tags. Looks cleaner, isn't it? Now switch to creation mode and add single script before closing `</body>` that will load RequireJS and instruct it to look for config in `js/main.js` with [data-main attribute][9]:
+Destruction is a good start. Open Angular Seed's `index.html` and remove all the `<script>` tags. Looks cleaner,
+doesn't it? Now switch to creation mode and add single script before closing `</body>` that will load RequireJS
+and instruct it to look for config in `js/main.js` with the [data-main attribute][9]:
 
 {% highlight html linenos %}
 <!doctype html>
@@ -89,10 +96,10 @@ Destruction is a good start. Open Angular Seed's `index.html` and remove all the
 </html>
 {% endhighlight %}
 
-That's it. You can close `index.html` now, as there is nothing more we can add to it.
+That's all there's to it. You can close `index.html` now, as there is nothing more we need to add to it.
 
 #### main.js
-It's time to setup RequireJS config.
+Time to setup RequireJS config.
 
 {% highlight javascript linenos %}
 require.config({
@@ -115,10 +122,12 @@ require.config({
 });
 {% endhighlight %}
 
-What just happened? In [paths][10] we set aliases for libraries and plugins used, then defined that angular should be [shimmed][11] and said that config should load `bootstrap.js` to start application.
+What just happened? In [paths][10] we set aliases for the libraries and plugins used, then we defined that angular
+should be [shimmed][11] and that `bootstrap.js` should be loaded to start the application.
 
 #### bootstrap.js
-We're bootstrapping angular manually now, that's what bootstrap.js is for. Note that you don't need `ng-app` in your html anymore.
+We're bootstrapping angular manually now, that's what bootstrap.js is for.
+Note that you don't need `ng-app` in your html anymore.
 
 {% highlight javascript linenos %}
 /**
@@ -137,10 +146,11 @@ define([
 });
 {% endhighlight %}
 
-We use [domReady][12] RequireJS plugin to make sure that DOM is ready when we start app. Note that before doing that we're actually loading `app.js` dependency, there main application is defined.
+We use [domReady][12] RequireJS plugin to make sure that DOM is ready when we start the app. Note that before doing so
+we're loading the `app.js` dependency, in there the main application is defined.
 
 #### app.js
-It wraps definition of top-level app module and loads its submodules dependencies.
+`app.js` wraps the definition of the top-level app module and loads the dependencies of its submodules.
 
 {% highlight javascript linenos %}
 define([
@@ -161,19 +171,20 @@ define([
 });
 {% endhighlight %}
 
-We agreed to have 4 modules by files types: controllers, directives, filters, services - we require these modules to be loaded before defining main module.
+We agreed to have 4 modules by files types: controllers, directives, filters, services - we require these modules
+to be loaded before defining the main module.
 
 #### Module structure
-Module consists of 3 parts:
+A module consists of 3 parts:
 
-  - definition;
-  - component;
-  - loader.
+- definition;
+- component;
+- loader.
   
-  Let's use `app.controllers` module as example.
+Let's use the `app.controllers` module as example.
 
 #### module definition (`controllers/module.js`)
-It's just like top level `app.js` - defines module.
+It's just like top level `app.js`: it defines a module.
 
 {% highlight javascript linenos %}
 define(['angular'], function (ng) {
@@ -182,7 +193,7 @@ define(['angular'], function (ng) {
 });
 {% endhighlight %}
 
-This file will be used by module components to attach themselves to (see next section).
+This file will be used by the module components to attach themselves to (see next section).
 
 #### module loader (`controllers/index.js`)
 That's just an empty define block with all module components included. You don't need to mention `module.js` here as it's already required by components. Loader is included as dependency of top level `app` module. And that's actually how RequireJS knows about files to load.
@@ -196,7 +207,7 @@ define([
 
 
 #### module components (`controllers/my-ctrl-1.js`)
-In case with `app.controllers` module it'll be controllers. Example of controller wrapped in define is:
+In the case with the `app.controllers` module it'll be controllers. Example of controller wrapped in define is:
 
 {% highlight javascript linenos %}
 define(['./module'], function (controllers) {
@@ -209,11 +220,12 @@ Note that we used reference to `./module.js` to attach component to its module.
 
 
 ## Conclusion
-That's it. Now you have working Angular application powered by RequireJS. You can enjoy power of not tracking order of your scripts anymore.
+That's it. Now you have working Angular application powered by RequireJS. You can enjoy the power of not tracking
+the order of your scripts anymore and you get some powerful minification tooling to boot.
 
-In next articles I'll show you how to test this application properly, how to compile it into single file and automize workflows wiht grunt. All this is already enabled in [StarterSquad Angular + Require Seed][13] you can check it out if you can't wait (sorry I'm a slow typer).
-
-Take care and don't forget to have rest from perpetuum coding.
+In next articles I'll show you how to test this application properly, how to compile it into single file and
+automate workflows with grunt. All this is already enabled in [StarterSquad Angular + Require Seed][13]
+check it out if you can't wait (I'm a slow typist).
 
 [1]: http://briantford.com/blog/huuuuuge-angular-apps.html
 [2]: http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript
