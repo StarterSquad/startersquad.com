@@ -231,9 +231,9 @@ check it out if you can't wait (I'm a slow typist).
 [2]: http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript
 [3]: https://github.com/angular/angular-seed
 [4]: http://www.startersquad.com/examples/angularjs-requirejs-1/
-[5]: http://TODO
+[5]: https://github.com/StarterSquad/startersquad.github.com/tree/master/examples/angularjs-requirejs-1
 [6]: http://www.startersquad.com/examples/angularjs-requirejs-2/
-[7]: http://TODO
+[7]: https://github.com/StarterSquad/startersquad.github.com/tree/master/examples/angularjs-requirejs-2
 [8]: http://bower.io
 [9]: http://requirejs.org/docs/api.html#data-main
 [10]: http://requirejs.org/docs/api.html#config-paths
