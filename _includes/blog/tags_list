@@ -18,7 +18,7 @@ Usage:
 -->{% endcomment %}
 
 {% for tag in tags_list %}
-    <li><a href="#{{ tag[0] }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+    <li><a href="/blog/tags.html#{{ tag[0] }}">{{ tag[0] }}&nbsp;<span>[{{ tag[1].size }}]</span></a></li>
 {% endfor %}
 
 {% assign tags_list = nil %}
