@@ -24,6 +24,7 @@
 }
 
 .bubble-main {
+  @include backface-visibility(hidden);
   @include size(135px);
   cursor: default;
   position: relative;
