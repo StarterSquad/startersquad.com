@@ -128,6 +128,11 @@ should be [shimmed][11] and that `bootstrap.js` should be loaded to start the ap
 #### bootstrap.js
 We're bootstrapping angular manually now, that's what bootstrap.js is for.
 Note that you don't need `ng-app` in your html anymore.
+Also `routes.js`, which contains angular routes configuration is included into dependencies list.
+
+Note that in this require module we almost have no use of asynchronous loading
+and we'll always have chain of angular -> app -> routes, as they depend on each other:
+angular needs to be present on a page before setting up application module, which is required to exist when defining routes config.
 
 {% highlight javascript linenos %}
 /**
@@ -136,7 +141,8 @@ Note that you don't need `ng-app` in your html anymore.
 define([
     'require',
     'angular',
-    'app'
+    'app',
+    'routes'
 ], function (require, ng) {
     'use strict';
 
@@ -173,6 +179,33 @@ define([
 
 We agreed to have 4 modules by files types: controllers, directives, filters, services - we require these modules
 to be loaded before defining the main module.
+
+#### routes.js
+
+Top level routes definition lives here. It is also possible to have modules to set up their own routes
+(this case is omitted for now in favour of simplicity).
+
+{% highlight javascript linenos %}
+define(['./app'], function (app) {
+    'use strict';
+    return app.config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.when('/view1', {
+            templateUrl: 'partials/partial1.html',
+            controller: 'MyCtrl1'
+        });
+
+        $routeProvider.when('/view2', {
+            templateUrl: 'partials/partial2.html',
+            controller: 'MyCtrl2'
+        });
+
+        $routeProvider.otherwise({
+            redirectTo: '/view1'
+        });
+    }]);
+});
+{% endhighlight %}
+
 
 #### Module structure
 A module consists of 3 parts:
