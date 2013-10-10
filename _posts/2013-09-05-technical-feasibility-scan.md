@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How do you know if your Startup Idea can be built?
-author: iwein
+author: Iwein Fuld
 tags:
 - risk reduction
 - software development estimation

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to recognize a great developer
-author: iwein
+author: Iwein Fuld
 tags:
 - startups
 - development
