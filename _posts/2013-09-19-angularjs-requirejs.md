@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AngularJS + RequireJS
-author: dmitry
+author: Dmitry Evseev
 tags:
 - tdd
 - javascript
