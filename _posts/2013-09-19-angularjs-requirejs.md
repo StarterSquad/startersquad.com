@@ -11,12 +11,17 @@ tags:
 - require
 ---
 
+While delivering [software projects for startups](/projects), we've come to love AngularJS. We've also come to struggle
+with clean modularity, both the parts that Angular does really well, and the parts that are somewhat missing. RequireJS
+does a great job where Angular leaves some things to be desired, but using them together is not entirely trivial. What
+ follows is our take at the problem.
+
 ## Why?
 Working with Angular you could worry about a good way to organize code. There are already great how-tos on that, check
 out [this mainly theoretical post][1] by Brian Ford and [this practical guide][2] by Cliff Meyers
 if you haven't already. I'll share the way I'm managing code in Angular applications with RequireJS.
 
-Continue reading if you want:
+Continue reading if you want to:
 
 - stop worrying about including script tags in the right order when building Angular apps;
 - to load your javascript asyncronously;
