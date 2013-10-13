@@ -1,4 +1,4 @@
-See [Angular + Require](http://www.startersquad.com/blog/angular-require/) post on [StarterSquad blog](http://www.startersquad.com/blog/).
+See [Angular + Require](http://www.startersquad.com/blog/angularjs-requirejs/) post on [StarterSquad blog](http://www.startersquad.com/blog/).
 
 Example of Angular + Require usage - shows how to enabled RequireJS for Angular Seed.
 

@@ -43,6 +43,6 @@ so mitigating technical risk is pivotal.
 [1]: http://www.startersquad.com/blog/startersquad-pricing-model/
 [2]: http://www.startersquad.com/blog/the-need-for-technical-angels/
 [3]: http://www.startersquad.com/blog/the-great-rewrite/
-[4]: waste time in a crappy startup job
+[4]: http://michaelochurch.wordpress.com/2012/07/08/dont-waste-your-time-in-crappy-startup-jobs/
 [5]: http://www.startersquad.com/blog/how-to-recognize-a-great-developer
 [6]: http://www.startersquad.com/contact
