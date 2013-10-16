@@ -11,6 +11,11 @@
   }
 }
 
+.bubbles-tech {
+  margin: 40px auto 70px;
+  width: 800px;
+}
+
 .bubble {
   @include font-height(14px, 20px);
   display: inline-block;
@@ -75,4 +80,20 @@
   font-style: italic;
   vertical-align: middle;
   width: 95px;
+}
+
+.bubble-small {
+  > .bubble-main,
+  > .bubble-main > img,
+  > .bubble-main > .bubble-backside {
+    @include size(80px);
+  }
+  > .bubble-main:after {
+    @include size(88px);
+    background: sprite($sprite-main, bubble-small-mask);
+  }
+  > .bubble-footer {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
 }
