@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 Bundler.require(:default)
+require './sass_helpers.rb'
 
 # Set this to the root of your project when deployed:
 css_dir = "_/css"

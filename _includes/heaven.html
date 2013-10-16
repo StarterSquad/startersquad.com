@@ -10,12 +10,12 @@
         {% for item in page.menu %}
           {% if forloop.index0 == page.menu_index %}
             {% if page.force_menu_link %}
-              <li class="is-active"><a href="{{ item.href }}">{{ item.title }}</a></li>
+              <li class="is-active"><a class="link_complex" href="{{ item.href }}"><u>{{ item.title }}</u></a></li>
             {% else %}
               <li class="is-active">{{ item.title }}</li>
             {% endif %}
           {% else %}
-            <li><a href="{{ item.href }}">{{ item.title }}</a></li>
+            <li><a class="link_complex" href="{{ item.href }}"><u>{{ item.title }}</u></a></li>
           {% endif %}
         {% endfor %}
       </ul>
