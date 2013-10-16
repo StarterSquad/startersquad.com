@@ -1,9 +1,11 @@
 .tags {
+
   > h2 {
     @include font-height(18px, 22px);
     font-weight: bold;
     margin: 0 0 6px;
   }
+
   > ul {
     list-style: none;
     margin: 0;
@@ -22,6 +24,7 @@
         color: #666;
         display: block;
         padding: 1px 12px;
+        text-decoration: none;
 
         &:hover {
           background: #c4e3f2;

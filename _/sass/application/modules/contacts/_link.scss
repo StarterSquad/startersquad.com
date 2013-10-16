@@ -1,5 +1,6 @@
 .contacts-link {
-  @extend %link-grey-azure;
+  @extend %link;
+  @extend %link_style_grey-blue;
 
   &:before {
     @include size(19px 13px);
