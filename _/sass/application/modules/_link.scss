@@ -1,0 +1,46 @@
+@mixin link-color($color, $underline-opacity: 0.35) {
+  @include prefixer(text-decoration-color, rgba($color, $underline-opacity), webkit moz spec);
+  color: $color;
+}
+
+%link,
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+%link_style_menu,
+.link_style_menu {
+  @include link-color(#888);
+
+  &:hover {
+    @include link-color(#222);
+  }
+}
+
+%link_style_grey-red,
+.link_style_grey-red {
+  @include link-color(#666);
+
+  &:hover {
+    @include link-color(#cc655c);
+  }
+}
+
+%link_style_grey-blue,
+.link_style_grey-blue {
+  @include link-color(#666);
+
+  &:hover {
+    @include link-color(#37afdb);
+  }
+}
+
+%link_style_blue-grey,
+.link_style_blue-grey {
+  @include link-color(#37afdb);
+
+  &:hover {
+    @include link-color(#a8aaad);
+  }
+}

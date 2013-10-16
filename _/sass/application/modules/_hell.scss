@@ -2,6 +2,11 @@
   background: #f7f7f7;
   border-top: 2px solid #e5e5e5;
   padding: 40px 0;
+
+  a {
+    @extend %link;
+    @extend %link_style_grey-red;
+  }
 }
 
 .hell-social {

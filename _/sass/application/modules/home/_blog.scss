@@ -23,6 +23,7 @@
   }
 }
 
-.home-blog-more {
-  @extend %link-azure-grey;
+.home-blog a.home-blog-more {
+  @extend %link;
+  @extend %link_style_blue-grey;
 }
