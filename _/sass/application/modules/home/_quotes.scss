@@ -1,0 +1,12 @@
+.home-quotes {
+  text-align: center;
+
+  blockquote {
+    &:before {
+      background-image: url('/assets/images/quote-left.png');
+    }
+    &:after{
+      background-image: url('/assets/images/quote-right.png');
+    }
+  }
+}
