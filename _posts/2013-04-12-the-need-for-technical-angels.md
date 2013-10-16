@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The need for Technical Angels
+author: Iwein Fuld
 tags:
 - startups
 - angels

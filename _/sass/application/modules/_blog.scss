@@ -21,11 +21,8 @@
   text-transform: uppercase;
 
   > a {
-    @extend .extended-pointer-area;
-    color: #666;
-
-    &:hover {
-      color: #C65;
-    }
+    @extend %extended-pointer-area;
+    @extend %link;
+    @extend %link_style_grey-red;
   }
 }

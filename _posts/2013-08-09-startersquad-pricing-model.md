@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Estimating development cost - The StarterSquad model
-author: iwein
+author: Iwein Fuld
 tags:
 - pricing model
 - software development estimation
