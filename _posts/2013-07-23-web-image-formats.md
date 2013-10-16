@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The bare minimum you should know about images on the web
-author: iwein
+author: Iwein Fuld
 tags:
 - web design
 - image compression

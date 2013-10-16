@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting away with Cheap Software
-author: iwein
+author: Iwein Fuld
 tags:
 - development
 - mvp

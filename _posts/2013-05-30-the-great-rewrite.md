@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Great Rewrite
-author: iwein
+author: Iwein Fuld
 tags:
 - development
 - code quality

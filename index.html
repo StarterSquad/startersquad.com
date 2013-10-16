@@ -5,7 +5,16 @@ menu_index: 0
 
 <div class="showcase">
   {% include home/headline.html %}
-  <div class="showcase-picture" style="background-image: url('/_/images/static/showcase/home.jpg'); height: 414px"></div>
+  <div id="wrapper" class="showcase-carousel">
+    <div id="carousel">
+      <img src="/_/images/static/showcase/qwiksense-map.jpg" width="718" height="425" />
+      <img src="/_/images/static/showcase/1to1mentor-big.jpg" width="718" height="425" />
+      <img src="/_/images/static/showcase/xebia-gallery-big.jpg" width="718" height="425" />
+      <img src="/_/images/static/showcase/qwiksense-big.jpg" width="718" height="425" />
+      <img src="/_/images/static/showcase/wellpepper-big.jpg" width="718" height="425" />
+      <img src="/_/images/static/showcase/hubskip-big.jpg" width="718" height="425" />
+    </div>
+  </div>
 </div>
 <div class="arkush">
   {% include home/team.html %}
@@ -13,5 +22,5 @@ menu_index: 0
 {% include home/challenge.html %}
 <div class="arkush">
   {% include home/benefits.html %}
-  {% include home/blog.html %}
 </div>
+{% include home/blog.html %}

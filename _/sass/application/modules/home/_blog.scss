@@ -1,5 +1,6 @@
 .home-blog {
-  margin: 0 0 50px;
+
+  margin-bottom: 0px;
 
   h2 {
     @include font-height(22px, 26px);
@@ -12,24 +13,17 @@
   }
 }
 
-.home-blog-inner {
-  @extend .clearfix;
-}
-
 .home-blog-section {
-  float: left;
-  width: 46%;
-
-  &:first-child {
-    margin-right: 5%;
-    width: 49%;
-  }
-
   img {
     display: none;
   }
+  .home-blog-section-title {
+    display: block;
+    margin-bottom: 25px;
+  }
 }
 
-.home-blog-more {
-  @extend %link-azure-grey;
+.home-blog a.home-blog-more {
+  @extend %link;
+  @extend %link_style_blue-grey;
 }

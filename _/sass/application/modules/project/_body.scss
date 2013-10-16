@@ -9,4 +9,9 @@
   p {
     margin: 0 0 20px;
   }
+
+  a {
+    @extend %link;
+    @extend %link_style_grey-red;
+  }
 }

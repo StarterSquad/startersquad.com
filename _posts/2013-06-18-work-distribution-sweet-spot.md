@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Effective Distributed Software Development
-author: iwein
+author: Iwein Fuld
 tags:
 - development
 - outsourcing
