@@ -2,11 +2,33 @@
   text-align: center;
 
   blockquote {
-    &:before {
-      background-image: url('/assets/images/quote-left.png');
+    position: relative;
+    margin: 40px 80px;
+
+    p {
+      font-style: italic;
+      margin: 10px;
     }
-    &:after{
-      background-image: url('/assets/images/quote-right.png');
+
+    footer {
+      margin-left: 50%;
+    }
+
+    &:before {
+      background: url('/assets/images/quote-left.png') no-repeat 0 0;
+      content: ' ';
+      padding: 40px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    &:after {
+      background: url('/assets/images/quote-right.png') no-repeat 100% 0;
+      content: ' ';
+      padding: 40px;
+      position: absolute;
+      right: 0;
+      top: 0;
     }
   }
 }
