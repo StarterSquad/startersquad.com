@@ -1,0 +1,35 @@
+.home-quotes {
+  text-align: center;
+
+  blockquote {
+    position: relative;
+    margin: 40px 80px;
+    padding: 0px 40px;
+
+    p {
+      font-style: italic;
+      margin: 10px;
+    }
+
+    footer {
+      margin-left: 50%;
+    }
+
+    &:before {
+      background: url('/assets/images/quote-left.png') no-repeat 0 0;
+      content: ' ';
+      padding: 40px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    &:after {
+      background: url('/assets/images/quote-right.png') no-repeat 100% 0;
+      content: ' ';
+      padding: 40px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}

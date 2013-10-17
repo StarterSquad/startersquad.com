@@ -50,7 +50,7 @@ Let's start the party.
 ### Add RequireJS
 Checkout the example [in your browser][6] or [on github][7].
 
-####  Installating dependencies
+####  Installing dependencies
 I used [bower][8] to do this for me.
 See `bower.json` file:
 
