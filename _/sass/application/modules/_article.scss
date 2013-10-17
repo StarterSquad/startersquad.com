@@ -1,15 +1,20 @@
 .article {
   margin: 0 0 70px;
 
-  > h2 {
+  h2 {
     @include font-height(18px, 22px);
     color: $color-scarlett;
     font-weight: bold;
     margin: 0 0 32px;
   }
 
-  > p {
+  p {
    margin: 0 0 20px;
+  }
+
+  a {
+    @extend %link;
+    @extend %link_style_grey-red;
   }
 
   table {
@@ -17,6 +22,7 @@
     border-collapse: collapse;
     border-spacing: 0;
     max-width: 100%;
+
     th, td {
       padding: 8px;
       line-height: 20px;

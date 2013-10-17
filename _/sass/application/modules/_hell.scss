@@ -4,6 +4,13 @@
   padding: 40px 0;
 }
 
+.hell__legal {
+  a {
+    @extend %link;
+    @extend %link_style_grey-red;
+  }
+}
+
 .hell-social {
   $base-box-shadow: 0 1px 1px #fcfcfc;
   display: inline-block;

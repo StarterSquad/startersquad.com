@@ -20,7 +20,7 @@ force_menu_link: true
           <div class="article-tags">
             <b>Tags:</b>
             {% for tag in page.tags %}
-              <a>{{ tag }}{% unless forloop.last %},{% endunless %}</a>
+              <a href="/blog/tags.html#{{ tag }}">{{ tag }}{% unless forloop.last %},{% endunless %}</a>
             {% endfor %}
           </div>
         </div>

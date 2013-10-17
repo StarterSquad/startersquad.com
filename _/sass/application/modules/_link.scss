@@ -1,0 +1,51 @@
+@mixin link-color($color, $underline-opacity: 0.35) {
+  background-image: stroke-url(rgba($color, $underline-opacity));
+  color: $color;
+}
+
+@mixin link-style($color, $hover-color) {
+  &, & u {
+    @include link-color($color);
+  }
+
+  &:hover, &:hover u {
+    @include link-color($hover-color);
+  }
+}
+
+%link,
+.link {
+  cursor: pointer;
+  text-decoration: none;
+
+  &, & u {
+    background-position: 0 95%;
+    background-repeat: repeat-x;
+    background-size: auto 1px;
+    text-decoration: none;
+  }
+}
+
+%link_style_menu,
+.link_style_menu {
+  @include link-style(#888, #222);
+}
+
+%link_style_grey-red,
+.link_style_grey-red {
+  @include link-style(#666, #cc655c);
+}
+
+%link_style_grey-blue,
+.link_style_grey-blue {
+  @include link-style(#666, #37afdb);
+}
+
+%link_style_blue-grey,
+.link_style_blue-grey {
+  @include link-style(#37afdb, #a8aaad);
+}
+
+.link_complex {
+  background-size: 0 !important;
+}
