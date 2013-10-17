@@ -58,6 +58,17 @@
 
 .article-tags {
   color: #AAA;
+  display: inline-block;
+
+  > a {
+    color: #AAA;
+  }
+}
+
+.article-share {
+  color: #AAA;
+  display: inline-block;
+  float: right;
 
   > a {
     color: #AAA;

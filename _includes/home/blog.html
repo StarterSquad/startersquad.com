@@ -1,26 +1,22 @@
-<div class="diptych diptych-inset home-blog">
-  <div class="arkush diptych-inner ">
-
-
-    <div class="home-blog-section diptych-section">
-      <h2 class="home-blog-section-title">Latest post</h2>
-      <div class="article">
-        {% assign post = site.posts[0] %}
-        <div class="article-date">{{ post.date | date: '%B&nbsp;%d, %Y' }}</div>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p>
-          {{ post.content | truncatewords:121,''}}
-          <a class="home-blog-more" href="{{ post.url }}">Read more</a>
-        </p>
-      </div>
+<div class="arkush home-blog">
+  <div class="home-blog-section diptych-section">
+    <h2 class="home-blog-section-title">Latest post</h2>
+    <div class="article">
+      {% assign post = site.posts[0] %}
+      <div class="article-date">{{ post.date | date: '%B&nbsp;%d, %Y' }}</div>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>
+        {{ post.content | truncatewords:121,''}}
+        <a class="home-blog-more" href="{{ post.url }}">Read more</a>
+      </p>
     </div>
-    <div class="home-blog-section diptych-section">
-      <h2 class="home-blog-section-title">Older posts</h2>
-      <div class="blog text-bound">
-        {% for post in site.posts offset: 1 limit: 5 %}
-          {% include blog/post.html %}
-        {% endfor %}
-      </div>
+  </div>
+  <div class="home-blog-section diptych-section">
+    <h2 class="home-blog-section-title">Older posts</h2>
+    <div class="blog text-bound">
+      {% for post in site.posts offset: 1 limit: 5 %}
+        {% include blog/post.html %}
+      {% endfor %}
     </div>
   </div>
 </div>
