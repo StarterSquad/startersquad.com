@@ -23,6 +23,13 @@ force_menu_link: true
               <a href="/blog/tags.html#{{ tag }}">{{ tag }}{% unless forloop.last %},{% endunless %}</a>
             {% endfor %}
           </div>
+          <div class="article-share">
+            <b>Share this post:</b>
+            <a href="http://twitter.com/share?url={{ site.domain }}{{ page.url }}" target="_blank">Twitter</a>, 
+            <a href="https://plus.google.com/share?&hl=en&url={{ site.domain }}{{ page.url }}" target="_blank">Google+</a>, 
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.domain }}{{ page.url }}" target="_blank">Linkedin</a>, 
+            <a href="http://www.facebook.com/sharer.php?u={{ site.domain }}{{ page.url }}" target="_blank">Facebook</a>
+          </div>
         </div>
       </td>
       <td class="layout-table-cell"></td>
