@@ -4,17 +4,19 @@
  */
 define([
     'angular',
+    'angular-route',
     './controllers/index',
     './directives/index',
     './filters/index',
     './services/index'
-], function (ng) {
+], function (angular) {
     'use strict';
 
-    return ng.module('app', [
-        'app.services',
+    return angular.module('app', [
         'app.controllers',
+        'app.directives',
         'app.filters',
-        'app.directives'
+        'app.services',
+        'ngRoute'
     ]);
 });
