@@ -11,6 +11,8 @@ tags:
 - require
 ---
 
+**Example updated to use angular v1.2.3**
+
 While delivering [software projects for startups](/projects), we've come to love AngularJS. We've also come to struggle
 with clean modularity, both the parts that Angular does really well, and the parts that are somewhat missing. RequireJS
 does a great job where Angular leaves some things to be desired, but using them together is not entirely trivial. What
