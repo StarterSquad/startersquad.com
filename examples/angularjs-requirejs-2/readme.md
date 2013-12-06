@@ -2,4 +2,4 @@ See [Angular + Require](http://www.startersquad.com/blog/angularjs-requirejs/) p
 
 Example of Angular + Require usage - shows how to enabled RequireJS for Angular Seed.
 
-See this example [in browser](www.startersquad.com/examples/angularjs-requirejs-2/index-async.html).
+See this example [in browser](http://www.startersquad.com/examples/angularjs-requirejs-2/).
