@@ -66,9 +66,9 @@ See `bower.json` file:
     "libs"
   ],
   "dependencies": {
-    "angular": "~1.0.8",
-    "requirejs": "~2.1.8",
-    "requirejs-domready": "~2.0.1"
+    "angular": "latest",
+    "requirejs": "latest",
+    "requirejs-domready": "latest"
   }
 }
 {% endhighlight %}
