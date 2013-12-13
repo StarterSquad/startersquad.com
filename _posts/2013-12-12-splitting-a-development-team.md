@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to behave as a developer in a Distributed Team
+title: Scale development by splitting teams
 author: Iwein Fuld
 tags:
 - distributed teams
@@ -17,7 +17,7 @@ To tackle this challenge we've decided to split into multiple teams. I expect th
 organisations struggle with, so I'll share the lessons learned and a strategy that I've found allows this scaling to
 happen without undermining the self-managing nature of a good Agile team.
 
-Create a new team out of an existing one
+Create a development team from an existing one
 ---------------
 When splitting teams, it is tempting to create a matrix of skillsets, and devide them as evenly as you can over the
 new teams by assigning members to each team. The problem with this approach is that it disrupts the established routine
