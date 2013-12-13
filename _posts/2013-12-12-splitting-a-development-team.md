@@ -55,7 +55,9 @@ responsible for. Some projects were tightly coupled to me, so the other team was
 their plate. This caused some problems in the old team, because the amount of work there wasn't enough to fill their
 capacity. I had the opposite problem, so I started to ask for help. Quite quickly two members joined my team and continued
 work on the projects that I'd taken from their old team. Things started to balance out a bit. The new team I had was
-heavy on back-end skills, and light on front-end skills.
+heavy on back-end skills, and light on front-end skills. I know my way around Angular and I can work with Sass,
+and HTML5 but I know the experts on that can code circles around me in that area. I needed my old team mates on those
+projects.
 
 I tried to recruit a front-ender out of the old team, but they were reluctant to leave the hard core that they felt
 comfortable in. I solved this by becoming a client of the old team, and 'buying' some of their capacity.
@@ -66,13 +68,15 @@ After making this move in a few days two things happened:
 - I spent 40% less time in calls
 - Most clients noticed a slight increase in productivity
 
-Two weeks later, it's business as usual and I'm looking to increase the size of my team by hiring new members. The old
-team is more focused and running smoothly. I expect that they will run into capacity shortage soon too.
+Two weeks later, it's business as usual and I'm increasing the size of my team by hiring new members. The old
+team is more focused and running smoothly. I expect that they will run into capacity shortage soon too. Growth has
+happened with virtually no negative effects for clients. In fact it has solved the problems I associated with the team
+getting too big. I should have done this earlier.
 
 #### The not so good
 It seems that by splitting the team, more focus is directed to clients. Why is this bad you say. Well it's good for
  the clients, but not for the long term of StarterSquad. This increased client focus seems to result in less focus on our open source
-efforts, and less focus on maintaining the website. I'm still analysing that situation trying to find another way to
+efforts, our pet projects, and less focus on maintaining the website. I'm still analysing that situation trying to find another way to
 have my cake and eat it too. That, in the end, is what StarterSquad is all about.
 
 How does this apply to you?
