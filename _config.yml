@@ -3,6 +3,7 @@ permalink: /blog/:title
 lsi: false
 domain: http://startersquad.com
 pygments: true
+encoding: UTF-8
 
 include:
   - _
