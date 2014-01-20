@@ -41,7 +41,7 @@ users, but you save a bunch in AAT maintenance.
 ### 3. Automated Deployment
 When you're confident that you find all problems automatically in time, you can automate the deployment. The tools here
 are a lot less mature than for CI, but there are some out there. At StarterSquad we use
-[our own Continuous Delivery toolbox: Prudentia](https://github.com/StarterSquad/prudentia) (kudo's Tiziano Perruci).
+[our own Continuous Delivery toolbox: Prudentia](https://github.com/StarterSquad/prudentia) (kudo's Tiziano Perrucci).
 Prudentia is a collection of CI tools and it has a CLI for automating deployments. Xebia offers an enterprise grade system 
 [Deployit](http://gallery.herokuapp.com/component/deployit) and there are a
 couple of other competitors in that space. Some companies roll their own based on Puppet, Chef, Ansible, or just a bunch
@@ -58,11 +58,11 @@ When you have automated all the steps you need, you need to orchestrate it so th
 deployments only happen if the tests are positive. This can be done with dependent build from your CI server. Both
 Jenkins and Bamboo have excellent support for this. If you set it up right, you can:
 
- 1. kick of a CI build from a commit hook,
- 2. then kick of a deployment build to a test server,
- 3. then kick of the AAT build targeting the test server,
- 4. Then kick of the Non-functional tests to the test server,
- 5. And finally kick off deployment to production
+ 1. kick off a CI build from a commit hook,
+ 2. then provision a test server,
+ 3. then run the AAT build targeting the test server,
+ 4. then run the non-functional tests targeting the test server,
+ 5. and finally deploy to production.
 
 If you get there you'll be among the lucky few, a crowd that is rapidly expanding. But why is Continuous Delivery
 so popular?
