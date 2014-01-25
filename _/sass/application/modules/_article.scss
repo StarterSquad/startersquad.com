@@ -43,18 +43,6 @@
   }
 }
 
-.article-date {
-  @include font-height(12px, 14px);
-  display: inline-block;
-  color: #AAA;
-  margin: 0 10px 16px 0;
-}
-
-.article-author {
-  @include font-height(12px, 14px);
-  display: inline-block;
-  margin: 0 0 16px;
-}
 
 .article-tags {
   color: #AAA;

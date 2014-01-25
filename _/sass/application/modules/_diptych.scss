@@ -8,6 +8,11 @@
     padding: 35px 0;
   }
 
+  &.__bordered {
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+  }
+
   h2 {
     @include font-height(22px, 26px);
     color: #48484a;
