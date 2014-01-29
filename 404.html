@@ -1,72 +1,18 @@
-<!DOCTYPE html>
-<html class="not_found">
-<head>
-  <meta charset="utf-8">
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-  <title> Aw, crap! </title>
-  <link href="/assets/stylesheets/css/style.css" rel="stylesheet">
-  <script> function delayer () {
-    window.location = "http://startersquad.com"
-  } </script>
-</head>
-<body onLoad="setTimeout('delayer()', 5000)">
-<h1> Aw, crap! </h1>
+---
+layout: default
+title: Aw, crap!
+body_class: page-404
+---
 
-<div>
-  <p>Looks like the page you&#8217;re after doesn&#8217;t exist. Guess you&#8217;re going to have to go
-    <a href="/">home</a> and try again!</p>
-
-  <p>You will be redirected momentarily...</p>
+<div class="arkush">
+  <div class="page-404__content">
+    <h1 class="page-404__title">Sorry, the page you requested cannot be found</h1>
+    <p>Perhaps you are here because:</p>
+    <ul class="list-unstyled">
+      <li> - The page has moved</li>
+      <li> - The page no longer exists</li>
+      <li> - You like 404 pages</li>
+    </ul>
+    <a href="/" class="button button-azure">Return to Homepage</a>
+  </div>
 </div>
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39018138-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function () {
-    var ga = document.createElement('script');
-    ga.type = 'text/javascript';
-    ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-  (function (d, w, c) {
-    (w[c] = w[c] || []).push(function () {
-      try {
-        w.yaCounter20418340 = new Ya.Metrika({id: 20418340,
-          clickmap: true,
-          trackLinks: true,
-          accurateTrackBounce: true});
-      } catch (e) {
-      }
-    });
-
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () {
-          n.parentNode.insertBefore(s, n);
-        };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-    if (w.opera == "[object Opera]") {
-      d.addEventListener("DOMContentLoaded", f, false);
-    } else {
-      f();
-    }
-  })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript>
-  <div><img src="//mc.yandex.ru/watch/20418340" style="position:absolute; left:-9999px;" alt=""/></div>
-</noscript>
-<!-- /Yandex.Metrika counter -->
-
-</body>
-</html>
