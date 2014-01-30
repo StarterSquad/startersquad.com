@@ -1,0 +1,27 @@
+---
+  - include: $prudentia_dir/tasks/nginx.yml
+
+  - name: Proxy | Uncomment server_names_hash_bucket_size
+    lineinfile: dest=/etc/nginx/nginx.conf regexp="^(\s*)#\s*server_names_hash_bucket_size" line="\1server_names_hash_bucket_size 64;" backrefs=yes
+    sudo: yes
+    tags: proxy
+
+  - name: Proxy | Removing Nginx default site configuration
+    command: rm -f /etc/nginx/sites-enabled/default
+    sudo: yes
+    tags: proxy
+
+  - name: Proxy | Copy Nginx configuration
+    template: src=$root_dir/components/templates/nginx.conf.j2 dest=/etc/nginx/sites-available/$nginx_conf_name
+    sudo: yes
+    tags: proxy
+
+  - name: Proxy | Enable website
+    command: ln -fs /etc/nginx/sites-available/$nginx_conf_name /etc/nginx/sites-enabled/$nginx_conf_name
+    sudo: yes
+    tags: proxy
+
+  - name: Proxy | Restart Nginx
+    command: /etc/init.d/nginx restart
+    sudo: yes
+    tags: proxy

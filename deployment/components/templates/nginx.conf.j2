@@ -1,0 +1,16 @@
+server {
+    listen       80;
+    server_name  {{ host_name }};
+    return       301 http://www.{{ host_name }}$request_uri;
+}
+
+server {
+    listen       80;
+    server_name  www.{{ host_name }};
+
+    root {{ install_dir }}/_site;
+
+    error_page 404 /404.html;
+
+    expires 1d;
+}

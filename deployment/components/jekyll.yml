@@ -1,0 +1,28 @@
+---
+  - include: $prudentia_dir/tasks/ruby.yml
+
+  - include: $prudentia_dir/tasks/git.yml
+
+
+  - name: SSQ Website | Install Jekyll
+    shell: /bin/bash -lc 'gem install jekyll'
+    tags: website
+
+  - name: SSQ Website | Create source directory
+    file: dest=$install_dir owner=$ansible_user_id group=$ansible_user_id mode=755 state=directory
+    sudo: yes
+    tags: website
+
+  - name: SSQ Website | Checkout source
+    git: repo=$git_repository dest=$install_dir
+    register: checkout
+    tags:
+      - website
+      - update
+
+  - name: SSQ Website | Jekyll Build
+    shell: /bin/bash -lc 'jekyll build' chdir=$install_dir
+    when: checkout.changed
+    tags:
+      - website
+      - update

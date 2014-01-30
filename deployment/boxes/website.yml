@@ -1,0 +1,20 @@
+---
+- hosts: ssq-website
+
+  vars:
+    # prudentia_dir -> is passed in the cmd line
+    - root_dir: ..
+    - host_name: startersquad.com
+    - nginx_conf_name: website
+    - install_dir: /opt/ssq
+    - git_repository: https://github.com/StarterSquad/startersquad.github.com.git
+
+  vars_files:
+    - $prudentia_dir/vars/global.yml
+
+  tasks:
+    - include: $prudentia_dir/tasks/common-setup.yml
+
+    - include: $root_dir/components/jekyll.yml
+
+    - include: $root_dir/components/proxy.yml
