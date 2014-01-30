@@ -14,14 +14,20 @@
   - name: Proxy | Copy Nginx configuration
     template: src=$root_dir/components/templates/nginx.conf.j2 dest=/etc/nginx/sites-available/$nginx_conf_name
     sudo: yes
-    tags: proxy
+    tags:
+      - proxy
+      - update
 
   - name: Proxy | Enable website
     command: ln -fs /etc/nginx/sites-available/$nginx_conf_name /etc/nginx/sites-enabled/$nginx_conf_name
     sudo: yes
-    tags: proxy
+    tags:
+      - proxy
+      - update
 
   - name: Proxy | Restart Nginx
     command: /etc/init.d/nginx restart
     sudo: yes
-    tags: proxy
+    tags:
+      - proxy
+      - update
