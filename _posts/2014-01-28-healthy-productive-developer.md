@@ -27,7 +27,7 @@ A healthy mind resides in a healthy body
 
 To get the best out of your brain, you need to ensure that it is supported by a healthy body. The best brain activity
 happens when you're awake and the brain is supplied with energy and oxygen. This you can ensure by doing three things:
-eat well, sleep well, stabilize your bio rythm.
+eat well, sleep well, stabilize your bio rhythm.
 
 ###A diet for your brain
 The brain runs primarily on sugar. More so than other organs that can also run on burning fat or proteins. At top
@@ -68,12 +68,12 @@ Because your brain needs a lot of energy, you'll need a good supply of oxygen. F
 To free up ATP from fat (should you ever run short on sugar, which you should) you'll need mitochondria, and they
 reside in muscles, so you better make sure you have some of those. Sitting work, which development usually is, is
 a killer for your body; it is particularly straining for your lower back. Keyboard and mouse use can cause RSI.
-A good training program that focusses on the shoulders and lower back helps enormously to avoid pain during your work.
+A good training program that focuses on the shoulders and lower back helps enormously to avoid pain during your work.
 Pain is a productivity killer, so avoiding it is another great effect from exercise.
 
 When you train your body to support good brain work, you should remember that building muscles and burning fat lowers
-the energy levels in your body. No need to go for a sixpack or a marathon. Eat well before and after you exercise,
-a bit more proteine, no fast sugars, but don't be affraid to get some carbs in. Your brain needs them.
+the energy levels in your body. No need to go for a six-pack or a marathon. Eat well before and after you exercise,
+a bit more protein, no fast sugars, but don't be afraid to get some carbs in. Your brain needs them.
 
 Trust me, if you switch to a healthy diet and start doing the right exercises today, by next week you'll see
 a dramatic change in your productivity, and you'll generally feel much better. By then I'll have an article for you
