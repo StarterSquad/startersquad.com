@@ -4,7 +4,7 @@ title: How to be a productive developer (1)
 author: Iwein Fuld
 tags:
 - development
-- Continuous Delivery
+- productivity
 ---
 I've done a lot of experimentation around my own productivity as a developer. For what it's worth I think that the
 lessons I've learned from my failures and successes are worth sharing. Especially because in the startup community,
