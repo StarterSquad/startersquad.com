@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Horizon 2020: The Future of Internet
-author: Daan Assen & Iwein Fuld
+title: 'Horizon 2020: The Future of Internet'
+author: Daan Assen
 tags:
 - startups
 - funding
