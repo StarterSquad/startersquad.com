@@ -6,8 +6,8 @@ tags:
 - startups
 - funding
 ---
-Today StarterSquad Founders Daan and Iwein packed their stuff and went to Brussels for the Horizon 2020 event about
-the Future of Internet. Around 700 people from across the EU were present to discuss opportunities around the themes
+Today StarterSquad Founders Daan and Iwein packed their stuff and went to Brussels for the [Horizon 2020 event about
+the Future of Internet](https://ec.europa.eu/digital-agenda/en/news/h2020-future-internet-call-1-all-you-need-know-one-info-day). Around 700 people from across the EU were present to discuss opportunities around the themes
 Network Technologies, Software & Services Cloud, Net Innovation, and Experimental Platforms.
 
 ## How Horizon 2020 impacts the european Startup Scene
@@ -36,9 +36,9 @@ cloud platforms (ICT 7) and the tools and methods for software development (ICT 
 Interesting themes were related to clouds of smaller devices, low power computing and meta clouds.
 If some of these cloud initiatives get through, virtual hosting and developing for PaaS will be more feasible in europe, also
 for startups that are required to stay away from US hosting parties due to Safe Harbor. There were several proposals for
-cloud of clouds or meta cloud solutions. Here at StarterSquad we'll likely stick with pragmatism and Prudentia for now.
+cloud of clouds or meta cloud solutions. Here at StarterSquad we'll likely stick with pragmatism and [Prudentia](https://github.com/StarterSquad/prudentia) for now.
 
-Interesting project to zoom into a little bit is RUOTA (Robust User Oriented Test Automation). The need for better test
+Interesting project to zoom into a little bit is [RUOTA (Robust User Oriented Test Automation)](https://www.facebook.com/pages/PROS/169705613078658). The need for better test
 automation tools for non-developers is well identified and could dramatically improve software development as a whole.
 If they can come up with something that beats the current clunky (and very expensive) tools that would be great
 wouldn't it? Fingers crossed that they pull it off. There were also some Model Driven Development related proposals
@@ -48,7 +48,7 @@ just in case they do.
 
 ## StarterSquad Reflections
 StarterSquad is ready and set to help realize the EU goals regarding the Future of Internet.
-Our distributed development teams helping Startups to execute theirs ideas is spot on to realize EU's ideas.
+Our [distributed development team helping Startups](/team) to execute theirs ideas is spot on to realize EU's ideas.
 We have seen some interesting developments and met some interesting people. We look forward to hook-up with
 some of the initiatives we came across in the upcoming months and years. We sure feel the EU is shifting it's
 innovation programs focus towards a stronger focus on creating and supporting Startups.
