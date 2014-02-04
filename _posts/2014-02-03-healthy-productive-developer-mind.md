@@ -63,7 +63,7 @@ your breathing a bit too much, you can also go dancing (argentinian tango did wo
 (crazy, but awesome), build a tower of blocks, go snowboarding, or take a walk with your dog. The important thing is
 to not focus on the exercise, but focus on the meditative aspect, or not focus… Did I mention I'm not an expert?
 
-Remember is that breaks are not the time window to make that call, or check your twitter feed. Or finally get that mail
+Remember that breaks are not the time window to make that call, or check your twitter feed. Or finally get that mail
 out before it's too late. No.
 Breaks are to get ready for the next productive hour. Or to get ready for the next week. You don't have to
 meditate all weekend, but it would probably have a positive effect if you did.
