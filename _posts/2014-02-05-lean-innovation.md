@@ -4,7 +4,8 @@ title: 'Lean Innovation: speeding up corporate innovation'
 author: Daan Assen
 tags:
 - startups
-- funding
+- product development
+- time to market
 ---
 ## The Innovation Pitfall
 Organizations need to be superior in innovation to survive in today's challenging business environment. New technologies, processes and business models emerge in ever shorting cycles. When we imagine innovation, in most cases breakthrough technological innovations come to mind. Hunting for these innovations is a risky adventure that rapidly soaks up Research & Development funding. In most technology companies up to 80% of the R&D budget goes into the search for breakthrough technological innovations. Surprisingly most business value is generated from other types of innovations. Business model & social innovation tend to account for up to 80% of the innovation value for companies. A classic 80-20 or Pareto principle pitfall? Of course investment in both technological and social innovation are needed, but the focus needs to change.
@@ -22,4 +23,5 @@ It is not surprising that the [Lean Startup Methodology](http://theleanstartup.c
 ## Bringing the entrepreneurial spirit in
 So, besides the [Lean Startup Methodology](http://theleanstartup.com/) it is required to bring the Entrepreneurial spirit into your organization. To have employees and managers experience what it takes to work from pitching ideas via restrained budgets to innovations that have the traction to be successful. Have them work together on the Challenges and Must-win-Battles of your organization in a Pressure Cooker style. To learn and fail fast and use innovation accounting to capture this learning. At StarterSquad we help organization towards application the [Lean Startup Methodology](http://theleanstartup.com/) for building successful innovations. This includes working on the skills and mindset required to put this methodology to work. We support innovation programs that go from Idea Pitching, via intensive Bootcamps with teams, all the way through to the actual launch of Startups. On the execution level our Distributed Development Teams help build the actual web-based solutions that can be taken to the market. We have experienced that bringing the entrepreneurial spirit into organizations is extremely rewarding for employees and business results, and besides the hard results it is a lot of fun!
 
-Interested in our approach? Feel free to contact us to discuss what StarterSquad can do for your organization!
+Interested in our approach? Feel free to [contact us](/contact) to discuss what StarterSquad can do for your
+organization!

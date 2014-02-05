@@ -7,6 +7,8 @@ tags:
 - business development
 - product development
 - code quality
+- mvp
+- risk reduction
 ---
 
 A very popular quote by Antoine de Saint-Exupery:

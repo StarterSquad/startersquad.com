@@ -5,7 +5,7 @@ author: Albert Sikkema
 tags:
 - development
 - productivity
-- rest
+- javascript
 ---
 
 Recently I needed to interact with a 3rd party webservice that wasn't finished yet. You've probably been there.

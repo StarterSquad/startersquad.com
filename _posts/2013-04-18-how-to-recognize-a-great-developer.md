@@ -6,7 +6,7 @@ tags:
 - startups
 - development
 - teams
-- hr
+- scaling teams
 ---
 
 Many organizations struggle with getting high quality developers on board. Especially when building a team, the cost

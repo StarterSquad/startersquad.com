@@ -5,6 +5,8 @@ author: Iwein Fuld
 tags:
 - distributed teams
 - scaling teams
+- teams
+- productivity
 - development
 ---
 

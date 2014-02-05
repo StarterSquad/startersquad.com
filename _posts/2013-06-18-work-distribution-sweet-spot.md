@@ -4,7 +4,7 @@ title: Effective Distributed Software Development
 author: Iwein Fuld
 tags:
 - development
-- outsourcing
+- teams
 - distributed teams
 - online collaboration
 ---

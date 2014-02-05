@@ -4,7 +4,7 @@ title: Getting ready for Continuous Delivery
 author: Iwein Fuld
 tags:
 - development
-- Continuous Delivery
+- continuous delivery
 ---
 
 Several of the most successful startups of the last decade use Continuous Delivery. It is used for example by Facebook, Twitter, Github just to

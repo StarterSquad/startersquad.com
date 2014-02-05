@@ -5,10 +5,8 @@ author: Dmitry Evseev
 tags:
 - tdd
 - javascript
-- angular
 - angularjs
 - requirejs
-- require
 ---
 
 **Example updated to use angular v1.2.3**

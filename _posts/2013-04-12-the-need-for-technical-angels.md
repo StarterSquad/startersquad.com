@@ -6,6 +6,7 @@ tags:
 - startups
 - angels
 - development
+- funding
 ---
 
 When talking about angels in the context of startups, people naturally make the association with investors. This is

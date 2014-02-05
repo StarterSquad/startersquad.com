@@ -4,7 +4,7 @@ title: How do you stay in the right risk profile?
 author: Iwein Fuld
 tags:
 - risk reduction
-- investment
+- funding
 ---
 
 Estimating Risks

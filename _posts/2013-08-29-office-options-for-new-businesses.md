@@ -4,7 +4,6 @@ title: New business? What are your office options?
 author: Peter Ames
 tags:
 - business development
-- facilities
 ---
 
 ### Guest post by [Peter Ames][1]
