@@ -77,4 +77,5 @@ a bit more protein, no fast sugars, but don't be afraid to get some carbs in. Yo
 
 Trust me, if you switch to a healthy diet and start doing the right exercises today, by next week you'll see
 a dramatic change in your productivity, and you'll generally feel much better. By then I'll have an article for you
-on how to tweak your mental state to make even more use of your specs and coffee to software converter.
+on [how to tweak your mental state](healthy-productive-developer-mind/) to make even more use of your specs and
+coffee to software converter.

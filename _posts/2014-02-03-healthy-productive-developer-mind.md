@@ -6,7 +6,8 @@ tags:
 - development
 - productivity
 ---
-Last week I wrote about what you can do to your body to become more productive. This week I'll write about what you can
+Last week I wrote about [what you can do to your body to become more productive](healthy-productive-developer/). This week I'll write about what
+you can
 do to your mind. I believe that fixing your physical well being is important to do first, it makes the mental part
 much easier to do. However, once you've got your tools in perfect order, knowing what to do with them is an
 essential part of the puzzle too.
