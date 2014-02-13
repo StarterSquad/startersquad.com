@@ -66,8 +66,8 @@ in absolute dark and silence. In the dark your melatonin levels go up, which mak
 ###Exercise
 Because your brain needs a lot of energy, you'll need a good supply of oxygen. For this regular cardio is great.
 To free up ATP from fat (should you ever run short on sugar, which you should) you'll need mitochondria, and they
-reside in muscles, so you better make sure you have some of those. Sitting work, which development usually is, is
-a killer for your body; it is particularly straining for your lower back. Keyboard and mouse use can cause RSI.
+reside in muscles, so you better make sure you have some of those. [Sitting work, which development usually is, is
+a killer for your body](http://apps.washingtonpost.com/g/page/national/the-health-hazards-of-sitting/750/); it is particularly straining for your lower back. Keyboard and mouse use can cause RSI.
 A good training program that focuses on the shoulders and lower back helps enormously to avoid pain during your work.
 Pain is a productivity killer, so avoiding it is another great effect from exercise.
 
