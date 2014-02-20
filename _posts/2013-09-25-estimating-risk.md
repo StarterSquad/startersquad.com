@@ -5,6 +5,7 @@ author: Iwein Fuld
 tags:
 - risk reduction
 - funding
+- estimation
 ---
 
 Estimating Risks

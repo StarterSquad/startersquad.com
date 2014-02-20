@@ -4,7 +4,7 @@ title: How do you know if your Startup Idea can be built?
 author: Iwein Fuld
 tags:
 - risk reduction
-- software development estimation
+- estimation
 ---
 
 An investor once told me that virtually none of the startups that presented them as an investment opportunity to him

@@ -5,7 +5,6 @@ author: Iwein Fuld
 tags:
 - development
 - mvp
-- minimalism
 ---
 
 

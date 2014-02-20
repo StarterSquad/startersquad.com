@@ -4,7 +4,7 @@ title: Estimating development cost - The StarterSquad model
 author: Iwein Fuld
 tags:
 - pricing model
-- software development estimation
+- estimation
 ---
 
 If you are charging money for software development you either have been or are going to be in trouble for it. There is a
