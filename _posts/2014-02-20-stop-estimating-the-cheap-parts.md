@@ -18,28 +18,33 @@ The thing that Petri didn't mention, but is all important in my opinion is that 
 part of the equation. In other words, we're estimating only a small part of the costs.
 
 ## The cost benefit analysis of your business
-In a generic sense a business case is a simple equation. There is an initial investment (I),
+In a generic sense a business case is a simple equation. There is an initial investment,
 then there are accumulated
-costs (c) and ongoing revenue (r). c and r are functions of time, the initial investment is not. The total result of
-the business (ROI) can always be written as a function ROI = -I - c(t) + r(t)). If both costs and revenue grow
-linearly, it's clear to see that there will only be ROI if r is larger than c and that way r(t) - c(t) grows past I at
-some point. Now risk comes into play as well, because both I, c and r are subject of fluctuation based on risk. What
-should be very clear here though is that the risk on I is limited in time, and after the investment is made,
-the viability of the business case depends solely on c and r.
+costs and revenue over time. Cost and revenue are functions of time, the initial investment is not. The total
+result of
+the business (ROI) is the accumulated profit minus the investment. If both costs and revenue grow
+linearly, it's clear to see that there will only be ROI if the is larger than the costs. Eventually then the
+accumulated profit grows past the initial investment at
+some point. Now risk comes into play as well, because initial investment, revenue and costs are all subject of
+fluctuation based on risk.
+What should be made very clear here though is that the risk on the investment is limited in time,
+and after the investment is made, the viability of the business case depends solely on cost and revenue.
 
- ## The problem with estimating development costs
- When developing development costs, only the initial investment I is estimated. As I've just explained, this doesn't
- reflect the viability of the business case in any way. What is more interesting is the costs later on (c). Most
- interesting is r. If by a faster increase in costs, you can generate exponential growth in r, then you're really on
- to something. In other words, c and r tell you if it is even possible to return on investment; I only controls how
- long you have to wait for that. Consequently, estimating the initial development disregards the most essential
- drivers for business viability and ROI.
+## The problem with estimating development costs
+ When developing development costs, only the initial investment is estimated. As I've just explained, this doesn't
+ reflect the viability of the business case in any way. What is more interesting is the costs later on. Most
+ interesting is the potential revenue. If by a faster linear increase in costs, you can generate exponential growth in
+ revenue, then you're really on to something. In other words, c and r tell you if it is even possible to
+ return on investment; the initial investment only controls how
+ long you have to wait for the eventual return. Consequently, estimating the initial development disregards the
+ most essential drivers for business viability and ROI.
 
- ## How to estimate properly
+## How to estimate properly
  Staking out a sizable project and estimating the full cost of initial development isn't a good idea. Instead you
  should look for a business model first, and then start automating it with small optimizations. For each optimization
-  in the business processes, you figure out what the effects on c and r are going to be. You pick the improvement
-  with the best metrics and start with that one.
+  in the business processes, you estimate what the effects on cost and revenue are going to be. You pick the
+  improvement with the best metrics and start with that one. If you can't bear the investment,
+  well that's what investors are for, or you just wait until you've saved up some more.
 
 ## The StarterSquad example
 StarterSquad sells development capacity from teams. These teams need to be formed, and capacity needs
@@ -59,8 +64,7 @@ StarterSquad sells development capacity from teams. These teams need to be forme
   the next bottleneck is going to be with deals and invoices, but we only have to solve that if we've grown by a
   factor of three it seems. By then the investments made will have been forgotten, and we can make another one.
 
-You should read [Petri Kainulainen's two arguments against estimations]
-(http://www.petrikainulainen.net/software-development/processes/two-reasons-why-estimates-arent-worth-it/) and
+You should read [Petri Kainulainen's two arguments against estimations] (http://www.petrikainulainen.net/software-development/processes/two-reasons-why-estimates-arent-worth-it/) and
 consider this a third one. I think it's the most important one actually, but I'm very curious about your thoughts.
 
 Interested in our approach? [Contact us](/contact) to discuss what StarterSquad can do for you!
