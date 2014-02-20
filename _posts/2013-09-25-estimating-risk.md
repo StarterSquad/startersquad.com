@@ -10,12 +10,12 @@ tags:
 Estimating Risks
 ===============
 
-In an enterprise, and especially a small one, the key to success is a healthy [Risk Return Ratio](). The game is to make smart investments of time, money or other resources so that the investments return. The key to a high *average* return on investment is to optimize the risk return ratio. This can be done in two ways:
+In an enterprise, and especially a small one, the key to success is a healthy [Risk Return Ratio](http://www.investopedia.com/terms/r/riskrewardratio.asp). The game is to make smart (low risk) investments of time, money or other resources so that the investments return. The key to a high *average* return on investment is to optimize the risk return ratio. This can be done in two ways:
 
 1. maximizing the return
 2. minimizing the risk
 
-These days everybody focusses on maximizing returns of a single startup, but this is a short sighted strategy when
+These days everybody focuses on maximizing returns of a single startup, but this is a short sighted strategy when
 you're looking to make a good living as an entrepreneur or investor. Equal focus should be directed towards minimizing
  risk and maximizing return. Most success stories you read about are about often hard working, smart, but mostly
  lucky entrepreneurs. Winners of a particularly exciting lottery, where you can buy tickets by working 80h weeks. If
