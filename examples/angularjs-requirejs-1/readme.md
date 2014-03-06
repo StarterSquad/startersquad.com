@@ -4,4 +4,4 @@ Just a local copy of [Angular Seed](https://github.com/angular/angular-seed/) (f
 
 See this example in browser:
   - [Synchronous scripts loading](http://www.startersquad.com/examples/angularjs-requirejs-1/);
-  - [Asynchronous scripts loading](www.startersquad.com/examples/angularjs-requirejs-1/index-async.html).
+  - [Asynchronous scripts loading](http://www.startersquad.com/examples/angularjs-requirejs-1/index-async.html).
