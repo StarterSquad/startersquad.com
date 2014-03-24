@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Stop bugging about features, just change'
+title: 'Stop bugging about features, just change…'
 author: Iwein Fuld
 tags:
 - development
@@ -11,9 +11,11 @@ You're working on your product, the first version of your MVP is done and the le
 your development team is so busy with the new features that they don't have time to continuously improve the existing
 product. A customer calls you and shows you how he is not happy with your software. "That's not a bug!",
 the developers go. As a product manager you have the tough choice to make between moving forward and gaining
-traction. How can you keep the developers aligned with your customers? The answer is hiding in proper version
-management, and this is something both developers and business people tend to get wrong. The most annoying symptom is
-the discussion if something is a bug or a feature. I'm here to prevent this discussion.
+traction. How can you keep the developers aligned with your customers, while you [keep innovating your product](../lean-innovation)
+at the
+same time? The answer is hiding in proper prioritization and release management, and this is something both developers
+and business people tend to get wrong. The most annoying symptom is the discussion if something is a bug or a feature.
+I'm sure you've been in one of those.
 
 ![Featuring a bug](/assets/images/bug-or-feature.jpg)
 
@@ -54,19 +56,19 @@ that). What's the use of marking something as a bug.
 
 ## Bugs get fixed faster, right?
 Some people seem to believe that if you can fault someone or something for it, they are supposed to fix it right
-now, without taking time out of their schedule (those features need to be done too). This is unrealistic and [people
-agilists are struggling with this](http://pm.stackexchange.com/questions/677/should-bugs-be-treated-as-stories-or-as-tasks). On the
+now, without taking time out of their schedule (those features need to be done too). This is unrealistic and [agilists are struggling with this](http://pm.stackexchange.com/questions/677/should-bugs-be-treated-as-stories-or-as-tasks). On the
 other hand [some developers seem to believe that fixing bugs should take precedence over delivering features](http://c2.com/cgi/wiki?FixBugsFirst). This
-might be really stupid from a business point of view. Fixing a bug might imply a huge risk,
-over a small return. For this the term 'known issue' was invented. This is even worse. It signals that this problem
-is somehow OK to have.
+might be really stupid from a business point of view. Fixing a bug might imply a [huge risk,
+over a small return](../estimating-risk). For this the term 'known issue' was invented. This is even worse. It signals
+that this problem is somehow OK to have.
 
 ##Everything is a bug, everything is a feature
 I've seen many ways of describing what a program should do. Some examples are user stories,
 [job stories](http://alanklement.blogspot.nl/2013/09/replacing-user-story-with-job-story.html), use cases,
 scenarios; there are many more. Funny enough, it is quite doable, and actually convenient from a developer's
-perspective to describe functionality in terms of bug reports. [A good bug report(http://quaid.fedorapeople.org/TOS/Practical_Open_Source_Software_Exploration/html/sn-Debugging_the_Code-The_Anatomy_of_a_Good_Bug_Report.html) is precise and it follows an easy
- to
+perspective to describe functionality in terms of bug reports. [A good bug report](http://quaid.fedorapeople
+.org/TOS/Practical_Open_Source_Software_Exploration/html/sn-Debugging_the_Code-The_Anatomy_of_a_Good_Bug_Report.html)
+is precise and it follows an easy to
  read pattern describing what is now and what should be. The information in a bug report doesn't fundamentally differ
   from the information in a user story implying the same change. The only two things that are essential,
   are the information on what change needs to happen, and the priority the change has over other changes.
@@ -81,7 +83,7 @@ But let's get back to priorities. Marking something as a bug says nothing about 
 ## Release management
 Priority at StarterSquad (as in many other agile organisations) is marked by positioning a change in a list. The top
 has priority. This is a solved problem, and we don't need any special markings to assess priority beyond that. We do
-have different release streams however. On the one hand we bundle larger sets of new behavior that only make sense
+have different release streams however - based on risk return ratios. We bundle larger sets of new behavior that only make sense
 together in e.g. weekly releases, while we bundle low risk changes to existing functionality in daily or even more
 frequent hotfix releases. But not all bugs should be hotfixes, nor should all features wait for the next major
 release. So we just stopped marking bugs and started marking things with their target release strategy based on risk
@@ -89,6 +91,8 @@ return ratio. I can tell you its very liberating, and it improves the dialog bet
 by a landslide.
 
 In the basis it allows you to control what is being worked on (by priority) and how quickly it will go live (by
-release stream). It gives you control of priority and risk, and avoids irrelevant discussions on features versus bugs.
+release stream). It gives you [control of priority and risk](../stop-estimating-the-cheap-parts),
+and avoids irrelevant discussions on features versus
+bugs.
 
 Let me know if you have tried something similar, I want to hear your story!
