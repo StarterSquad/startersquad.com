@@ -76,7 +76,14 @@ On the upside, it makes some things possible that are very powerful:
 
 1. Get features out one by one, in hours, not weeks.
 2. Fast feedback from end users while developers are still into the code.
-3. No more managing of multiple versions and branches of the software.
+3. Less overhead of managing of multiple versions and branches of the software.
+4. More robust deployment procedure.
+
+The last point might deserve som elaboration. [_If it hurts, do it more often_](http://www.aaronsw.com/weblog/dalio)
+is a well known Agile meme. This isn't always a good idea,
+but just like training your running skills training production deployment is something you do by repetition. If you
+deploy often, you must integrate often. And intermittent failures get spotted. This avoids nasty surprises when you
+go live when it really counts and you have a killer feature to deliver.
 
 When people say 'Put it out there', Continuous Delivery is what they want. Releasing blindly often is a recipe for
 disaster, so make sure you have the infrastructure for it, and do it in a controlled way. If you need us, we're here to
