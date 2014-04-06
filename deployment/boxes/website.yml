@@ -4,6 +4,7 @@
   vars:
     # prudentia_dir -> is passed in the cmd line
     - root_dir: ..
+
     - host_name: startersquad.com
     - nginx_conf_name: website
     - install_dir: /opt/ssq

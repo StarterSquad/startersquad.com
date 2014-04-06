@@ -41,7 +41,7 @@ users, but you save a bunch in AAT maintenance.
 ### 3. Automated Deployment
 When you're confident that you find all problems automatically in time, you can automate the deployment. The tools here
 are a lot less mature than for CI, but there are some out there. At StarterSquad we use
-[our own Continuous Delivery toolbox: Prudentia](https://github.com/StarterSquad/prudentia) (kudo's Tiziano Perrucci).
+[our own Continuous Delivery toolkit: Prudentia](https://github.com/StarterSquad/prudentia) (kudo's Tiziano Perrucci).
 Prudentia is a collection of CI tools and it has a CLI for automating deployments. Xebia offers an enterprise grade system 
 [Deployit](http://gallery.herokuapp.com/component/deployit) and there are a
 couple of other competitors in that space. Some companies roll their own based on Puppet, Chef, Ansible, or just a bunch
