@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Self healing organizations: how do you create them?'
+title: 'Self-healing organizations: how do you create them?'
 author: Iwein Fuld
 tags:
 - startups
@@ -9,8 +9,8 @@ tags:
 ---
 
 The single most important driver for long term success is the ability of an organization to fix itself when it's
-broken. Creating self healing organizations is not trivial, but given some focus most organizations can increase their
-self healing abilities and their chances of success. Here are some things to watch over.
+broken. Creating self-healing organizations is not trivial, but given some focus most organizations can increase their
+self-healing abilities and their chances of success. Here are some things to watch over.
 
 ## 1. Feedback
 Without feedback there is no learning. If there is no learning, there is no change in behavior. Make sure that you have
@@ -39,7 +39,7 @@ find a more elegant alternative, like cancelling the lease).
  I'm a conflict adverse person, so this is the hardest one for me. I've succeeded a couple of times to root out
  suboptimal behavior like this, but I've got some scars to prove it's not an easy thing. However, if you leave
  suboptimal behavior around for people to fall back into when the going gets tough, eventually
- the self healing powers of the organization will go away.
+ the self-healing powers of the organization will go away.
 
 In nature, you can see the success of a species is determined not by it's awesome features (the coolest creatures are
  usually extinct). Instead it is determined by its ability to adapt to change. Fast feedback,
