@@ -15,7 +15,10 @@ few startup founders to get some more hands on advice. I was especially interest
 activities, team habits, leadership techniques and management styles which may contribute to keep a 
 happy and motivated workforce. Here’s what they shared.
 
-![Marcel Peters of Bundles](/assets/images/founders/marcel_peters_bundles.jpg)
+
+<img src="/assets/images/founders/marcel_peters_bundles.jpg" alt="Marcel Peters of Bundles.nl"
+style=" float: right; margin-left: 30px;">
+
 ###Marcel Peters, Founder at [Bundles](http://www.wasbundles.nl), on keeping track of progress
 “A very crucial formula to maintain a positive vibe in your company is to show the team commercial
 results. Keep track of how many happy customers you have and how much money that generates for the 
@@ -26,7 +29,8 @@ spent on an operational task by X percent. The importance of your business goals
 everyone within your company. Never try to motivate someone who deep down inside has doubts about 
 the realism of your business goals.”
 
-![Rino Stevens of QwikSense](/assets/images/founders/rino_qwiksense.jpg)
+<img src="/assets/images/founders/rino_qwiksense.jpg" alt="Rino Stevens of QwikSense"
+style=" float: left; margin-right: 30px;">
 ###Rino Stevens, COO at [QwikSense](http://www.qwiksense.com/), on small things that matter
 “Bonding is very important to keep your team motivated, no matter how large or how small. At
 QwikSense, we take time to eat lunch together and almost every Friday we grab a drink after work. This 
@@ -34,7 +38,8 @@ helps us unwind and talk about things in an informal setting. Another key thing 
 is celebrating when you reach a milestone or accomplish something big. These celebratory moments are 
 crucial to maintain a positive team spirit.”
 
-![Martijn Groot of Peecho](/assets/images/founders/martijn_peecho.jpg)
+<img src="/assets/images/founders/martijn_peecho.jpg" alt="Martijn Groot of Peecho"
+style=" float: right; margin-left: 30px;">
 ###[Peecho](http://www.peecho.com/) CEO Martijn Groot on knowing how to boost morale
 “At Peecho, we make sure that we can all talk about our challenges and accomplishments during our
 monthly developer dinners. Our dev dinners always always include a retrospective, where we take time 
@@ -48,7 +53,8 @@ stress together. Be open about your goals and challenges and help people focus o
 can actually make a difference. And last, but definitely not least, celebrate your victories, no matter how 
 small!”
 
-![Ruben Timmerman of Springest](/assets/images/founders/RubenTimmermanSpringest.jpg)
+<img src="/assets/images/founders/RubenTimmermanSpringest.jpg" alt="Ruben Timmerman of Springest"
+style=" float: left; margin-right: 30px;">
 ###[Springest](http://www.springest.nl/) Founder Ruben Timmerman on motivation and new ways of management
 “We recently adopted Holacracy in our organization, a new and agile method for structuring and
 organizing a company. Holacracy replaces the top-down predict-and-control paradigm with a new way of 
