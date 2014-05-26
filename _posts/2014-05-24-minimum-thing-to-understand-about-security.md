@@ -17,7 +17,8 @@ There is no such thing as airtight security. The system I'm working on now was a
 
 Keep 'em safe
 -------
-If you use a password, don't share it with anyone, or if you have to, make sure that key only unlocks a single door. Some people have trouble remembering passwords (like me). For this there are key store tools like 1Password to keep your passwords securely locked away, only accessible with the master password (don't forget that one). A sensible pragmatic solution is also to write your password on a piece of paper, which is arguably more secure than trusting the developers of your key store with the responsibility of keeping 'em safe.
+If you use a password, don't share it with anyone, or if you have to, make sure that key only unlocks a single door. Some people have trouble remembering passwords (like me). For this there are key store tools like [1Password](https://agilebits.com/onepassword) or [Lastpass](https://lastpass.com/) to keep your passwords securely locked away,
+only accessible with the master password (don't forget that one). A sensible pragmatic solution is also to write your password on a piece of paper, which is arguably more secure than trusting the developers of your key store with the responsibility of keeping 'em safe.
 
 ###Never reuse
 If you reuse a password, you're trusting person X with the keys you have of person Y's appartment. This is not nice to do without person Y's permission, and if the key gets stolen, everybody needs to change their locks. Changing a password is much quicker than changing a lock in most cases, but it can add up if you have hundreds of accounts like me.
@@ -27,7 +28,11 @@ Strong passwords
 The strength of a password is related to the amount of effort it takes to guess it. This effort is roughly related to the number of possible alternatives there are. This is a bit tricky, because if you use dictionary words for example a hacker might get lucky by trying only dictionary words (they do this actually). 'oJxx6s3Cz;5S' might be a stronger password than 'The Quick Brown Fox Jumps Over The Lazy Dog' because the latter sentence, albeit long is more susceptible to a lucky guess.
 
 ### Length, possibilities and entropy
-Given length l in characters, and n the number of options per character, the formula for the number of options is (n)^l. But, in certain cases, n is not the same for each position (for example if you use dictionary words). The number of options is also sometimes called entropy. There has been [some debate](http://xkcd.com/936/) about whether you should pick random (shorter) strings or longer sentences, and the real answer is: it depends. If you use only letters, at random, the entropy of a password is (26)^l, if you use full ASCII the entropy is (256)^l. This means that a 17 character letters only password has roughly the same entropy as a 10 character full ASCII one. But if you start using real sentences it gets way worse. If you need to form real words, the amount of options is usually below 10 per character, so you'll need a 25 character sentence to beat a 10 character random ASCII password. I can't do that, so I started using a password generator + key store.
+Given length l in characters, and n the number of options per character, the formula for the number of options is (n)^l. But, in certain cases, n is not the same for each position (for example if you use dictionary words). The number of options is also sometimes called entropy. There has been [some debate](http://xkcd.com/936/) about whether you should pick random (shorter) strings or longer sentences,
+and the real answer is: it depends. There is a more detailed [article on password security on the packetizer
+blog](http://www.packetizer.com/security/pwgen/). If you
+use only letters,
+at random, the entropy of a password is (26)^l, if you use full ASCII the entropy is (256)^l. This means that a 17 character letters only password has roughly the same entropy as a 10 character full ASCII one. But if you start using real sentences it gets way worse. If you need to form real words, the amount of options is usually below 10 per character, so you'll need a 25 character sentence to beat a 10 character random ASCII password. I can't do that, so I started using a password generator + key store.
 
 If you're just a user, this is what you need to do:
 
