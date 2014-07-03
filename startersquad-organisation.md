@@ -60,9 +60,10 @@ The following rules of thumb apply in relationships between workers and StarterS
 ### Starting and ending relationships
 
 #### Joining
-Before joining the team the worker has to go through a screening process and be accepted by unanimous and
-anonymous vote by the existing members of a team. The new member starts as a hired gun. To become a worker member
-the new member has to be accepted by existing worker members unanimously.
+Before joining the team you will work with StarterSquad for a couple of weeks. During this on-boarding time you and the team can figure out if you are a good fit. After this period a voting will take place and you can be accepted by unanimous and anonymous vote by the existing members (working members & hired guns). Everyone who can vote will get a link via email.
+A new member starts as a hired gun. 
+
+In order to become a working member the same voting process takes place while only working members can vote. The vote must be unanimously as well.
 
 #### Parting ways
 If the relationship doesn't work out with a hired gun the working members can set the personal budget to zero.
