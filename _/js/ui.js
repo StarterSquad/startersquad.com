@@ -50,28 +50,28 @@
              width: 300,
              height: 200,
              marginLeft: 0,
-             marginTop: 150,
+             marginTop: 225,
              marginRight: -150
            };
            var _right = {
              width: 300,
              height: 200,
              marginLeft: -150,
-             marginTop: 150,
+             marginTop: 225,
              marginRight: 0
            };
            var _outLeft = {
              width: 150,
              height: 100,
              marginLeft: 150,
-             marginTop: 200,
+             marginTop: 275,
              marginRight: -200
            };
            var _outRight = {
              width: 150,
              height: 100,
              marginLeft: -200,
-             marginTop: 200,
+             marginTop: 275,
              marginRight: 50
            };
          var carousel = $('#carousel');
