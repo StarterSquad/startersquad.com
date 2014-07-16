@@ -1,27 +1,33 @@
 ---
-  - include: $prudentia_dir/tasks/ruby.yml
-
-  - include: $prudentia_dir/tasks/git.yml
-
-
-  - name: SSQ Website | Install Jekyll
-    shell: /bin/bash -lc 'gem install jekyll'
+  - include: "{{prudentia_dir}}/tasks/git.yml"
     tags: website
 
-  - name: SSQ Website | Create source directory
-    file: dest=$install_dir owner=$ansible_user_id group=$ansible_user_id mode=755 state=directory
+  - name: Website | Create source directory
+    file: dest={{install_dir}} owner={{ansible_user_id}} group={{ansible_user_id}} mode=755 state=directory
     sudo: yes
     tags: website
 
-  - name: SSQ Website | Checkout source
-    git: repo=$git_repository dest=$install_dir
+  - name: Website | Checkout source
+    git: repo={{git_repository}} dest={{install_dir}}
     register: checkout
     tags:
       - website
       - update
 
-  - name: SSQ Website | Jekyll Build
-    shell: /bin/bash -lc 'jekyll build' chdir=$install_dir
+  - include: "{{prudentia_dir}}/tasks/ruby.yml"
+    tags: website
+
+  # we use bash -l because we need to get ruby and gems in PATH
+  - name: Website | Install bundler
+    shell: /bin/bash -lc 'gem install bundler'
+    tags: website
+
+  - name: Website | Install ruby modules
+    shell: chdir={{install_dir}} /bin/bash -lc 'bundle install'
+    tags: website
+      
+  - name: Website | Jekyll Build
+    shell: LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 chdir={{install_dir}} /bin/bash -lc "jekyll build"
     when: checkout.changed
     tags:
       - website

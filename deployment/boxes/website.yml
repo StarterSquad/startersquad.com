@@ -3,19 +3,31 @@
 
   vars:
     # prudentia_dir -> is passed in the cmd line
-    - root_dir: ..
 
-    - host_name: startersquad.com
-    - nginx_conf_name: website
+    - app_domain: startersquad.com
     - install_dir: /opt/ssq
     - git_repository: https://github.com/StarterSquad/startersquad.github.com.git
 
+    - wuala_drive_path: /Volumes/WualaDrive
+
+    - ssl_dir_path: "{{wuala_drive_path}}/Groups/StarterSquadKeys/startersquad.com/ssl"
+    - ssl_key_name: private
+    - ssl_cert_name: startersquad
+    - ssl_install_path: /etc/nginx
+    - ssl_files:
+      - "{{ssl_key_name}}.key"
+      - "{{ssl_cert_name}}.crt"
+
+
   vars_files:
-    - $prudentia_dir/vars/global.yml
+    - "{{prudentia_dir}}/vars/global.yml"
+
 
   tasks:
-    - include: $prudentia_dir/tasks/common-setup.yml
+    - include: "{{prudentia_dir}}/tasks/common-setup.yml"
 
-    - include: $root_dir/components/jekyll.yml
+    - include: "{{prudentia_dir}}/tasks/timezone.yml tz=Europe/Amsterdam"
 
-    - include: $root_dir/components/proxy.yml
+    - include: "../components/jekyll.yml"
+
+    - include: "../components/proxy.yml"

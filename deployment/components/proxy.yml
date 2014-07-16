@@ -1,5 +1,6 @@
 ---
-  - include: $prudentia_dir/tasks/nginx.yml
+  - include: "{{prudentia_dir}}/tasks/nginx.yml"
+    tags: proxy
 
   - name: Proxy | Uncomment server_names_hash_bucket_size
     lineinfile: dest=/etc/nginx/nginx.conf regexp="^(\s*)#\s*server_names_hash_bucket_size" line="\1server_names_hash_bucket_size 64;" backrefs=yes
@@ -11,15 +12,23 @@
     sudo: yes
     tags: proxy
 
+  - name: Proxy | Copy SSL Certificates
+    copy: src={{ssl_dir_path}}/{{item}} dest={{ssl_install_path}}/{{item}}
+    with_items: ssl_files
+    sudo: yes
+    tags:
+      - client
+      - update
+
   - name: Proxy | Copy Nginx configuration
-    template: src=$root_dir/components/templates/nginx.conf.j2 dest=/etc/nginx/sites-available/$nginx_conf_name
+    template: src=../components/templates/nginx.conf.j2 dest=/etc/nginx/sites-available/{{app_domain}}
     sudo: yes
     tags:
       - proxy
       - update
 
   - name: Proxy | Enable website
-    command: ln -fs /etc/nginx/sites-available/$nginx_conf_name /etc/nginx/sites-enabled/$nginx_conf_name
+    command: ln -fs /etc/nginx/sites-available/{{app_domain}} /etc/nginx/sites-enabled/{{app_domain}}
     sudo: yes
     tags:
       - proxy
