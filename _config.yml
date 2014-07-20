@@ -2,8 +2,9 @@ safe: true
 permalink: /blog/:title
 lsi: false
 domain: http://startersquad.com
-pygments: true
+highlighter: true
 encoding: UTF-8
+markdown: kramdown
 
 include:
   - _
