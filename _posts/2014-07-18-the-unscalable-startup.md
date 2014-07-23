@@ -1,13 +1,17 @@
 ---
 layout: post
-title: 'Your startup cannot scale - so what?'
+title: 'Your startup cannot scale? So what?'
 author: Iwein Fuld & Shrikant Vashishtha
 tags:
 - startups
 - growth
 ---
 
-150 years ago, everybody was working from home, and everybody was an entrepreneur. Not everything was easy, but if you made a living, you were most probably doing it with a small local business. Then the industrial revolution happened, from that point we invented commutes, workplaces and such. Now most of us commute to the office every day, but since the internet, this has really become silly. I've been questioning myself since early in my career why we would take tonnes of steel to work every day. I think the solution is in becoming entrepreneurs again, and I think that many of the entrepreneurs working with StarterSquad are good examples of how this might work, but why isn't everyone being an entrepreneur then? I have seen a lot of Startup idea's die because of the following reasons:
+150 years ago, everybody was working from home, and everybody was an entrepreneur. Not everything was easy, but if you made a living, you were most probably doing it with a small local business. Then the industrial revolution happened, from that point we invented commutes, workplaces and enterprises. 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/1RyvYSV41t8?showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+
+Now most of us commute to the office every day, but since the internet, this has really become silly. I've been questioning myself since early in my career why we would take tonnes of steel to work every day. I think the solution is in becoming entrepreneurs again, and I think that many of the entrepreneurs working with StarterSquad are good examples of how this might work, but why isn't everyone being an entrepreneur then? I have seen Startup ideas die because of the following reasons:
     
 - It doesn't scale
 - There is already someone doing that
