@@ -1,15 +1,12 @@
-safe: true
-permalink: /blog/:title
-lsi: false
-domain: http://startersquad.com
-pygments: true
-encoding: UTF-8
+# Site settings
+title: StarterSquad
+email: hello@startersquad.com
+description: "Our team of professionals works for startups only. Serious and invested, we will develop your idea and take your project to the next level."
+url: "https://www.startersquad.com"
+twitter_username: StarterSquad
+github_username:  StarterSquad
+
+# Build settings
+gems: [jekyll-sass]
 markdown: kramdown
-
-include:
-  - _
-
-exclude:
-  - Rakefile
-  - sass
-  - sprite-main
+permalink: pretty
