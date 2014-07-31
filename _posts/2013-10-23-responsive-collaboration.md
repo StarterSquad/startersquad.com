@@ -11,7 +11,7 @@ tags:
 I wrote earlier about [our way of doing distributed development][1]. The learning continues. In this post I explain
  the rules that we apply to ourselves to keep the team flow and collaboration going.
 
-These are the rules that make it possible for StarterSquad to deliver *high quality MVP's*.
+These are the rules that make it possible for StarterSquad to deliver *high quality MVPs*.
 The rules are short, and easy to remember.
 
 If you're part of a distributed team, you can introduce these rules and you'll see that things get better quickly.
