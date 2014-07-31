@@ -1,6 +1,6 @@
 server {
   listen 443 ssl;
-  server_name {{app_domain}};
+  server_name www.{{app_domain}};
 
   ssl_certificate {{ssl_install_path}}/{{ssl_cert_name}}.crt;
   ssl_certificate_key {{ssl_install_path}}/{{ssl_key_name}}.key;
@@ -28,6 +28,14 @@ server {
 # Forced usage of https
 server {
   listen 80;
+  server_name www.{{app_domain}};
+  return 301 https://www.{{app_domain}}$request_uri;
+}
+
+# Naked domain redirect
+server {
+  listen 80;
+  listen 443 ssl;
   server_name {{app_domain}};
-  return 301 https://{{app_domain}}$request_uri;
+  return 301 https://www.{{app_domain}}$request_uri;
 }
