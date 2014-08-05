@@ -31,6 +31,7 @@ the realism of your business goals.”
 
 <img src="/assets/images/founders/rino_qwiksense.jpg" alt="Rino Stevens of QwikSense"
 style=" float: left; margin-right: 30px;">
+
 ###Rino Stevens, COO at [QwikSense](http://www.qwiksense.com/), on small things that matter
 “Bonding is very important to keep your team motivated, no matter how large or how small. At
 QwikSense, we take time to eat lunch together and almost every Friday we grab a drink after work. This 
@@ -40,6 +41,7 @@ crucial to maintain a positive team spirit.”
 
 <img src="/assets/images/founders/martijn_peecho.jpg" alt="Martijn Groot of Peecho"
 style=" float: right; margin-left: 30px;">
+
 ###[Peecho](http://www.peecho.com/) CEO Martijn Groot on knowing how to boost morale
 “At Peecho, we make sure that we can all talk about our challenges and accomplishments during our
 monthly developer dinners. Our dev dinners always always include a retrospective, where we take time 
@@ -55,6 +57,7 @@ small!”
 
 <img src="/assets/images/founders/RubenTimmermanSpringest.jpg" alt="Ruben Timmerman of Springest"
 style=" float: left; margin-right: 30px;">
+
 ###[Springest](http://www.springest.nl/) Founder Ruben Timmerman on motivation and new ways of management
 “We recently adopted Holacracy in our organization, a new and agile method for structuring and
 organizing a company. Holacracy replaces the top-down predict-and-control paradigm with a new way of 
