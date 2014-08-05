@@ -20,7 +20,7 @@ In order to truly embrace happiness as a priority you must start by focusing on 
 
 * **Build a company culture -** This is one of the biggest takeaways you can gain from the Zappos story. A strong company culture is extremely important. Define a core set of values together with your employees and integrate these into your company’s fabric. 
 
-* **Hire people who fit with your company culture -** Once you’ve defined a set of values,** **these should determine whether new recruits will fit within the team. Make these values the guidelines for your hiring process and that way, you’ll be able to stay true to your company culture (see page 175 for more info on hiring at Zappos). 
+* **Hire people who fit with your company culture -** Once you’ve defined a set of values, these should determine whether new recruits will fit within the team. Make these values the guidelines for your hiring process and that way, you’ll be able to stay true to your company culture (see page 175 for more info on hiring at Zappos). 
 
 ###2.  Keeping your customers happy
 
