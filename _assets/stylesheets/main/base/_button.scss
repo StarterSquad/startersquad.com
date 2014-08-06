@@ -1,0 +1,59 @@
+// Button
+// ======
+
+.btn {
+  @extend .btn.__m, .btn.__black;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  letter-spacing: 0.1em;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:disabled {
+    cursor: default !important;
+    opacity: 0.67;
+    pointer-events: none;
+  }
+
+  // Modifiers
+  // ---------
+
+  // ### Sizes
+
+  &.__m {
+    @include font-height(14px, 16px);
+    border-radius: 20px;
+    padding: 12px;
+  }
+
+  // ### Colours
+
+  &.__black {
+    background: #000;
+    color: #FFF;
+
+    &:hover:not(:disabled) {
+      background: #fe4444;
+    }
+
+    &:active:not(:disabled) {
+      background: darken(#fe4444, 20%);
+      box-shadow: inset 0 1px 3px -1px rgba(#000, 0.5);
+    }
+  }
+
+  // ### Misc.
+
+  &.__block {
+    display: block;
+    width: 100%;
+  }
+}

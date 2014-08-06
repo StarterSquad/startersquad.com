@@ -1,0 +1,7 @@
+{
+  "name": "StarterSquad",
+  "dependencies": {
+    "normalize-css": "~3.0.1",
+    "jquery": "~2.1.1"
+  }
+}

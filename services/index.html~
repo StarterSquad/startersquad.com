@@ -1,0 +1,62 @@
+---
+layout: default
+title: Services
+---
+
+<div class="wrap rich">
+  <div class="section text-center">
+    <h1>StarterSquad Products</h1>
+    <p>Our products are tailored as&nbsp;building blocks for your Startup&rsquo;s success!</p>
+  </div>
+  <div class="section">
+    <div class="grid">
+      <div class="4">
+        <h3>Technical Feasibility Scan</h3>
+      </div>
+      <div class="4">
+        <h3>Business Viability Scan</h3>
+      </div>
+      <div class="4">
+        <h3>Investor Readiness Check</h3>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="4">
+        <p>A&nbsp;solid technical foundation is&nbsp;crucial for the success of&nbsp;Internet Startups, particularly in&nbsp;product marketing. To&nbsp;mitigate technical implementation risk in&nbsp;product development StarterSquad performs <abbr title="Technical Feasibility Scans">TFS</abbr>. We&nbsp;will:</p>
+        <ul>
+          <li>draw up&nbsp;a&nbsp;potential architecture;</li>
+          <li>work with the client to&nbsp;define a&nbsp;<abbr title="Minimal Viable Product">MVP</abbr>;</li>
+          <li><a href="/blog/startersquad-pricing-model/">estimate the amount of&nbsp;work</a>;</li>
+          <li>identify technical risks such&nbsp;as: scalability, complexity or&nbsp;need for rare skills;</li>
+          <li>make a&nbsp;draft design that you can use in&nbsp;early marketing and pitch decks.</li>
+        </ul>
+        <p>When investing in&nbsp;a&nbsp;new idea, there are business risks and technical risks. Financial investors ask would-be founders to&nbsp;scrutinize the business risks, but most <a href="/blog/the-need-for-technical-angels/">technical investors</a> are less experienced and fooled by&nbsp;the founders&rsquo; enthusiasm. An&nbsp;investor should not rely on&nbsp;the founders&rsquo; technical team to&nbsp;identify risks early.</p>
+      </div>
+      <div class="4">
+        <p>StarterSquad developed a&nbsp;methodology to&nbsp;check the viability of&nbsp;your startup or&nbsp;innovation idea. Our evidence-based approach checks if&nbsp;your startup has the marks found in&nbsp;the most successful Startups:</p>
+        <ul>
+          <li>Idea: the idea is&nbsp;superb and will make headlines.</li>
+          <li>Product/Market fit: your product will impress customers and there is&nbsp;a&nbsp;great market for your idea.</li>
+          <li>Team and Execution: your team and you have the power to&nbsp;realize your dream both technically and commercially.</li>
+          <li>Traction: the proof that your value proposition is&nbsp;appealing to&nbsp;customers.</li>
+          <li>Social Proof: the proof that investors are interested and comparable startups are in&nbsp;business.</li>
+        </ul>
+        <p>The <abbr title="Business Viability Scan">BVS</abbr> consists of&nbsp;a&nbsp;questionnaire, research and workshops with your Startup team. You&rsquo;ll get a&nbsp;report that helps growing your business and acquiring investment. This scan is&nbsp;often combined with the <abbr title="Technical Feasibility Scan">TFS</abbr> in&nbsp;technology-based Startups. These scans Lean Startup your Business.</p>
+      </div>
+      <div class="4">
+        <p>Are you ready to&nbsp;convince investors to&nbsp;fund your Startup? The
+        Startersquad <abbr title="Investor Readiness Check">IRC</abbr> finds flaws and boosts the USP&rsquo;s of
+        your Startup idea. After a&nbsp;<abbr title="Technical Feasibility Scan">TFS</abbr> and
+        <abbr title="Business Viability Scan">BVS</abbr> we&nbsp;can do&nbsp;an&nbsp;<abbr title="Investor Readiness Check">IRC</abbr> covering:</p>
+        <ul>
+          <li>Startup Idea Strengths: finds strengths and weaknesses in&nbsp;your Startup idea from an
+          investor&rsquo;s perspective. You&rsquo;ll have some homework for the second day.</li>
+          <li>Risks &amp;&nbsp;Measures: experienced StarterSquad members will help you to&nbsp;fine-tune risks and measures for your Startup and address the critical assumptions to&nbsp;be&nbsp;tested.</li>
+          <li>Financing Options: points you in&nbsp;the direction where investment for your Startup idea can be&nbsp;found.</li>
+          <li>Pitch Deck &amp;&nbsp;Skills: finally we&nbsp;will spend some time on&nbsp;pitch (deck) and your pitching skills.</li>
+        </ul>
+        <p>The <abbr title="Investor Readiness Check">IRC</abbr> is&nbsp;a&nbsp;two-day time investment from both your Startup team and StarterSquad. Total costs are 3.000 euro with a&nbsp;money back guarantee. When your Startup cannot be&nbsp;funded you&rsquo;ll get your money back.</p>
+      </div>
+    </div>
+  </div>
+</div>

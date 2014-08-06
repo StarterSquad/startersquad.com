@@ -1,7 +1,9 @@
-*.sublime-*
-.idea
-.sass-cache
-_site/
-*.iml
 *.idea
+*.iml
+*.sublime-*
 .DS_Store
+.idea
+.jekyll-assets-cache
+.sass-cache
+_assets/vendor
+_site

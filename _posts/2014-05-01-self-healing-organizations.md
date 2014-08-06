@@ -18,7 +18,7 @@ well determined cycles of feedback (daily, weekly, monthly, quarterly) in place 
 necessary changes. From before the birth of StarterSquad we have had weekly Retrospectives, and it has brought me some
 changes that were so unexpected that I even resisted them. I got straightened out and we're more successful for it.
 
-![Cut from Ant Highway by Thomas Stellmach](/assets/images/ant-highway.jpg)
+![Cut from Ant Highway by Thomas Stellmach](/assets/images/media/ant-highway.jpg)
 
 ## 2. Culture of fixing things
 If something is broken, it should piss everybody off. That way if one stupid guy that happens to be the boss refuses

@@ -1,27 +1,31 @@
 ---
 layout: default
-title: Contact StarterSquad
-menu_index: 5
+title: Contact
 ---
 
-<div class="arkush">
-  <div class="contacts-message">
-    <div class="contacts-message-column">
-      <h1>Get in&nbsp;touch</h1>
-
-      <p class="contacts-message-lead">Send an&nbsp;e-mail</p>
-
-      <p><a class="contacts-link link_complex" href="mailto:hello@startersquad.com"><u>hello@startersquad.com</u></a></p>
-
+<div class="wrap section __head __foot">
+  <div class="grid">
+    <div class="6 rich">
+      <h1>Get in touch</h1>
       <p>
-        Are you looking for an experienced team that can deliver the software to start your business? Do you have an
-        interesting idea and you're curious how big an investment you need? Are you looking to invest and you need to
-        know how crazy the software idea really is? Drop us a line and we'll be in touch.
+        Send an e-mail:
+        <br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </p>
-
+      <p>Are you looking for an experienced team that can deliver the software to start your business? Do you have an interesting idea and you're curious how big an investment you need? Are you looking to invest and you need to know how crazy the software idea really is? Drop us a line and we'll be in touch.</p>
     </div>
-    <div class="contacts-message-column">
-      {% include contact/form.html %}
+    <div class="6">
+      <form id="contactForm" action="https://docs.google.com/a/startersquad.com/spreadsheet/formResponse?formkey=dDlOR3RrQUxjdFVVR0hkSXJYbXVYV3c6MQ&amp;theme=0AX42CRMsmRFbUy1lZDQ5MzdmZC03OTA5LTQyNTEtOTAyNS1lYjJiMThlYmVlZjM&amp;embedded=true&amp;ifq" method="POST">
+        <input type="hidden" name="pageNumber" value="0">
+        <input type="hidden" name="backupCache" value="">
+        <input type="hidden" name="submit" value="Submit">
+        <input type="text" class="section txbox" name="entry.0.single" placeholder="Name" required>
+        <input type="email" class="section txbox" name="entry.1.single" placeholder="Email" required>
+        <textarea class="section txbox" name="entry.2.single" placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="section btn">Send</button>
+      </form>
+      <p class="hidden">Thank you! You will not receive any automated messages. If your mail address is correct, you will be contacted by us soon.</p>
     </div>
   </div>
 </div>
+

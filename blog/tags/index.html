@@ -1,0 +1,20 @@
+---
+layout: blog
+title: Tags
+---
+
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+  <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+  <ul>
+    {% assign pages_list = tag[1] | sort %}
+    {% for post in pages_list %}
+      {% if post.title != null %}
+        <h3>
+          <a class="__black" href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        <p>{{ post.date | date: '%A, %B %d, %Y' }} by {{ post.author }}</p>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

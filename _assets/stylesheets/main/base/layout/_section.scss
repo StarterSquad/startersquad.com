@@ -1,0 +1,17 @@
+// Section
+// =======
+
+.section {
+
+  & + & {
+    margin-top: 32px;
+  }
+
+  &.__head {
+    margin-top: 32px;
+  }
+
+  &.__foot {
+    margin-bottom: 32px;
+  }
+}

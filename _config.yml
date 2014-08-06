@@ -1,15 +1,29 @@
-safe: true
-permalink: /blog/:title
-lsi: false
-domain: http://startersquad.com
-pygments: true
-encoding: UTF-8
+# Site settings
+title: StarterSquad
+email: hello@startersquad.com
+description: "Our team of professionals works for startups only. Serious and invested, we will develop your idea and take your project to the next level."
+baseurl: ""
+url: "https://www.startersquad.com"
+twitter_username: StarterSquad
+github_username:  StarterSquad
+
+# Menu structure
+menu:
+- title: "Services"
+  url: "/services/"
+# - title: "Work"
+#   url:  "/work/"
+# - title: "Team"
+#   url:  "/team/"
+- title: "Blog"
+  url:  "/blog/"
+- title: "Contact"
+  url:  "/contact/"
+
+# Build settings
 markdown: kramdown
-
-include:
-  - _
-
-exclude:
-  - Rakefile
-  - sass
-  - sprite-main
+permalink: pretty
+assets:
+  cache: true
+  css_compressor: sass
+  gzip: []

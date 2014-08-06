@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="wrap section __head __foot">
+  <div class="grid rich">
+    <div class="8">
+      <h1>Lessons we learned from startup development</h1>
+      {{ content }}
+    </div>
+    <div class="4">
+      <div class="facebook fb-like-box" data-colorscheme="light" data-header="false" data-href="http://www.facebook.com/Startersquad" data-show-border="false" data-show-faces="true" data-stream="false"></div>
+      <h3>Tags</h3>
+      <ul>
+        {% assign sorted_tags = site.tags | sort %}
+        {% for tag in sorted_tags %}
+          <li>
+            <a class="__complex __black" href="/blog/tags/#{{ tag[0] }}">
+              <u class="link_u">{{ tag[0] }}</u>&nbsp;<small>{{ tag[1].size }}</small>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

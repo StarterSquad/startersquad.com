@@ -1,134 +1,30 @@
+---
+layout: none
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.startersquad.com/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/projects/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/team/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/contact/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/how-to-recognize-a-great-developer/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/work-distribution-sweet-spot/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/estimating-risk/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/angularjs-requirejs/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/technical-feasibility-scan/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/office-options-for-new-businesses/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/startersquad-pricing-model/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/web-image-formats/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/projects/hubskip/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/projects/qwiksense/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/projects/1to1mentor/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/projects/xebia-components-gallery/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/startup-weekend-amsterdam-recap/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/getting-away-with-technical-minimalism/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/solve-problems-by-removing-things/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/the-great-rewrite/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/the-need-for-technical-angels/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/blog/tags.html</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/examples/angularjs-requirejs-1/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.startersquad.com/examples/angularjs-requirejs-2/</loc>
-  <lastmod>2013-10-09T15:17:39+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-</urlset>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

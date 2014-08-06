@@ -5,7 +5,7 @@ author: Daan Assen
 tags:
 - startups
 ---
-# 	
+#
 Last Weekend Iwein, Tiziano and Daan from the StarterSquad Team visited Timișoara for the local Startup Weekend. As always this was an energizing experience with a lot of learning and networking going on. At this event StarterSquad was both Sponsor and Mentor. Some reflections of 54 hours high-speed entrepreneurship.
 
 ## The beer team didn't win
@@ -17,7 +17,7 @@ Most Startup weekends are a fun experience rather then a serious attempt to star
 
 A good earning for a weekend if you ask me and some really exciting ideas. But, the question is what will happen next. Based upon our experience probably most of the Startups created this weekend will will not sustain beyond the Weekend. But if this is the case, don't worry since a great experience and hopefully some learning remains. "It is all about the journey!" anyway (source: Munich Airport smoking room).
 
-![It's all about the journey](/assets/images/about-the-journey.jpg)
+![It's all about the journey](/assets/images/media/about-the-journey.jpg)
 
 ## Idea, Team, Business Model, Prototype
 In all Startup Weekends we come across critical aspects that require attention. People tend to juggle around with all or focus on one of them and spend most of their time there. Of course it all begins with the idea. You come to a Startup Weekend with a solid Startup Idea ideally. Look at the technology and business model trends out there and combine them with the needs and problems in sectors you know. Innovative ideas can be found a intersections of trends and sectors. In Timișoara quite some people pitched without preparation (at least that was the impression we were left with). This is a deadly sin to get a good message across in one minute. It is good that people have the initiative to stand-up and pitch, but preparation is key.
@@ -26,7 +26,7 @@ After the Pitch Fire the ideas turn into teams. Be sure to state what you need i
 
 Next there is the Business Model Canvas, that seems to have become the panacea of Startup success. At this Startup Weekend we saw all teams start with the Business Model Canvas. Although this is an interesting tool to order your thoughts about your idea it has limited value in a Startup Weekend without prior knowledge and preparation. You might want to use it to iterate your value proposition and target audience, but there is simply not enough time to workout the full business model. We saw teams that never used it before, struggling to get a grip of the canvas and getting stuck on it.
 
-![Startup Weekend attendees looking pensively at a Business Model Canvas](/assets/images/bm-canvas.jpg)
+![Startup Weekend attendees looking pensively at a Business Model Canvas](/assets/images/media/bm-canvas.jpg)
 
 Last, but not least, there is the prototype. In 54 hours you can develop something if you have the designers and developers on board. But in Startup Weekend the final presentation is just as important as the App you built. It is great if you can show of a demo, but this can be faked as well. At Startup Weekend Amsterdam 2012 my team had a full back-end developed, but this is not more than worth mentioning. So, focus on some validation of your idea on a first landing page and build a prototype that communicates the value proposition that you have been working on. This is the best you will get in the 54 hours given.
 

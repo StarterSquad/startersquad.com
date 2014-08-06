@@ -1,0 +1,17 @@
+.header {
+  @extend %clearfix;
+  padding: 32px 0;
+
+  &_logo {
+    float: left;
+    margin: -11px 0 -23px;
+
+    > .ic {
+      display: block;
+    }
+  }
+
+  .menu {
+    float: right;
+  }
+}

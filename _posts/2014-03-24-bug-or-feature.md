@@ -17,7 +17,7 @@ same time? The answer is hiding in proper prioritization and release management,
 and business people tend to get wrong. The most annoying symptom is the discussion if something is a bug or a feature.
 I'm sure you've been in one of those.
 
-![Featuring a bug](/assets/images/bug-or-feature.jpg)
+![Featuring a bug](/assets/images/media/bug-or-feature.jpg)
 
 ## What's a bug?
 A long time ago in a computer long forgotten, a bug performed seppuku on a pair of electrical conductors near a
