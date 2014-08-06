@@ -2,11 +2,28 @@
 title: StarterSquad
 email: hello@startersquad.com
 description: "Our team of professionals works for startups only. Serious and invested, we will develop your idea and take your project to the next level."
+baseurl: ""
 url: "https://www.startersquad.com"
 twitter_username: StarterSquad
 github_username:  StarterSquad
 
+# Menu structure
+menu:
+- title: "Services"
+  url: "/services/"
+# - title: "Work"
+#   url:  "/work/"
+# - title: "Team"
+#   url:  "/team/"
+- title: "Blog"
+  url:  "/blog/"
+- title: "Contact"
+  url:  "/contact/"
+
 # Build settings
-gems: [jekyll-sass]
 markdown: kramdown
 permalink: pretty
+assets:
+  cache: true
+  css_compressor: sass
+  gzip: []

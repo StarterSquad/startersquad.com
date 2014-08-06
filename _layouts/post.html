@@ -1,57 +1,38 @@
 ---
-layout: default
-menu_index: 3
-force_menu_link: true
+layout: blog
 ---
 
-{% include blog/headline.html %}
-
-<div class="arkush">
-  <table class="layout-table">
-    <col width="72%">
-    <col width="9%">
-    <col width="19%">
-    <tr>
-      <td class="layout-table-cell">
-        <div class="article text-bound">
-          <div class="blog-post">
-            <h1 class="blog-title">{{ page.title }}</h1>
-            <div class="blog-meta">
-              <span class="blog-meta-date">{{ page.date | date: '%A, %B %d, %Y' }}</span>
-              <span class="blog-meta-author">by <span class="__red">{{ page.author }}</span></span>
-            </div>
-          </div>
-
-          {{ content }}
-
-          <div class="article-tags">
-            <b>Tags:</b>
-            {% for tag in page.tags %}
-              <a href="/blog/tags.html#{{ tag }}">{{ tag }}{% unless forloop.last %},{% endunless %}</a>
-            {% endfor %}
-          </div>
-          <div class="article-share">
-            <b>Share this post:</b>
-            <a href="http://twitter.com/share?url={{ site.domain }}{{ page.url }}" target="_blank">Twitter</a>, 
-            <a href="https://plus.google.com/share?&hl=en&url={{ site.domain }}{{ page.url }}" target="_blank">Google+</a>, 
-            <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.domain }}{{ page.url }}" target="_blank">Linkedin</a>, 
-            <a href="http://www.facebook.com/sharer.php?u={{ site.domain }}{{ page.url }}" target="_blank">Facebook</a>
-          </div>
-        </div>
-      </td>
-      <td class="layout-table-cell"></td>
-      <td class="layout-table-cell">
-        {% include blog/facebook.html %}
-        {% include blog/tags.html %}
-      </td>
-    </tr>
-    <tr>
-      <td class="layout-table-cell">
-        {% include disqus_comments.html %}
-      </td>
-      <td class="layout-table-cell"></td>
-      <td class="layout-table-cell"></td>
-    </tr>
-  </table>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="section">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  {{ content }}
+  <div class="cf">
+    <div class="float-left">
+      <b>Tags:</b>
+      {% assign sorted_tags = page.tags | sort %}
+      {% for tag in sorted_tags %}
+        <a href="/blog/tags.html#{{ tag }}">{{ tag }}{% unless forloop.last %},{% endunless %}</a>
+      {% endfor %}
+    </div>
+    <div class="float-right">
+      <b>Share this post:</b>
+      <a href="http://twitter.com/share?url={{ site.domain }}{{ page.url }}" target="_blank">Twitter</a>,
+      <a href="https://plus.google.com/share?&hl=en&url={{ site.domain }}{{ page.url }}" target="_blank">Google+</a>,
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.domain }}{{ page.url }}" target="_blank">Linkedin</a>,
+      <a href="http://www.facebook.com/sharer.php?u={{ site.domain }}{{ page.url }}" target="_blank">Facebook</a>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+     var disqus_shortname = 'startersquad';
+     (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>

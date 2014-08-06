@@ -35,4 +35,4 @@ module SassExtensions::Config
   end
 end
 
-SassExtensions::Config.load_yaml('config.yml')
+SassExtensions::Config.load_yaml('sass_extensions.yml')

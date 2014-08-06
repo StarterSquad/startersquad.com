@@ -1,29 +1,13 @@
 ---
-layout: default
-title: StarterSquad Blog
-menu_index: 4
+layout: blog
+title: Blog
 ---
 
-{% include blog/headline.html %}
-
-<div class="arkush">
-  <table class="layout-table">
-    <col width="72%">
-    <col width="9%">
-    <col width="19%">
-    <tr>
-      <td class="layout-table-cell">
-        <div class="blog text-bound">
-          {% for post in site.posts %}
-            {% include blog/post.html %}
-          {% endfor %}
-        </div>
-      </td>
-      <td class="layout-table-cell"></td>
-      <td class="layout-table-cell">
-        {% include blog/facebook.html %}
-        {% include blog/tags.html %}
-      </td>
-    </tr>
-  </table>
-</div>
+{% for post in site.posts %}
+  <div class="section">
+    <h3>
+      <a class="__black" href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <p>{{ post.date | date: '%A, %B %d, %Y' }} by {{ post.author }}</p>
+  </div>
+{% endfor %}
