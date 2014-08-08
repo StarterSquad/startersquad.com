@@ -22,7 +22,7 @@ menu:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:title
 assets:
   cache: true
   css_compressor: sass
