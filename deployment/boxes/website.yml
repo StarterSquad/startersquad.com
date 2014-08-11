@@ -6,8 +6,8 @@
 
     - app_domain: startersquad.com
     - install_dir: /opt/ssq
-    - git_repository: https://github.com/StarterSquad/startersquad.github.com.git
-
+    - git_repository: https://github.com/StarterSquad/startersquad.com.git
+    
     - wuala_drive_path: /Volumes/WualaDrive
 
     - ssl_dir_path: "{{wuala_drive_path}}/Groups/StarterSquadKeys/startersquad.com/ssl"
