@@ -1,11 +1,8 @@
 var Mosaic = function (element, options) {
   this.options = $.extend({
     patterns: [
-      [2, 1, 1],
-      [1, 1, 1, 1],
-      [4],
       [2, 2],
-      [1, 1, 2]
+      [4]
     ]
   }, options);
   this.$element = $(element);
@@ -32,7 +29,7 @@ $.extend(Mosaic.prototype, {
 
       if (pattern.length <= items.length) {
 
-        $group = $('<div class="mosaic_group"></div>');
+        $group = $('<div class="tile-group"></div>');
 
         $.each(pattern, function (j, size) {
           var $item = $(items.shift());

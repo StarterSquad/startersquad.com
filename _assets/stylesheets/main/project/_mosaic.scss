@@ -1,0 +1,55 @@
+.mosaic {
+  @extend %clearfix;
+
+  .tile,
+  .tile-group {
+    float: left;
+  }
+}
+
+.tile {
+  @include font-height(30px, 36px);
+  font-weight: bold;
+  padding: 0 10px 10px 0;
+
+  &_inner {
+    background: #FFF;
+    color: #000;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+
+    > img {
+      @include position(absolute, 50% none none);
+      @include size(100% auto);
+      margin-top: -50%;
+    }
+  }
+
+  &.__1 {
+    @include size(50%);
+  }
+
+  &.__2 {
+    @include size(100% 50%);
+  }
+
+  &.__4 {
+    @include size(100%);
+  }
+
+  &.__join-us {
+    text-align: center;
+
+    .tile_inner {
+      border: 2px solid #FF0;
+      padding: 48px;
+    }
+
+    .tile_foot {
+      @include position(absolute, none 48px 42px);
+    }
+  }
+}
