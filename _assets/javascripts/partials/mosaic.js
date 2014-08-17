@@ -7,8 +7,6 @@ var Mosaic = function (element, options) {
   }, options);
   this.$element = $(element);
   this.$groups = this.populateGroups();
-  windowEvents.on('resize', $.proxy(this.update, this));
-  this.update();
 };
 
 $.extend(Mosaic.prototype, {
@@ -29,7 +27,7 @@ $.extend(Mosaic.prototype, {
 
       if (pattern.length <= items.length) {
 
-        $group = $('<div class="tile-group"></div>');
+        $group = $('<div class="mosaic_group"></div>');
 
         $.each(pattern, function (j, size) {
           var $item = $(items.shift());
@@ -43,16 +41,10 @@ $.extend(Mosaic.prototype, {
       if (++i > max) i = 0;
     }
 
-    this.$element.append($groups);
-    return $groups;
-  },
+    var $inner = $('<div class="mosaic_inner"></div>');
+    $inner.append($groups);
 
-  update: function () {
-    var elementWidth = this.$element.width();
-    var groupSize = elementWidth / 5;
-    this.$groups.css({
-      width: groupSize,
-      height: groupSize
-    });
+    this.$element.append($inner);
+    return $groups;
   }
 });

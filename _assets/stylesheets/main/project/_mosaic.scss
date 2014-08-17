@@ -1,55 +1,52 @@
 .mosaic {
-  @extend %clearfix;
 
-  .tile,
-  .tile-group {
-    float: left;
-  }
-}
+  $group-size: 470px;
+  $item-gap: 10px;
 
-.tile {
-  @include font-height(30px, 36px);
-  font-weight: bold;
-  padding: 0 10px 10px 0;
+  overflow: hidden;
 
   &_inner {
-    background: #FFF;
-    color: #000;
-    display: block;
-    height: 100%;
+    @include font-height(0, 0);
+    white-space: nowrap;
+  }
+
+  &_group {
+    @include size($group-size);
+    display: inline-block;
     overflow: hidden;
-    position: relative;
-    text-decoration: none;
+    white-space: normal;
 
-    > img {
-      @include position(absolute, 50% none none);
-      @include size(100% auto);
-      margin-top: -50%;
+    ~ .mosaic_group {
+      margin-left: $item-gap;
     }
   }
 
-  &.__1 {
-    @include size(50%);
-  }
+  &_i {
 
-  &.__2 {
-    @include size(100% 50%);
-  }
+    $half-group-size: ($group-size - $item-gap) / 2;
 
-  &.__4 {
-    @include size(100%);
-  }
+    @extend %hide-text;
+    background-color: #000;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: block;
+    float: left;
+    margin: 0 $item-gap $item-gap 0;
 
-  &.__join-us {
-    text-align: center;
-
-    .tile_inner {
-      border: 2px solid #FF0;
-      padding: 48px;
+    &:hover {
+      opacity: 0.9;
     }
 
-    .tile_foot {
-      @include position(absolute, none 48px 42px);
+    &.__1 {
+      @include size($half-group-size);
+    }
+
+    &.__2 {
+      @include size($group-size $half-group-size);
+    }
+
+    &.__4 {
+      @include size($group-size);
     }
   }
 }
