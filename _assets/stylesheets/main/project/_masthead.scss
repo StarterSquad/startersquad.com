@@ -1,27 +1,12 @@
-// .masthead {
-//   height: 90%;
-
-//   &_inner {
-//     margin: auto;
-//     width: 940px;
-//   }
-// }
-
-
 .masthead {
-  @include font-height(30px, 40px);
-  background: radial-gradient(circle cover, #73dbc8, #4c979b);
-  position: relative;
+  @include font-height(18px, 26px);
+  background:
+    asset-url('project/masthead/background-left.png') no-repeat 0 100%,
+    asset-url('project/masthead/background-bottom.png') no-repeat 50% 100%,
+    asset-url('project/masthead/background-right.png') no-repeat 100% 100%,
+    radial-gradient(circle cover, #ddecf1, #e2f0f2);
+  min-height: 620px;
   overflow: hidden;
-  z-index: 0;
-
-  &:after {
-    @include position(absolute, none 0 0);
-    background: linear-gradient(rgba(#4c979b, 0), #4c979b);
-    content: '';
-    height: 33.3%;
-    z-index: 1;
-  }
 
   &_inner {
     @include size(100%);
@@ -35,17 +20,18 @@
   }
 
   &_title {
-    background: #FFF;
-    color: #6bcdbf;
-    display: inline-block;
-    font: 100px/1 $vollkorn;
+    font: 80px/1 $vollkorn;
     margin: 0;
-    padding: 20px 24px 4px;
+  }
+
+  &_descr {
+    margin: 16px 0 32px;
   }
 
   &_action {
-    @include position(absolute, none 0 12px);
-    text-align: center;
-    z-index: 2;
+
+    > a + a {
+      margin-left: 24px;
+    }
   }
 }
