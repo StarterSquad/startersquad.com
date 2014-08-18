@@ -9,10 +9,10 @@ github_username:  StarterSquad
 
 # Menu structure
 menu:
+- title: "Startups"
+  url:  "/startups/"
 - title: "Services"
   url: "/services/"
-# - title: "Work"
-#   url:  "/work/"
 # - title: "Team"
 #   url:  "/team/"
 - title: "Blog"
