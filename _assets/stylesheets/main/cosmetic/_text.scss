@@ -3,6 +3,19 @@
 
 @include cosmetic('text', 'text-align', left center right justify);
 
+@each $size, $font-height in (
+  'l': (20px, 24px)
+) {
+  .text-#{ $size } {
+    font-size: nth($font-height, 1) !important;
+    line-height: nth($font-height, 2) !important;
+  }
+}
+
+.nobr {
+  white-space: nowrap !important;
+}
+
 .text-bound {
-  max-width: 48em;
+  max-width: 48em !important;
 }

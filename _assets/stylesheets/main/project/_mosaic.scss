@@ -33,10 +33,6 @@
     float: left;
     margin: 0 $item-gap $item-gap 0;
 
-    &:hover {
-      opacity: 0.9;
-    }
-
     &.__1 {
       @include size($half-group-size);
     }
