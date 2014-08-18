@@ -22,6 +22,10 @@ $.extend(Masthead.prototype, {
     var height = this.$inner.height();
     var scrollTop = $window.scrollTop();
     var shift = Math.min(scrollTop, height) / 3;
-    this.$inner.css('margin-top', shift);
+    var opacity = 1 - Math.min(1, scrollTop / height);
+    this.$inner.css({
+      marginTop: shift,
+      opacity: opacity
+    });
   }
 });

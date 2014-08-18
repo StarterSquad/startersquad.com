@@ -6,12 +6,9 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   user-select: none;
-  letter-spacing: 0.1em;
 
   &:focus {
     outline: 0;
@@ -29,9 +26,9 @@
   // ### Sizes
 
   &.__m {
-    @include font-height(14px, 16px);
-    border-radius: 20px;
-    padding: 12px;
+    @include font-height(18px, 21px);
+    border-radius: 22.5px;
+    padding: 12px 24px;
   }
 
   // ### Colours
