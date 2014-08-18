@@ -1,0 +1,48 @@
+.mosaic {
+
+  $group-size: 470px;
+  $item-gap: 10px;
+
+  overflow: hidden;
+
+  &_inner {
+    @include font-height(0, 0);
+    white-space: nowrap;
+  }
+
+  &_group {
+    @include size($group-size);
+    display: inline-block;
+    overflow: hidden;
+    white-space: normal;
+
+    ~ .mosaic_group {
+      margin-left: $item-gap;
+    }
+  }
+
+  &_i {
+
+    $half-group-size: ($group-size - $item-gap) / 2;
+
+    @extend %hide-text;
+    background-color: #000;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: block;
+    float: left;
+    margin: 0 $item-gap $item-gap 0;
+
+    &.__1 {
+      @include size($half-group-size);
+    }
+
+    &.__2 {
+      @include size($group-size $half-group-size);
+    }
+
+    &.__4 {
+      @include size($group-size);
+    }
+  }
+}

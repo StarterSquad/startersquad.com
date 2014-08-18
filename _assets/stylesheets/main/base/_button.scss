@@ -36,9 +36,8 @@
 
   // ### Colours
 
-  &.__black {
-    background: #000;
-    color: #FFF;
+  &.__black,
+  &.__blue {
 
     &:hover:not(:disabled) {
       background: #fe4444;
@@ -48,6 +47,17 @@
       background: darken(#fe4444, 20%);
       box-shadow: inset 0 1px 3px -1px rgba(#000, 0.5);
     }
+  }
+
+  &.__black {
+    background: #000;
+    color: #FFF;
+
+  }
+
+  &.__blue {
+    background: #027fc2;
+    color: #FFF;
   }
 
   // ### Misc.

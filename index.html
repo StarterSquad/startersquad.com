@@ -15,7 +15,7 @@ layout: default
 
 <div class="home">
 
-  <section class="home_i __darken">
+  <section class="home_i">
     <div class="wrap">
       <h2 class="rich_h1">
         We’re a community
@@ -32,7 +32,7 @@ layout: default
     </div>
   </section>
 
-  <section class="home_i">
+  <section class="home_i __darken">
     <div class="wrap">
       <blockquote class="citation">
         <p>
@@ -51,18 +51,40 @@ layout: default
     </div>
   </section>
 
-  <section class="home_i __darken">
-    <div class="wrap">
-      <div class="rich_h1">
-        Code less
-        <br>
-        Build more
+  <section class="home_i">
+    <div class="section wrap">
+      <div class="elastic">
+        <div class="elastic_col valign-baseline">
+          <div class="rich_h1">Check out what we have built</div>
+        </div>
+        <div class="elastic_col __shrink nobr valign-baseline text-l">
+          <a class="link __red __complex" href="/startups/">
+            <u class="link_u">More examples</u>&nbsp;&rarr;
+          </a>
+        </div>
       </div>
     </div>
-  </section>
-
-  <section class="home_i">
-    <div class="wrap">
+    <div class="section mosaic">
+      <a class="mosaic_i" href="/startups/paspoort/" style="background-image: url('/assets/media/home/paspoort.png')">
+        Blink Paspoort
+      </a>
+      <a class="mosaic_i" href="/startups/bridallive/" style="background-image: url('/assets/media/home/bridallive.png')">
+        BridalLive
+      </a>
+      <a class="mosaic_i" href="/startups/vandebron/" style="background-image: url('/assets/media/home/vandebron.png')">
+        Vandebron
+      </a>
+      <a class="mosaic_i" href="/startups/bundles/" style="background-image: url('/assets/media/home/bundles.png')">
+        Bundles
+      </a>
+      <a class="mosaic_i" href="/startups/qwiksense/" style="background-image: url('/assets/media/home/qwiksense.png')">
+        QwikSense
+      </a>
+      <a class="mosaic_i" href="/startups/swipeguide/" style="background-image: url('/assets/media/home/swipeguide.png')">
+        SwipeGuide
+      </a>
+    </div>
+    <div class="section wrap">
       <h2 class="rich_h1">
         With the StarterSquad method,
         <br>
@@ -169,22 +191,3 @@ layout: default
     </div>
   </section>
 </div>
-
-
-
-<!--div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div-->

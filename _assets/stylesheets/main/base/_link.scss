@@ -36,6 +36,14 @@
     @include link-color($color-blue);
   }
 
+  &.__red {
+    @include link-color($color-red);
+
+    &:hover {
+      @include link-color(mix($color-red, #FFF, 75%));
+    }
+  }
+
   &.__white {
     @include link-color(rgba(#FFF, 0.9));
 
