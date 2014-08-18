@@ -24,6 +24,6 @@ menu:
 markdown: kramdown
 permalink: /blog/:title
 assets:
-  cache: true
+  cache: false
   css_compressor: sass
-  gzip: []
+  gzip: ['text/css', 'application/javascript']
