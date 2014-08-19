@@ -36,10 +36,13 @@ We specialize in solving a certain kind of problem (Lean Startup) and technologi
 
 Although we’re open about using the right tool for the job, we have a sweet spot for certain technologies which are: Single Page Apps (usually done with AngularJS), on top of NodeJS or Scala back-ends (usually with Spray). Also we’re highly skilled in Continuous 
 Delivery and rapid prototyping. 
+
 ###Are you just a bunch of developers? Or do you also advise on other disciplines as well like building a Lean Startup?
 
 We have a team of entrepreneurs who are founding members of currently running start-ups. So along with building we advise on Lean Startup strategies such as continuous validated learning, growth hacking, recruitment, business strategy and sales. 
+
 ###What makes StarterSquad work so well?
+
 The point of StarterSquad is to get the best bang for the clients buck. This naturally means that developers should be made as productive as possible and as little time from the client as possible should be wasted. Perhaps counter-intuitively, this works remarkably well in a distributed setup. Developers are more productive if they have the freedom of managing their own time, and no need to deal with the daily challenges of commuting and noisy office settings. Because the team is _fully distributed_ developers cannot afford to disconnect from the client and each other. As a client you’re in the loop on an hourly basis, but not interrupted if you don’t want to. 
 
 Less time of the client is wasted if synchronisation happens at a fixed rhythm. With the [self-organizing process](/blog/self-healing-organizations/) of StarterSquad teams, client and team quickly fall into the optimal collaboration strategy for the particular project at hand.
