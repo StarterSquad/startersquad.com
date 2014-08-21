@@ -36,5 +36,28 @@
     &.__darken {
       background: #eff4f8;
     }
+
+    &.__subscribe {
+      background: $color-blue;
+      color: #FFF;
+      padding: 64px 0;
+
+      .elastic {
+        margin: auto;
+        width: 800px;
+
+        &_col {
+          vertical-align: middle;
+        }
+      }
+
+      .rich_h1 {
+        margin: 0;
+      }
+
+      .section + .section {
+        margin-top: 16px;
+      }
+    }
   }
 }
