@@ -34,7 +34,8 @@
   // ### Colours
 
   &.__black,
-  &.__blue {
+  &.__blue,
+  &.__white {
 
     &:hover:not(:disabled) {
       background: #fe4444;
@@ -55,6 +56,11 @@
   &.__blue {
     background: #027fc2;
     color: #FFF;
+  }
+
+  &.__white {
+    background: #FFF;
+    color: #000;
   }
 
   // ### Misc.
