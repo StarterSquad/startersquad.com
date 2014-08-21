@@ -3,6 +3,36 @@
   &_i {
     padding: 96px 0;
 
+    &.__assesment {
+      background-image: asset-url('project/home/background.jpg');
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #FFF;
+
+      .home_aside {
+        margin-left: 55%;
+      }
+
+      .section + .section {
+        margin-top: 64px;
+      }
+
+      .wrap {
+        position: relative;
+        z-index: 0;
+
+        &:after {
+          @include image-size('project/home/macbook.png');
+          @include position(absolute, none none -128px 50%);
+          background: asset-url('project/home/macbook.png') no-repeat;
+          content: '';
+          margin-left: -600px;
+          z-index: -1;
+        }
+      }
+    }
+
     &.__darken {
       background: #eff4f8;
     }
