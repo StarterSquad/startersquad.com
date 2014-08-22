@@ -22,7 +22,7 @@ var Header = function (element, options) {
 
 $.extend(Header.prototype, {
   update: function () {
-    var factor = Math.min(1, window.scrollY / this.heightStart);
+    var factor = Math.max(0, Math.min(1, window.scrollY / this.heightStart));
     var padding = this.options.verticalPaddingStart - this.verticalPaddingDelta * factor;
     this.$element.css({
       height: this.heightStart - this.heightDelta * factor,
