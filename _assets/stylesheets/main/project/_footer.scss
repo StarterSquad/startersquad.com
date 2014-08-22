@@ -10,9 +10,8 @@
   &_logo {
     float: left;
 
-    > .ic {
-      @include size(195px 45px);
-      background-size: cover;
+    > img {
+      @include size(195px auto);
       display: block;
     }
   }
