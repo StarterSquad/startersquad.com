@@ -1,6 +1,14 @@
+.header,
+.header-push {
+  height: 96px;
+}
+
 .header {
   @extend %clearfix;
+  @include position(fixed, 0 0 none);
+  background: #FFF;
   padding: 32px 0;
+  z-index: 1000;
 
   &_logo {
     float: left;
