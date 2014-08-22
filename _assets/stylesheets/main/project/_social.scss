@@ -1,0 +1,22 @@
+.social {
+  @extend %hide-text;
+  @include size(45px);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 22.5px;
+  border: 3px solid #EEE;
+  display: block;
+  text-decoration: none;
+
+  &.__facebook {
+    background-image: inline-asset('project/social/icon-facebook.png');
+  }
+
+  &.__google {
+    background-image: inline-asset('project/social/icon-googleplus.png');
+  }
+
+  &.__twitter {
+    background-image: inline-asset('project/social/icon-twitter.png');
+  }
+}
