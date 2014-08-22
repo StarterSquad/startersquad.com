@@ -1,5 +1,41 @@
 .footer {
   @include font-height(14px, 20px);
-  border-top: 1px solid #EEE;
-  padding: 32px 0;
+
+  &_row {
+    @extend %clearfix;
+    border-top: 1px solid #EEE;
+    padding: 32px 0;
+  }
+
+  &_logo {
+    float: left;
+
+    > .ic {
+      @include size(195px 45px);
+      background-size: cover;
+      display: block;
+    }
+  }
+
+  &_social {
+    float: right;
+
+    > .social {
+      border: 3px solid #EEE;
+      float: left;
+
+      ~ .social {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  &_likes {
+    float: left;
+  }
+
+  .menu {
+    @include font-height(14px, 20px);
+    float: right;
+  }
 }

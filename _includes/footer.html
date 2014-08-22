@@ -1,7 +1,40 @@
 <footer class="footer">
-  <div class="wrap">
-    ©&nbsp;2013<span class="ellipsis">...</span>2014 {{ site.title }}
-    <br>
-    <a class="link" href="mailto:{{ site.email }}">{{ site.email }}</a>
+  <div class="footer_row">
+    <div class="wrap">
+      <a class="footer_logo" href="/">
+        <i class="ic __startersquad"></i>
+      </a>
+      <div class="footer_social">
+        <a class="social __twitter" href="#">Twitter</a>
+        <a class="social __facebook" href="#">Facebook</a>
+        <a class="social __google" href="#">Google+</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer_row">
+    <div class="wrap">
+      <div class="footer_likes">
+        <div class="social-likes" data-zeroes="yes">
+          <div class="facebook">Facebook</div>
+          <div class="twitter">Twitter</div>
+          <div class="plusone">Google+</div>
+        </div>
+      </div>
+      <ul class="menu">
+        {% for item in site.menu %}
+          {%  if item.url == page.url %}
+            <li class="menu_i __current">
+              <span class="menu_i_inner" href="{{ item.url }}">{{ item.title }}</span>
+            </li>
+          {% else %}
+            <li class="menu_i">
+              <a class="menu_i_inner link __black __complex" href="{{ item.url }}">
+                <u class="link_u">{{ item.title }}</u>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </footer>
