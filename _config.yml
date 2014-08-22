@@ -4,8 +4,10 @@ email: hello@startersquad.com
 description: "Our team of professionals works for startups only. Serious and invested, we will develop your idea and take your project to the next level."
 baseurl: ""
 url: "https://www.startersquad.com"
-twitter_username: StarterSquad
+facebook_username: startersquad
 github_username:  StarterSquad
+google_username:  StarterSquad
+twitter_username: StarterSquad
 
 # Menu structure
 menu:
