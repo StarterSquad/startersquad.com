@@ -1,0 +1,15 @@
+<ul class="menu">
+  {% for item in site.menu %}
+    {%  if item.url == page.url %}
+      <li class="menu_i __current">
+        <span class="menu_i_inner" href="{{ item.url }}">{{ item.title }}</span>
+      </li>
+    {% else %}
+      <li class="menu_i">
+        <a class="menu_i_inner link __black __complex" href="{{ item.url }}">
+          <u class="link_u">{{ item.title }}</u>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
