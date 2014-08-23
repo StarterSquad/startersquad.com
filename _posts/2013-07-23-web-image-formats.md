@@ -35,17 +35,20 @@ PNG
 ---
 The png format is the successor to gif. It improves the parts of gif that matter most, but it removes some features.
 
-###looks
+### looks
+
 Png looks as good as gif, or better. Gif could sometimes reduce the quality when you saved a file multiple times. Png
  removes this problem. Because png is a lossless format, the image should look as sharp as the vector original. With the
  caveat that it doesn't scale of course.
 
-###compression
+### compression
+
 The compression for png is similar to gif. It is based on a palette, which means that images with low color complexity
 compress better than images with many different colors. Use [ImageOptim][2] to make sure you have
 optimal compression of your png files.
 
-###features
+### features
+
 Like gif, png supports transparency. Unlike gif it also supports opacity. Png does not have animation like gif does.
 
 GIF
@@ -54,16 +57,21 @@ Gif is the precursor for png. It has some quirks that were fixed in png, and it 
 have a requirement other than animation that forces gif on you you're in for a treat. That said, modern browsers can
 render gif's without problems and it has most of the advantages of png.
 
-###looks
+### looks
+
 As png, images come out sharp from a gif compression, because it is lossless. Well… mostly lossless.
-###compression
+
+### compression
+
 Like png gif uses a palette for compression, so images with few colors compress very well. Png compression is a bit
 better (up to 25%)
 
 Gif compression allows for some distortion of the image, and since the algorythm isn't open, different implementations
 exist. When combining the right algorythms you can distort your image into a grey square iteratively by just
 opening and saving it.
-###features
+
+### features
+
 Oh, the animated gifs. They bring back memories, and they are still used to market certain types of physical exercises
  because often ad- and flash blockers will happily pass through a harmless gif. Maybe you really need an animated gif
  it's surely smaller than a youtube video. But streaming some high quality video usually makes much more sense
@@ -75,7 +83,9 @@ JPEG
 ----
 [JPEG uses wavelets][1] to compress images. There is some reasonably tricky math involved (1st year uni), which I won't go
 into. I'll just describe the effects here.
-###looks
+
+### looks
+
 The wavelet compression is lossy and it creates a sort of echo for sharply contrasted lines. So on an
 edge of a black square the jpeg compression will show a lighter smudged line on the black, and a darker smudged line on
 the white, both parallel to the squares edge. You can imagine this doesn't look great for diagrams, schematics, sketches.
@@ -83,7 +93,9 @@ On photographs it's usually less annoyingly visible, because it is unusual to ha
 hard edges in photographs. If you're creating architecture photographs, or you took a picture of a chess match, you
 might find that jpeg compression is hardly tolerable. Probably jpeg is still the best format, but the compression factor
 will be lower.
-###compression
+
+### compression
+
 JPEG compression doesn't use a palette, so on images with few colors the compression factor is lower than of png. On
 photographs however, the compression can be awesome. Usually jpeg is the better compression on photographs.
 
