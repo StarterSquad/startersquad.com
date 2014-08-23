@@ -12,7 +12,7 @@ Within 8 weeks we have built the full solution, right on time to [demo](http://b
 
 The&nbsp;front-end is&nbsp;based on our [AngularJS](https://github.com/StarterSquad/angularjs-requirejs-seed)&nbsp;+&nbsp;RequireJS&nbsp;seed&nbsp;project. The&nbsp;combination of RequireJS and Angular allows us to&nbsp;build large code bases without worrying about ordering in&nbsp;the&nbsp;script tags. In&nbsp;addition it allows for compression of the&nbsp;javascript into a&nbsp;single or several minified files.
 
-AngularJS helped us to&nbsp;keep the application code _really_ simple. Some&nbsp;metrics: max number of lines in a&nbsp;single controller is 257, average number is 91 lines and the median is less then 50 lines! You&nbsp;can&nbsp;say: "Yea,&nbsp;bla-bla... These guys moved most of their logic to services then". Nope. Maximum service file size is 129 lines and average is 51. Can&nbsp;you&nbsp;say&nbsp;[KISS](/_/images/posts/kiss.jpg)?
+AngularJS helped us to&nbsp;keep the application code _really_ simple. Some&nbsp;metrics: max number of lines in a&nbsp;single controller is 257, average number is 91 lines and the median is less then 50 lines! You&nbsp;can&nbsp;say: "Yea,&nbsp;bla-bla... These guys moved most of their logic to services then". Nope. Maximum service file size is 129 lines and average is 51. Can&nbsp;you&nbsp;say&nbsp;[KISS]({% asset_path media/posts/kiss.jpg %})?
 
 ### Back-end
 

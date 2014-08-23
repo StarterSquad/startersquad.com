@@ -8,7 +8,7 @@ tags:
 - growth
 ---
 
-![B Happy by Nasir Nasrallah on Flickr](/assets/images/b-happy.jpg)
+{% image media/posts/b-happy.jpg %}
 
 What are the top five priorities in your company right now? Most likely, they look something like this: growing your customer base, retaining your customers and driving revenue from your customers. As such, these priorities make perfect sense. But what if you could reach all three of these objectives by focusing on *happiness* as your single most important goal? According to Zappos’ Tony Hsieh, this approach can actually pay off. In his book, *["Delivering Happiness"](http://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose/dp/160941280X),* Hsieh narrates his entrepreneurial exploits - from his failed childhood businesses to the 10+ years he’s spent building and leading Zappos, the highly successful online retailer acquired by Amazon in 2009. The book offers many valuable learnings, but ultimately it’s about how the pursuit of happiness can serve as the driver for your company’s growth. In this blog post, I will summarize some practical bits of advice found in the book which can help you embrace the search for happiness in your own company.
 

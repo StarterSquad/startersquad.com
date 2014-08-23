@@ -16,7 +16,7 @@ Let’s take a look at an example of setting up a startup. After conceiving and 
 
 Hiring developers is hard and risky. If you sign with someone that doesn't fit the team you risk losing a years salary on the bad decision.
 
-![From Forming through Storming, Norming to Performing](/assets/images/forming-performing.png)
+{% image media/posts/forming-performing.png %}
 
 At the same time, any new team has to go through forming, storming and norming cycle before they start performing. So getting a team up to speed takes time and effort, which in general you pay for along the way.
 
