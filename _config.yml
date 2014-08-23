@@ -23,6 +23,7 @@ menu:
   url:  "/contact/"
 
 # Build settings
+highlighter: pygments
 markdown: kramdown
 permalink: /blog/:title
 assets:

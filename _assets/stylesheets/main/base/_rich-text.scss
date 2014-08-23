@@ -92,6 +92,18 @@
   overflow: auto;
   padding: 6px 10px;
   white-space: pre;
+
+  // Account for some code outputs that
+  // place code tags in pre tags
+  code {
+    background: none;
+    border-radius: 0;
+    border: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+  }
 }
 
 // Misc.
