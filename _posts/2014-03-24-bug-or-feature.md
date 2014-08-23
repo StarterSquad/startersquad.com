@@ -91,7 +91,7 @@ return ratio. I can tell you its very liberating, and it improves the dialog bet
 by a landslide.
 
 In the basis it allows you to control what is being worked on (by priority) and how quickly it will go live (by
-release stream). It gives you [control of priority and risk](../stop-estimating-the-cheap-parts),
+release stream). It gives you [control of priority and risk](/blog/stop-estimating-the-cheap-parts),
 and avoids irrelevant discussions on features versus
 bugs.
 

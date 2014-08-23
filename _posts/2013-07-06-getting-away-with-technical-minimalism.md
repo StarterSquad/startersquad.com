@@ -40,7 +40,7 @@ more often than not, after doing the most important next feature exactly right, 
 ## Clean up
 
 In an earlier blog I suggested to
-[solve problems by removing features](/blog/solve-problems-by-removing-things). It's essential that
+[solve problems by removing features](/blog/solve-problems-by-removing-things/). It's essential that
 the set of features, the source code, the documentation etc stay clean. The cleaner you can keep things, the faster you
 you can respond to change. This has a significant effect on the cost of change, which is the most important cost driver
 in software development.
@@ -48,7 +48,7 @@ in software development.
 ## Invest only in better working software
 
 There are many technical people that will not like what they see when they look at your code. They will invariably
-suggest that you [refactor, upgrade, or even rewrite](/blog/solve-problems-by-removing-things). They are not necessarily
+suggest that you [refactor, upgrade, or even rewrite](/blog/solve-problems-by-removing-things/). They are not necessarily
 wrong of course, but if you force the issue and only pay for improvements in your business implementation, you will end up
 spending less on better software.
 

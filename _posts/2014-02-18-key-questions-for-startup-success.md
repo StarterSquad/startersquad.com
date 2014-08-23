@@ -26,5 +26,5 @@ It is nice if you are able to gather some proof for your idea on small scale. Wo
 ## Do we have the superpowers to execute?
 Execution is key to Startup success. It is all about team, traction and focus in this one. First you need to have a team that is really into tackling the Customer Pain or Need. The team members should be passionate about this and have the necessary skills and experience. Second you need to find your way to early traction. Traction is the proof that your Startup is on the track to success (e.g. growing user base, converting visitors, word-of-mouth, press coverage). This traction can be used to access the additional resources you might require to raise your execution power. Finally you need focus. All iterations during your Startup process must be focused. Not that you can't change your path. You should make so called pivots when needed (see [Lean Startup principles](http://theleanstartup.com/principles)). But, focus on your big idea and focus on making the most out of all iterations is key for execution power.
 
-More information about how to build a viable Startup? Check our [Business Viability Scan](/products/) or pre-order
+More information about how to build a viable Startup? Check our [Business Viability Scan](/services/) or pre-order
 our "[Get Ready for the Launch](http://www.ready4launch.com/)" book.

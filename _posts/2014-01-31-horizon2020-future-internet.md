@@ -48,7 +48,7 @@ just in case they do.
 
 ## StarterSquad Reflections
 StarterSquad is ready and set to help realize the EU goals regarding the Future of Internet.
-Our [distributed development team helping Startups](/team) to execute theirs ideas is spot on to realize EU's ideas.
+Our [distributed development team helping Startups](/team/) to execute theirs ideas is spot on to realize EU's ideas.
 We have seen some interesting developments and met some interesting people. We look forward to hook-up with
 some of the initiatives we came across in the upcoming months and years. We sure feel the EU is shifting it's
 innovation programs focus towards a stronger focus on creating and supporting Startups.

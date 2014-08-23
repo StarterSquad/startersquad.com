@@ -11,7 +11,7 @@ tags:
 
 **Example updated to use angular v1.2.3**
 
-While delivering [software projects for startups](/projects), we've come to love AngularJS. We've also come to struggle
+While delivering [software projects for startups](/startups/), we've come to love AngularJS. We've also come to struggle
 with clean modularity, both the parts that Angular does really well, and the parts that are somewhat missing. RequireJS
 does a great job where Angular leaves some things to be desired, but using them together is not entirely trivial. What
  follows is our take at the problem.
@@ -218,7 +218,7 @@ A module consists of 3 parts:
 - definition;
 - component;
 - loader.
-  
+
 Let's use the `app.controllers` module as example.
 
 #### module definition (`controllers/module.js`)
@@ -267,11 +267,11 @@ check it out if you can't wait (I'm a slow typist).
 
 [1]: http://briantford.com/blog/huuuuuge-angular-apps.html
 [2]: http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript
-[3]: https://github.com/angular/angular-seed
-[4]: http://www.startersquad.com/examples/angularjs-requirejs-1/
-[5]: https://github.com/StarterSquad/startersquad.github.com/tree/master/examples/angularjs-requirejs-1
-[6]: http://www.startersquad.com/examples/angularjs-requirejs-2/
-[7]: https://github.com/StarterSquad/startersquad.github.com/tree/master/examples/angularjs-requirejs-2
+[3]: https://github.com/angular/ngseed
+[4]: /examples/angularjs-requirejs-1/
+[5]: https://github.com/StarterSquad/startersquad.com/tree/master/examples/angularjs-requirejs-1
+[6]: /examples/angularjs-requirejs-2/
+[7]: https://github.com/StarterSquad/startersquad.com/tree/master/examples/angularjs-requirejs-2
 [8]: http://bower.io
 [9]: http://requirejs.org/docs/api.html#data-main
 [10]: http://requirejs.org/docs/api.html#config-paths

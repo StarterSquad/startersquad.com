@@ -40,9 +40,9 @@ so mitigating technical risk is pivotal.
 
 [Get in touch][6] if you like to discuss the options for scanning your idea.
 
-[1]: http://www.startersquad.com/blog/startersquad-pricing-model/
-[2]: http://www.startersquad.com/blog/the-need-for-technical-angels/
-[3]: http://www.startersquad.com/blog/the-great-rewrite/
+[1]: /blog/startersquad-pricing-model/
+[2]: /blog/the-need-for-technical-angels/
+[3]: /blog/the-great-rewrite/
 [4]: http://michaelochurch.wordpress.com/2012/07/08/dont-waste-your-time-in-crappy-startup-jobs/
-[5]: http://www.startersquad.com/blog/how-to-recognize-a-great-developer
-[6]: http://www.startersquad.com/contact
+[5]: /blog/how-to-recognize-a-great-developer/
+[6]: /contact/
