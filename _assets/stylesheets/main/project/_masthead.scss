@@ -1,9 +1,7 @@
 .masthead {
   @include font-height(18px, 26px);
   background:
-    asset-url('project/masthead/background-left.png') no-repeat 0 100%,
-    asset-url('project/masthead/background-bottom.png') no-repeat 50% 100%,
-    asset-url('project/masthead/background-right.png') no-repeat 100% 100%,
+    asset-url('project/masthead/background.png') no-repeat 50% 100%,
     radial-gradient(circle cover, #ddecf1, #e2f0f2);
   min-height: 620px;
   overflow: hidden;
