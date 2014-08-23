@@ -1,7 +1,16 @@
 // Rich-text
 // =========
 
-.rich {}
+.rich {
+
+  .float-left {
+    margin-right: 24px;
+  }
+
+  .float-right {
+    margin-left: 24px;
+  }
+}
 
 // Headings
 // --------
