@@ -23,7 +23,7 @@ few simple tweaks. That means that if you have already existing playbooks they c
 
 Let's dive right in and checkout the repository. Once you've cloned it, you will notice a top level folder called `deployment`.
 
-![Prudentia deployment folder structure](/assets/images/media/website-deployment.png)
+{% image media/posts/website-deployment.png %}
 
 You will also notice two sub-folders: `boxes` and `components`. This is only a logical division. I like to think about Prudentia
 as a toolkit that helps you to deploy a [service oriented architecture](http://en.wikipedia.org/wiki/Service-oriented_architecture)

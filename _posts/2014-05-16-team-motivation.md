@@ -15,9 +15,7 @@ few startup founders to get some more hands on advice. I was especially interest
 activities, team habits, leadership techniques and management styles which may contribute to keep a 
 happy and motivated workforce. Here’s what they shared.
 
-
-<img src="/assets/images/founders/marcel_peters_bundles.jpg" alt="Marcel Peters of Bundles.nl"
-style=" float: right; margin-left: 30px;">
+<img class="float-right" alt="Marcel Peters of Bundles.nl" src="{% asset_path media/posts/marcel-peters-bundles.jpg %}">
 
 ###Marcel Peters, Founder at [Bundles](http://www.wasbundles.nl), on keeping track of progress
 “A very crucial formula to maintain a positive vibe in your company is to show the team commercial
@@ -29,8 +27,7 @@ spent on an operational task by X percent. The importance of your business goals
 everyone within your company. Never try to motivate someone who deep down inside has doubts about 
 the realism of your business goals.”
 
-<img src="/assets/images/founders/rino_qwiksense.jpg" alt="Rino Stevens of QwikSense"
-style=" float: left; margin-right: 30px;">
+<img class="float-left" alt="Rino Stevens of QwikSense" src="{% asset_path media/posts/rino-qwiksense.jpg %}">
 
 ###Rino Stevens, COO at [QwikSense](http://www.qwiksense.com/), on small things that matter
 “Bonding is very important to keep your team motivated, no matter how large or how small. At
@@ -39,8 +36,7 @@ helps us unwind and talk about things in an informal setting. Another key thing 
 is celebrating when you reach a milestone or accomplish something big. These celebratory moments are 
 crucial to maintain a positive team spirit.”
 
-<img src="/assets/images/founders/martijn_peecho.jpg" alt="Martijn Groot of Peecho"
-style=" float: right; margin-left: 30px;">
+<img class="float-right" alt="Martijn Groot of Peecho" src="{% asset_path media/posts/martijn-peecho.jpg %}">
 
 ###[Peecho](http://www.peecho.com/) CEO Martijn Groot on knowing how to boost morale
 “At Peecho, we make sure that we can all talk about our challenges and accomplishments during our
@@ -55,8 +51,7 @@ stress together. Be open about your goals and challenges and help people focus o
 can actually make a difference. And last, but definitely not least, celebrate your victories, no matter how 
 small!”
 
-<img src="/assets/images/founders/RubenTimmermanSpringest.jpg" alt="Ruben Timmerman of Springest"
-style=" float: left; margin-right: 30px;">
+<img class="float-left" alt="Ruben Timmerman of Springest" src="{% asset_path media/posts/ruben-timmerman-springest.jpg %}">
 
 ###[Springest](http://www.springest.nl/) Founder Ruben Timmerman on motivation and new ways of management
 “We recently adopted Holacracy in our organization, a new and agile method for structuring and
