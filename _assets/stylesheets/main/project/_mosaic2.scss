@@ -1,18 +1,39 @@
 .mosaic2 {
   @extend %clearfix;
-  @include font-height(32px, 36px);
   color: #000;
-  font-weight: bold;
   margin: auto;
   width: 990px;
 
   &_i {
     @include size(310px 390px);
-    background: #DDD;
     float: left;
     margin: 10px;
     padding: 24px;
     text-decoration: none;
+
+    &:not(.__intro):not(.__outro) {
+      @include font-height(32px, 36px);
+      font-weight: bold;
+    }
+
+    &_header {
+      font-size: 40px;
+      margin-top: 15px;
+    }
+
+    &.__intro, &.__outro {
+      border-top: 1px solid #d8dff1;
+      border-bottom: 1px solid #d8dff1;
+    }
+
+    &.__outro &_header {
+      @include font-height(32px, 36px);
+      margin-top: 0;
+    }
+
+    &.__outro .section + .section {
+      margin-top: 15px;
+    }
 
     &.__inverse {
       color: #FFF;

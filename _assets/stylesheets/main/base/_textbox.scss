@@ -25,6 +25,10 @@
   // ---------
 
   // ### Sizes
+  &.__s {
+    @include font-height(16px, 19px);
+    padding: 7px 7px 6px;
+  }
 
   &.__m {
     @include font-height(18px, 24px);

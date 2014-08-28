@@ -24,6 +24,7 @@ menu:
 
 # Build settings
 highlighter: pygments
+encoding: "utf-8"
 markdown: kramdown
 permalink: /blog/:title
 assets:
