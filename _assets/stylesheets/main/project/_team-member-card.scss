@@ -5,10 +5,14 @@
   text-align: center;
 
   &_avatar {
-    @include size(128px);
-    background-color: #ebf1f5;
-    border-radius: 50%;
-    margin: 0 auto;
+    @include size(170px);
+    background-color: #eff4f8;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 85px;
+    border: 4px solid #f7f7f7;
+    margin: auto;
   }
 
   &_name {
