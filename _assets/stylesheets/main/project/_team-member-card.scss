@@ -1,0 +1,23 @@
+.team-member-card {
+  @include font-height(17px, 20px);
+  background-color: white;
+  padding: 50px 0;
+  text-align: center;
+
+  &_avatar {
+    @include size(128px);
+    background-color: #ebf1f5;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  &_name {
+    margin-top: 30px;
+  }
+
+  &_position {
+    color: $color-red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
