@@ -21,23 +21,19 @@
       }
     }
 
-    &.__intro, &.__outro {
-      border-top: 1px solid #d8dff1;
-      border-bottom: 1px solid #d8dff1;
-    }
-
-    &.__outro &_header {
-      @include font-height(32px, 36px);
-      margin-top: 0;
-    }
-
-    &.__outro .section + .section {
-      margin-top: 15px;
-    }
-
     &.__inverse {
       color: #FFF;
     }
 
+    &.__transparent {
+      border-color: #d8dff1;
+      border-style: solid;
+      border-width: 1px 0;
+    }
+  }
+
+  .section.txbox + .section.txbox,
+  .section.txbox + .section.btn {
+    margin-top: 16px;
   }
 }
