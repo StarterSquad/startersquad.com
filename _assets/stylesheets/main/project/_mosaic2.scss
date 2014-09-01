@@ -1,25 +1,39 @@
 .mosaic2 {
   @extend %clearfix;
-  @include font-height(32px, 36px);
-  color: #000;
-  font-weight: bold;
   margin: auto;
   width: 990px;
 
   &_i {
     @include size(310px 390px);
-    background: #DDD;
+    color: #000 !important;
     float: left;
     margin: 10px;
     padding: 24px;
     text-decoration: none;
 
+    &_header {
+      @include font-height(32px, 36px);
+      font-weight: bold;
+      margin: 0 0 32px;
+
+      > .link_u {
+        background-position: 0 90%;
+      }
+    }
+
     &.__inverse {
       color: #FFF;
     }
 
-    > .link_u {
-      background-position: 0 90%;
+    &.__transparent {
+      border-color: #d8dff1;
+      border-style: solid;
+      border-width: 1px 0;
     }
+  }
+
+  .section.txbox + .section.txbox,
+  .section.txbox + .section.btn {
+    margin-top: 16px;
   }
 }
