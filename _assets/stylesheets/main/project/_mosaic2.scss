@@ -1,11 +1,11 @@
 .mosaic2 {
   @extend %clearfix;
-  color: #000;
   margin: auto;
   width: 990px;
 
   &_i {
     @include size(310px 390px);
+    color: #000 !important;
     float: left;
     margin: 10px;
     padding: 24px;
