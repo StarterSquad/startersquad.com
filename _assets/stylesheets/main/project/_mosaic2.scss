@@ -11,14 +11,14 @@
     padding: 24px;
     text-decoration: none;
 
-    &:not(.__intro):not(.__outro) {
+    &_header {
       @include font-height(32px, 36px);
       font-weight: bold;
-    }
+      margin: 0 0 32px;
 
-    &_header {
-      font-size: 40px;
-      margin-top: 15px;
+      > .link_u {
+        background-position: 0 90%;
+      }
     }
 
     &.__intro, &.__outro {
@@ -39,8 +39,5 @@
       color: #FFF;
     }
 
-    > .link_u {
-      background-position: 0 90%;
-    }
   }
 }
