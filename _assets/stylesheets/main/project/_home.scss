@@ -33,6 +33,13 @@
       }
     }
 
+    &.__method {
+
+      .elastic_col + .elastic_col {
+        padding-left: 18px;
+      }
+    }
+
     // ### Sizes
 
     &.__s {
