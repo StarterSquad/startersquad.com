@@ -5,7 +5,6 @@ var Masthead = function (element, options) {
   this.$element = $(element);
   this.$inner = this.$element.children('.masthead_inner');
   windowEvents.on('resize', $.proxy(this.resize, this));
-  windowEvents.on('scroll', $.proxy(this.scroll, this));
   this.resize();
 };
 
@@ -17,15 +16,5 @@ $.extend(Masthead.prototype, {
     if (innerHeight > height) {
       this.$element.height(innerHeight);
     }
-  },
-  scroll: function () {
-    var height = this.$inner.height();
-    var scrollTop = $window.scrollTop();
-    var shift = Math.min(scrollTop, height) / 3;
-    var opacity = 1 - Math.min(1, scrollTop / height);
-    this.$inner.css({
-      marginTop: shift,
-      opacity: opacity
-    });
   }
 });

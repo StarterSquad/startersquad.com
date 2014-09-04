@@ -4,7 +4,6 @@
     asset-url('project/masthead/background.png') no-repeat 50% 100%,
     radial-gradient(circle cover, #ddecf1, #e2f0f2);
   min-height: 620px;
-  overflow: hidden;
 
   &_inner {
     @include size(100%);
