@@ -50,6 +50,11 @@
       background: #eff4f8;
     }
 
+    &.__inverted {
+      background: #344051;
+      color: #FFF;
+    }
+
     &.__subscribe {
       background: $color-blue;
       color: #FFF;
