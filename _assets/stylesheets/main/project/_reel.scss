@@ -33,6 +33,23 @@
       }
     }
 
+    &.__startups-top {
+      padding-bottom: 0;
+    }
+
+    &.__startups-bottom {
+      padding-bottom: 0;
+
+      .reel_img {
+        margin-bottom: -80px;
+        margin-top: 80px;
+      }
+
+      + .reel_i {
+        padding-top: (96px + 80px);
+      }
+    }
+
     &.__method {
 
       .elastic_col + .elastic_col {
@@ -77,5 +94,11 @@
         margin-top: 16px;
       }
     }
+  }
+
+  &_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
