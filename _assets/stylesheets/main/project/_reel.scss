@@ -1,16 +1,16 @@
-.home {
+.reel {
 
   &_i {
     padding: 96px 0;
 
     &.__assesment {
-      background-image: asset-url('project/home/background.jpg');
+      background-image: asset-url('project/reel/background.jpg');
       background-position: 50% 50%;
       background-repeat: no-repeat;
       background-size: cover;
       color: #FFF;
 
-      .home_aside {
+      .reel_aside {
         margin-left: 55%;
       }
 
@@ -23,13 +23,30 @@
         z-index: 0;
 
         &:after {
-          @include image-size('project/home/macbook.png');
+          @include image-size('project/reel/macbook.png');
           @include position(absolute, none none -128px 50%);
-          background: asset-url('project/home/macbook.png') no-repeat;
+          background: asset-url('project/reel/macbook.png') no-repeat;
           content: '';
           margin-left: -600px;
           z-index: -1;
         }
+      }
+    }
+
+    &.__startups-top {
+      padding-bottom: 0;
+    }
+
+    &.__startups-bottom {
+      padding-bottom: 0;
+
+      .reel_img {
+        margin-bottom: -80px;
+        margin-top: 80px;
+      }
+
+      + .reel_i {
+        padding-top: (96px + 80px);
       }
     }
 
@@ -48,6 +65,11 @@
 
     &.__darken {
       background: #eff4f8;
+    }
+
+    &.__inverted {
+      background: #344051;
+      color: #FFF;
     }
 
     &.__subscribe {
@@ -72,5 +94,11 @@
         margin-top: 16px;
       }
     }
+  }
+
+  &_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
