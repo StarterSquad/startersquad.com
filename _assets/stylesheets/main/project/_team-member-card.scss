@@ -1,7 +1,7 @@
 .team-member-card {
   @include font-height(17px, 20px);
   background-color: white;
-  padding: 50px 0;
+  padding: 50px;
   text-align: center;
 
   &_avatar {
