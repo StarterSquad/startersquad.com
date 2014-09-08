@@ -10,7 +10,8 @@ tags:
 
 StarterSquad is a team of remote developers distributed across different time-zones across all continents. While working in such a manner, we experienced and evolved certain patterns and practices on collaboration. Through a series of posts, we’ll share our experience. In this post, let’s talk about patterns and practices of remote collaboration.
 
-<img style="float: right" src="media/posts/remote_meeting.png">
+{% image media/posts/remote_meeting.png %}
+
 
 
 ###Remote Pairing
