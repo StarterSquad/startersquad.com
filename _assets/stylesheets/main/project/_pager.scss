@@ -1,0 +1,49 @@
+.pager {
+  @include font-height(16px, 18px);
+
+  &_link {
+    width: 150px;
+
+    &_inner {
+      background: #FFF;
+      padding: 16px 21px;
+      transition: transform 0.17s ease-out;
+    }
+
+    .link_u {
+      opacity: 0;
+      transition: opacity 0.17s ease-out;
+    }
+
+    &.__prev {
+      float: left;
+      text-align: right;
+
+      .pager_link_inner {
+        border-radius: 0 3px 3px 0;
+        transform: translateX(-100px);
+      }
+    }
+
+    &.__next {
+      float: right;
+      text-align: left;
+
+      .pager_link_inner {
+        border-radius: 3px 0 0 3px;
+        transform: translateX(100px);
+      }
+    }
+
+    &:hover {
+
+      .pager_link_inner {
+        transform: none;
+      }
+
+      .link_u {
+        opacity: 1;
+      }
+    }
+  }
+}
