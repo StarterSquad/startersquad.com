@@ -23,6 +23,11 @@ title: Contact
         <input type="email" class="section txbox" name="entry.1.single" placeholder="Email" required>
         <textarea class="section txbox" name="entry.2.single" placeholder="Message" rows="5" required></textarea>
         <button type="submit" class="section btn">Send</button>
+        <!-- Bot protection: people aren't able to fill this-->
+        <div style="position: absolute; left: -5000px;">
+          <input type="text" name="entry.3.single" tabindex="-1" value="">
+          <input type="text" name="entry.4.single" tabindex="-1" value="rosebud">
+        </div>
       </form>
       <p class="hidden">Thank you! You will not receive any automated messages. If your mail address is correct, you will be contacted by us soon.</p>
     </div>
