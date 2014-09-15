@@ -1,8 +1,6 @@
 .masthead {
   @include font-height(18px, 26px);
-  background:
-    asset-url('project/masthead/background.png') no-repeat 50% 100%,
-    radial-gradient(circle cover, #ddecf1, #e2f0f2);
+  background: asset-url('project/masthead/background.png') no-repeat 50% 100% #eff4f8;
   min-height: 620px;
 
   &_inner {
