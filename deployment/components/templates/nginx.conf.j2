@@ -9,8 +9,6 @@ server {
 
   error_page 404 /404.html;
 
-  expires 1d;
-
   # Protect against the BEAST attack by preferring RC4-SHA when using SSLv3 and TLS protocols.
   # Note that TLSv1.1 and TLSv1.2 are immune to the beast attack but only work with OpenSSL v1.0.1 and higher and has limited client support.
   ssl_protocols              SSLv3 TLSv1 TLSv1.1 TLSv1.2;
@@ -23,6 +21,34 @@ server {
   # Further optimization can be achieved by raising keepalive_timeout, but that shouldn't be done unless you serve primarily HTTPS.
   ssl_session_cache    shared:SSL:10m; # a 1mb cache can hold about 4000 sessions, so we can hold 40000 sessions
   ssl_session_timeout  10m;
+
+  # Expire rules for static content
+
+  # cache.appcache, your document html and data
+  location ~* \.(?:manifest|appcache|html?|xml|json)$ {
+    expires -1;
+    access_log off;
+  }
+
+  # Feed
+  location ~* \.(?:rss|atom)$ {
+    expires 1h;
+    add_header Cache-Control "public";
+  }
+
+  # Media: images, icons, video, audio, HTC
+  location ~* \.(?:jpg|jpeg|gif|png|ico|cur|gz|svg|svgz|mp4|ogg|ogv|webm|htc)$ {
+    expires 1M;
+    access_log off;
+    add_header Cache-Control "public";
+  }
+
+  # CSS and Javascript
+  location ~* \.(?:css|js)$ {
+    expires 1y;
+    access_log off;
+    add_header Cache-Control "public";
+  }
 }
 
 # Forced usage of https
