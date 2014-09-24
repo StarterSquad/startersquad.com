@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Patterns of collaboration in distributed organisations'
+title: 'Patterns of collaboration for co-located teams'
 author: Shrikant Vashishtha
 tags:
 - startups
