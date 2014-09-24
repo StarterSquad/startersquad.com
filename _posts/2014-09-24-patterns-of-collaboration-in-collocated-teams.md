@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Patterns of collaboration for co-located teams'
+title: 'Patterns of collaboration for collocated teams'
 author: Shrikant Vashishtha
 tags:
 - startups
